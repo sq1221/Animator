@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GameTwiceJoyMainSkin" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Group id="containerGroup" width="640" height="1136" horizontalCenter="0" verticalCenter="0">
+		<e:Image id="bg" fillMode="clip" scaleX="1" scaleY="1" source="gameBg_png" horizontalCenter="0" verticalCenter="0"/>
+		<e:Button id="goBackBtn" label="" enabled="true" left="0" top="20" x="0" y="20" scaleX="1" scaleY="1" locked="true">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="goBack_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Group width="564" height="844" horizontalCenter="0" top="160">
+			<e:Group id="cardsGroup" width="564" height="844" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" x="0" scaleX="1" scaleY="1" verticalCenter="0">
+			</e:Group>
+			<e:Group id="cardEffectGroup" width="564" height="844" horizontalCenter="0" touchThrough="true" touchChildren="false" touchEnabled="false" verticalCenter="0"/>
+		</e:Group>
+		<e:Group horizontalCenter="0" top="38" width="484" height="111">
+			<e:Image source="gameTitle_png" horizontalCenter="0" top="0"/>
+			<e:Group top="1" width="480" horizontalCenter="0" height="68">
+				<e:Image source="redProgress1_png" scaleX="1" scaleY="1" verticalCenter="0" left="0"/>
+				<e:Image id="redProgress" source="redProgress2_png" scaleX="1" scaleY="1" left="30" verticalCenter="0" width="1"/>
+				<e:Image source="blueProgress1_png" scaleX="-1" right="0" verticalCenter="-1"/>
+				<e:Image id="blueProgress" source="blueProgress2_png" scaleX="1" scaleY="1" right="30" verticalCenter="0" width="1"/>
+			</e:Group>
+			<e:Group horizontalCenter="0" top="0" locked="true">
+				<e:Image source="progressMiddleLine_png" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0" x="-187" y="52"/>
+				<e:Image source="gameEndImg_png" scaleX="1" scaleY="1" horizontalCenter="0" top="-34" x="187" y="-25"/>
+			</e:Group>
+			<e:Group id="playerAvatarGroup2" width="72" height="72" scaleX="1" scaleY="1" top="-1" anchorOffsetX="36" right="0">
+				<e:Image source="playerAvatarImg_png" scaleX="1" scaleY="1"/>
+				<e:Group id="player2Avatar" width="60" height="60" horizontalCenter="0" verticalCenter="0" x="-64" y="27" scaleX="1" scaleY="1"/>
+			</e:Group>
+			<e:Group id="playerAvatarGroup1" scaleX="1" scaleY="1" top="-1" width="72" height="72" anchorOffsetX="36" left="0">
+				<e:Image source="playerAvatarImg_png"/>
+				<e:Group id="player1Avatar" width="60" height="60" horizontalCenter="0" verticalCenter="0"/>
+			</e:Group>
+			<e:Group id="sexAndNameGroup" bottom="6" left="12" right="12">
+				<e:Image id="player1SexImg" source="img_boy_png" scaleX="1" scaleY="1" left="22" x="-80" top="0"/>
+				<e:Image id="player2SexImg" source="img_boy_png" scaleX="1" scaleY="1" right="22" width="24" top="0"/>
+				<e:Label id="player1NameLab" text="红方" scaleX="1" scaleY="1" left="52" textAlign="left" verticalAlign="middle" size="24" top="2"/>
+				<e:Label id="player2NameLab" text="蓝方" scaleX="1" scaleY="1" right="52" textAlign="right" verticalAlign="middle" size="24" top="2"/>
+			</e:Group>
+		</e:Group>
+		<e:Group horizontalCenter="0" bottom="8" locked="true">
+			<ns1:AnimationButton id="btn_express1" label="" anchorOffsetX="38" anchorOffsetY="40" width="77" height="81" y="15.94" x="37.67" name="1" scaleX="1" scaleY="1">
+				<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="expressdi_five_png" source.down="expressdi_five_png"/>
+					<e:Image source="Express_five1_png" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</ns1:skinName>
+			</ns1:AnimationButton>
+			<ns1:AnimationButton id="btn_express2" label="" anchorOffsetX="38" anchorOffsetY="40" width="77" height="81" y="15.94" x="132.67" name="2" scaleX="1" scaleY="1">
+				<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="expressdi_five_png" source.down="expressdi_five_png"/>
+					<e:Image source="Express_five2_png" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</ns1:skinName>
+			</ns1:AnimationButton>
+			<ns1:AnimationButton id="btn_express3" label="" anchorOffsetX="38" anchorOffsetY="40" width="77" height="81" x="227.67" y="15.94" name="3" scaleX="1" scaleY="1">
+				<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="expressdi_five_png" source.down="expressdi_five_png"/>
+					<e:Image source="Express_five3_png" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</ns1:skinName>
+			</ns1:AnimationButton>
+			<ns1:AnimationButton id="btn_express4" label="" anchorOffsetX="38" anchorOffsetY="40" width="77" height="81" x="322.67" y="15.94" name="4" scaleX="1" scaleY="1">
+				<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="expressdi_five_png" source.down="expressdi_five_png"/>
+					<e:Image source="Express_five4_png" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</ns1:skinName>
+			</ns1:AnimationButton>
+			<ns1:AnimationButton id="btn_express5" label="" anchorOffsetX="38" anchorOffsetY="40" width="77" height="81" x="417.67" y="15.94" name="5" scaleX="1" scaleY="1">
+				<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="expressdi_five_png" source.down="expressdi_five_png"/>
+					<e:Image source="Express_five5_png" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</ns1:skinName>
+			</ns1:AnimationButton>
+			<ns1:AnimationButton id="btn_express6" label="" anchorOffsetX="38" anchorOffsetY="40" width="77" height="81" y="15.94" x="512.67" name="6" scaleX="1" scaleY="1">
+				<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="expressdi_five_png" source.down="expressdi_five_png"/>
+					<e:Image source="Express_five6_png" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</ns1:skinName>
+			</ns1:AnimationButton>
+			<e:layout>
+				<e:TileLayout orientation="rows" horizontalAlign="center" verticalAlign="middle" requestedRowCount="1" verticalGap="6" horizontalGap="16"/>
+			</e:layout>
+		</e:Group>
+		<e:Image source="twiceInfo_png" horizontalCenter="0" bottom="98" locked="true"/>
+	</e:Group>
+</e:Skin>

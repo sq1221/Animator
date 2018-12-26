@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GameLameDeskmateMainSkin" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="containerGroup" width="640" height="1136" horizontalCenter="0" verticalCenter="0">
+		<e:Image id="bg" horizontalCenter="0" verticalCenter="0" source="schoolroomBg_png"/>
+		<e:Button id="goBackBtn" label="" enabled="true" left="0" top="20" x="0" y="20" scaleX="1" scaleY="1">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="goBack_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Group id="titleInfoGroup" y="82" horizontalCenter="0">
+			<e:Group id="gp_top" horizontalCenter="0" top="0" x="67.99999999999999" y="4" scaleX="1" scaleY="1">
+				<e:Image horizontalCenter="0" x="75" scaleX="1" scaleY="1" top="0" source="headTitle_png"/>
+				<e:Label id="timesLab" text="59" fontFamily="Microsoft YaHei" bold="true" scaleX="1" scaleY="1" horizontalCenter="0" textColor="0x020202" verticalCenter="0" size="40" verticalAlign="middle" textAlign="center"/>
+				<e:Group id="playerAvatarGroup1" width="60" height="60" left="6" verticalCenter="2"/>
+				<e:Group id="playerAvatarGroup2" width="60" height="60" right="6" verticalCenter="2"/>
+			</e:Group>
+			<e:Group id="sexAndNameGroup" width="300" horizontalCenter="0" x="75.99999999999999" scaleX="1" scaleY="1" top="87">
+				<e:Image id="personSexImg1" source="img_boy_png" scaleX="1" scaleY="1" left="0" x="-22" verticalCenter="1"/>
+				<e:Label id="personNameLab1" text="player1" verticalCenter="0" left="30" size="22" fontFamily="Microsoft YaHei"/>
+				<e:Label id="personNameLab2" text="player2" verticalCenter="0" right="30" size="22" fontFamily="Microsoft YaHei"/>
+				<e:Image id="personSexImg2" source="img_boy_png" scaleX="1" scaleY="1" verticalCenter="1" right="0"/>
+			</e:Group>
+		</e:Group>
+		<e:Group id="teacherDbGroup" top="226" horizontalCenter="54">
+			<e:Image id="teacherXiaoNuImg" scaleX="1" scaleY="1" left="0" top="0" source="teacher2_png" visible="false"/>
+		</e:Group>
+		<e:Group id="classroomGroup" y="60" horizontalCenter="0" locked="true">
+			<e:Image top="368" source="schoolroom2_png" y="359" scaleX="1" scaleY="1" horizontalCenter="0.5"/>
+			<e:Image source="schoolroom1_png" horizontalCenter="0" top="450"/>
+			<e:Image source="schoolmateL_png" left="64" top="300"/>
+			<e:Image source="schoolmateR_png" right="64" top="300"/>
+			<e:Image source="schoolroom5_png" horizontalCenter="0" top="514"/>
+			<e:Image source="schoolroom3_png" horizontalCenter="0" top="613"/>
+		</e:Group>
+		<e:Group id="leftStudentDbGroup" left="-20" top="450" width="340" height="400">
+			<e:Image id="leftStudentDaijiImg" source="roleBodyL1_png" scaleX="1" scaleY="1" horizontalCenter="0" top="0" visible="false"/>
+			<e:Image id="leftStudentBeFoundImg" source="roleBodyL3_png" scaleX="1" scaleY="1" horizontalCenter="0.5" top="-50" visible="false"/>
+		</e:Group>
+		<e:Group id="rightStudentDbGroup" right="-20" top="460" width="340" height="390">
+			<e:Image id="rightStudentDaijiImg" source="roleBodyR1_png" scaleX="1" scaleY="1" horizontalCenter="0" top="0" visible="false"/>
+			<e:Image id="rightStudentBeFoundImg" source="roleBodyR2_png" scaleX="1" scaleY="1" horizontalCenter="0" top="-50" visible="false"/>
+		</e:Group>
+		<e:Group id="headmasterDbGroup" left="0" top="178">
+			<e:Image id="headmasterShadowImg" source="headmaster1_png" x="-160" y="0" scaleX="1" scaleY="1" visible="false"/>
+			<e:Image id="headmasterXiao" x="-110" y="0" scaleX="1" scaleY="1" source="headmaster2_png" visible="false"/>
+			<e:Image id="headmasterNu" source="headmaster3_png" x="0" y="0" scaleX="1" scaleY="1" visible="false"/>
+		</e:Group>
+		<e:Group id="effectGroup3" width="640" height="1136" horizontalCenter="0" verticalCenter="0" touchChildren="false" touchEnabled="false" touchThrough="true">
+			<e:Image id="beFoundStandUpImg" source="standUp_png" x="173.12" y="330.09" visible="false"/>
+			<e:Image id="chaofengImg" source="speak1_png" x="150" top="400" anchorOffsetX="105" visible="false"/>
+			<e:Group id="beHitEffectLeftGroup" width="300" height="300" left="20" top="380" visible="false">
+			<e:Image source="jinXing1_png" x="12" y="74"/>
+			<e:Image source="jinXing2_png" x="146" y="32"/>
+			<e:Image source="jinXing3_png" x="130" y="182"/>
+			<e:Image source="jinXing4_png" x="100" y="98"/>
+			<e:Image source="jinXing5_png" x="40" y="206"/>
+			<e:Image source="jinXing6_png" x="170" y="114"/>
+			<e:Image source="bloodL_png" x="232" y="32"/>
+			</e:Group>
+			<e:Group id="beHitEffectRightGroup" width="300" height="300" right="20" top="380" visible="false">
+			<e:Image source="jinXing6_png" x="108" y="58"/>
+			<e:Image source="jinXing4_png" x="128" y="210"/>
+			<e:Image source="jinXing2_png" x="230" y="92"/>
+			<e:Image source="bloodR_png" x="4" y="40"/>
+			<e:Image source="jinXing1_png" x="66" y="104"/>
+			<e:Image source="jinXing3_png" x="196" y="172"/>
+			<e:Image source="jinXing5_png" x="176" y="120"/>
+			</e:Group>
+		</e:Group>
+		<e:Group id="scoreGroup" horizontalCenter="0" bottom="0" width="640" height="340">
+			<e:Image source="schoolroom4_png" scaleX="1" scaleY="1" verticalCenter="0" horizontalCenter="0"/>
+			<e:Image id="isMeImg" source="lameDeskMateTabMe_png" scaleX="1" scaleY="1" top="2" x="2" visible="false"/>
+			<e:Group id="effectGroup1" width="600" height="140" anchorOffsetX="0" top="10" anchorOffsetY="0" horizontalCenter="0">
+			</e:Group>
+			<e:BitmapLabel id="playerScoreLab1" font="lameDeskMate_num_fnt" text="0" left="52" top="55" width="138" textAlign="center" anchorOffsetX="69"/>
+			<e:BitmapLabel id="playerScoreLab2" font="lameDeskMate_num_fnt" text="0" right="52" top="55" width="138" anchorOffsetX="69" textAlign="center"/>
+		</e:Group>
+		<e:Group id="scoreContainerGroup" anchorOffsetY="0" touchThrough="true" touchChildren="false" touchEnabled="false" scaleX="1" scaleY="1" maxHeight="1136" maxWidth="640" left="0" right="0" top="0" bottom="0">
+		</e:Group>
+		<e:Group id="effectGroup2" horizontalCenter="0" bottom="0" width="640" height="468">
+		</e:Group>
+
+		<e:Group id="buttonsGroup" horizontalCenter="0" bottom="28" locked="true">
+			<ns1:AnimationButton id="chaofengBtn" label="" name="1" scaleX="1" scaleY="1" horizontalCenter="0" x="101" verticalCenter="0" enabled="true">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="chaofeng1_png" source.down="chaofeng2_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+			</ns1:AnimationButton>
+			<ns1:AnimationButton id="daodanBtn" label="" name="1" scaleX="1" scaleY="1" horizontalCenter="0" x="101" verticalCenter="0" enabled="true">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="hitBtn1_png" source.down="hitBtn2_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+			</ns1:AnimationButton>
+		</e:Group>
+		<e:Image id="guideTipImg" source="lameDeskMateGuideTip_png" x="184" y="900" visible="false"/>
+		<e:Image id="guideHandImg" source="lameDeskMateGuideHand_png" x="174" y="1028" touchEnabled="false" visible="false"/>
+		<e:Group id="resultGroup" left="0" top="0" right="0" bottom="0" touchEnabled="true" touchThrough="false" touchChildren="false" visible="false">
+			<e:Rect left="0" top="0" right="0" bottom="0" alpha="0.85"/>
+			<e:Image id="winStateImg" source="beijing1_png" horizontalCenter="0" top="0"/>
+			<e:Group horizontalCenter="0" verticalCenter="0">
+				<e:Image source="beijing2_png" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0"/>
+				<e:Image id="winOrLoseImg" source="resultTitle2_png" y="-48" horizontalCenter="0" x="22" scaleX="1" scaleY="1"/>
+				<e:Image source="headImg2_png" y="-216" horizontalCenter="0" x="165" scaleX="1" scaleY="1"/>
+			</e:Group>
+			<e:Group id="winnerAvatarGroup" width="170" height="170" horizontalCenter="0" top="55">
+			</e:Group>
+			<e:Group scaleX="1" scaleY="1" horizontalCenter="0" top="365">
+				<e:Label id="myScoreLab" text="0" fontFamily="Microsoft YaHei" textColor="0x000000" verticalAlign="middle" textAlign="center" size="90" scaleX="1" scaleY="1" verticalCenter="0" left="0"/>
+				<e:Label text="分" fontFamily="Microsoft YaHei" textColor="0x000000" verticalAlign="middle" textAlign="center" size="30" bold="true" scaleX="1" scaleY="1" verticalCenter="18" right="-30"/>
+				<e:layout>
+					<e:BasicLayout/>
+				</e:layout>
+			</e:Group>
+			<e:Label id="winOrLoseLab" text="胜利" fontFamily="Microsoft YaHei" textColor="0x000000" horizontalCenter="0" top="237" verticalAlign="middle" textAlign="center" bold="true"/>
+			<e:Group horizontalCenter="0" bottom="350" width="500">
+				<e:Image source="headImg1_png" scaleX="1" scaleY="1" left="36" verticalCenter="0"/>
+				<e:Image source="headImg1_png" scaleX="1" scaleY="1" verticalCenter="0" right="36"/>
+				<e:Label id="myResultLab" text="1" fontFamily="Microsoft YaHei" textColor="0x000000" verticalAlign="middle" textAlign="center" size="90" left="160" x="-12" scaleX="1" scaleY="1" verticalCenter="0"/>
+				<e:Label text=":" fontFamily="Microsoft YaHei" textColor="0x000000" verticalAlign="middle" textAlign="center" size="90" horizontalCenter="0" x="69" scaleX="1" scaleY="1" verticalCenter="-8"/>
+				<e:Label id="otherResultLab" text="0" fontFamily="Microsoft YaHei" textColor="0x000000" verticalAlign="middle" textAlign="center" size="90" right="160" x="114" scaleX="1" scaleY="1" verticalCenter="0"/>
+				<e:Image id="resultSexImg1" source="img_boy_png" scaleX="1" scaleY="1" bottom="0" left="120"/>
+				<e:Image id="resultSexImg2" source="img_boy_png" scaleX="1" scaleY="1" bottom="0" right="48"/>
+				<e:Group id="resultPlayerAvatar1" width="120" height="120" left="36" verticalCenter="0"/>
+				<e:Group id="resultPlayerAvatar2" width="120" height="120" right="36" verticalCenter="0"/>
+			</e:Group>
+			<e:Label id="resultPlayerNameLab1" text="玩家" fontFamily="Microsoft YaHei" verticalAlign="middle" size="30" bold="true" textColor="0x454545" textAlign="center" horizontalCenter="-154" bottom="315"/>
+			<e:Label id="resultPlayerNameLab2" text="玩家" fontFamily="Microsoft YaHei" verticalAlign="middle" textAlign="center" size="30" bold="true" textColor="0x454545" horizontalCenter="154" bottom="315"/>
+
+
+
+
+
+
+
+		</e:Group>
+		<e:Image id="youImg" y="326" anchorOffsetX="51" rotation="0" source="lameDeskMateYouL_png" x="60" visible="false"/>
+		<e:Image id="classStartImg" source="classStart_png" anchorOffsetX="94" rotation="0" x="302" y="249" visible="false"/>
+	</e:Group>
+</e:Skin>

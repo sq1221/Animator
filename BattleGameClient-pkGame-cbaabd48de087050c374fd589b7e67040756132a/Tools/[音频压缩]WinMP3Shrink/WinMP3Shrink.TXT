@@ -1,0 +1,647 @@
+----------------------------------------------------------------------
+
+  Introduction
+
+  1) Utilisation
+
+  2) Mentions légales
+
+  3) Historique
+
+  4) Historique des versions bêta
+
+----------------------------------------------------------------------
+
+Introduction :
+------------
+
+WinMP3Shrink, UTILITAIRE DE COMPRESSION/RECOMPRESSION DE MP3.
+
+Cet utilitaire répond à une question souvent posée :
+"- Comment puis-je recompresser mes mp3 pour mon baladeur ?"
+
+Il apporte une réponse simple, sans complications inutiles.
+
+En outre, on peut s'en servir comme encodeur en série, utilisant
+l'un des meilleurs encodeurs en ligne de commande gratuits : LAME.
+
+
+
+1) Utilisation :
+   -----------
+
+Sélectionnez vos fichiers, votre bitrate, votre mode,
+et cliquez sur "GO!". Étonnant, non ? ;)
+
+Il est possible de sélectionner plusieurs fichiers à la fois.
+
+Par défaut, chaque mp3 recompressé est stocké dans le répertoire
+d'origine, et se voit ajouter l'indication du bitrate à son nom.
+
+Ex : soit le fichier "C:\Audio\L'accordéon de tonton Maurice.mp3".
+
+Si le bitrate choisi est CBR 112 kbps, le fichier résulant sera :
+"C:\Audio\L'accordéon de tonton Maurice_C112kbps.mp3"
+
+Si le bitrate choisi est ABR 96 kbps, le fichier résulant sera :
+"C:\Audio\L'accordéon de tonton Maurice_A96kbps.mp3"
+
+Il est possible de modifier ce comportement dans les paramètres
+avancés, et de définir un répertoire de destination fixe.
+
+
+
+
+2) Mentions légales :
+   ----------------
+
+Ce logiciel utilise l'encodeur Lame
+http://www.mp3dev.org
+
+La partie "vérification d'une nouvelle version et téléchargement"
+est réalisée à l'aide des composants Delphi de la suite Indy
+http://www.indyproject.org
+
+Compression par UPX
+http://upx.sourceforge.net/
+
+
+
+
+3) Historique :
+   ----------
+
+
+* 31/08/2005 : version 1.1 [31/08/2005 22:01]
+
+
+  fonctions ajoutées/modifiées :
+
+  - Révision complète du système de détection et de téléchargement
+    des mises à jour, en parallèle avec la réfection du site.
+    Entre autres, il sera possible d'afficher un court message
+    à l'utilisateur, concernant la nouvelle version.
+
+  - L'erreur socket est affichée en cas d'erreur de connexion.
+
+
+  bugs corrigés :
+
+  - BUG GRAVE : dans certains cas de figure, il pouvait y avoir
+    écrasement du mp3 original, car le nom du fichier destination
+    était identique au nom du fichier source. Corrigé en amont.
+    Parallèlement, ajout d'un autre test, juste avant l'encodage,
+    et qui effectue une numérotation automatique du nom de destination,
+    si celui-ci existe déjà (truc_96kbps.mp3 , truc_96kbps (2).mp3, etc..)
+    Il ne peut donc plus y avoir, en aucun cas, de perte de données.
+
+  - problème de traduction de la version anglaise : certaines parties
+    n'étaient pas traduites (boîte de dialogue "add files" par exemple)
+
+  - bug bénin : dans des cas très particuliers, lors de l'importation
+    d'un dossier, se déclenchait l'erreur "Répertoire de destination
+    inclus dans le répertoire source", alors que ce n'était pas le cas.
+
+
+  REMARQUE : il est fortement conseillé de mettre à jour avec cette
+  version, d'une part à cause du bug important de la version 1.0,
+  d'autre part parce que si vous tardez, vous risquez d'avoir à faire
+  la mise à jour en deux fois.
+  En effet la version 1.1 sera la dernière version accessible par
+  la vieille adresse http://capjack.free.fr/telech/WinMP3Shrink.zip,
+  la nouvelle adresse étant :
+  http://capjack.free.fr/download/download.php?file=WinMP3Shrink
+
+
+
+
+
+* 06/08/2005 : version 1.0 [06/08/2005 19:42]
+
+  PREMIÈRE VERSION STABLE PUBLIÉE
+
+
+  Différences par rapport à la dernière version ß publiée :
+
+  fonctions ajoutées/modifiées :
+
+  - mentions à Indy et UPX dans la boîte "à propos"
+
+  - la boîte de dialogue "Enregistrer sous" du téléchargement
+    affiche un avertissement d'écrasement de fichier (je ne
+    comprends pas pourquoi cette option n'est pas activée
+    par défaut...)
+
+  bugs corrigés :
+
+  - bug bête : extension de fichier incorrecte quand le
+    fichier source n'est pas un mp3, ET qu'on a défini
+    un répertoire de sortie ET que la case 'parcourir
+    les sous-répertoires' est cochée. Logiquement, ce bug
+    doit dater de la version ß0.20, étonnant que personnne
+    ne s'en soit aperçu, même s'il est rare.
+
+
+
+
+4) Historique des versions bêta
+   ----------------------------
+
+* 05/08/2005 : version ß0.29 build 995 [05/08/2005 18:09]
+
+  fonctions ajoutées/modifiées :
+
+  - bouton "Vérifier maintenant" pour les nouvelles versions
+
+  - compression par UPX (merci Scaramanga et Gowap...)
+
+  bugs corrigés :
+
+  - quelques fautes... mais sans doute pas toutes :(
+
+
+
+
+* 04/08/2005 : version ß0.28 build 990 [04/08/2005 23:04]
+
+  fonctions ajoutées/modifiées :
+
+  - vérification automatique de disponibilité d'une nouvelle
+    version, avec téléchargement sur demande
+
+
+  bugs corrigés :
+
+  - l'affichage du temps restant était souvent sans signification
+    pendant un bon moment...
+
+  - bugs d'affichage non critiques, le plus important étant lié
+    à la mémorisation de la position de la fenêtre.
+
+  - si Lame était interrompu, l'interruption n'était pas immédiate
+
+
+
+
+* 03/08/2005 : version ß0.27 build 955 [03/08/2005 20:44]
+
+  fonctions ajoutées/modifiées :
+
+  - Modifications de fond du code source en vue de la localisation
+
+  - Localisation en anglais (voir options avancées)
+
+  - Affichage du type dans les propriétés de fichier
+    (ex : "MPEG-1 Layer III", etc.)
+
+  - Affichage des totaux en Mo (plutôt qu'en ko)
+
+  - Hints dans la boîte de dialogue "Warning" qui s'affiche parfois
+
+  - Modifications cosmétiques mineures
+
+
+
+
+* 22/07/2005 : version ß0.26 build 900 [22/07/2005 20:42]
+
+  bugs corrigés :
+
+  - La longueur des trames des fichiers MPEG-2 Layer III n'était pas
+    correctement calculée, ce qui provoquait des erreurs avec certains
+    fichiers, et un ralentissement pénible avec les mp3 VBR...
+
+
+
+
+* 20/07/2005 : version ß0.25 build 885 [20/07/2005 16:58]
+
+  fonctions ajoutées/modifiées :
+
+  - Bulles d'aide (partout) !
+
+  - En encodage, affichage des temps restant et total estimés
+
+  - Affichage du total et du total estimé dans la barre d'état
+    (compte aussi les fichiers dont le bitrate est inférieur au bitrate
+    de destination, mais ne compte pas ceux en italique).
+
+  - Options de recherche supplémentaires dans la boîte "Importation
+    de dossier" : CBR, VBR, taille minimale en ko.
+
+
+  bugs corrigés :
+
+  - Bug "Read Error" corrigé, et du même coup, meilleure
+    estimation de la taille résultante.
+
+  - Correction de quelques défauts d'affichage
+
+
+
+
+
+* 19/07/2005 : version ß0.24 build 850 [19/07/2005 13:04]
+
+  fonctions ajoutées/modifiées :
+
+  - J'ai remarqué que, dans beaucoup de mp3 ayant un tag V2,
+    il y avait beaucoup d'espace vide inemployé. Éditeur de
+    tags mal conçu, espace libre pour faciliter l'ajout de
+    tags personnalisés ? Quoiqu'il en soit, j'ai ajouté une
+    option "compacter les tags V2" qui permet de récupérer
+    quelques précieux octets, parfois quelques milliers, sans
+    perdre d'information. Option expérimentale, à utiliser
+    avec prudence. À priori le rarissime footer optionnel
+    "3DI" (répétition des données "ID3", placée à la fin
+    du tag), est détruit par cette option, ce qui ne gênera
+    personne, du moins je le pense. :D
+
+  - On peut définir des réglages "Expert" différents pour
+    les modes CBR et ABR.
+
+  - Dans la boîte des propriétés du fichier, on rappelle
+    s'il s'agit d'un VBR ou d'un CBR.
+
+  bugs corrigés :
+
+  - BUG IMPORTANT, suite à l'ajout de la fonction permettant
+    l'arrêt de l'importation : quand on importait un dossier,
+    sans cocher la case "parcourir les sous-dossiers", les
+    fichiers n'étaient pas ajoutés.
+
+  - "Vieux" bug, difficile à détecter : dans "ajout de fichiers",
+    si un fichier était invalide, ce n'était pas le bon nom
+    de fichier qui apparaissait dans le message d'erreur.
+
+  - Dans la boîte des propriétés du fichier, la fréquence
+    d'échantillonnage des VBR apparaissait toujours à zéro.
+
+
+
+
+* 17/07/2005 : version ß0.23 build 824 [17/07/2005 22:41]
+
+  fonctions ajoutées/modifiées :
+
+  - Possibilité d'interrompre l'importation (dans le cas où
+    on a cliqué sur "Parcourir les sous-répertoires")
+
+  - Parallèlement à la correction du bug des colonnes,
+    l'affichage des fichiers qui ne seront pas traités est
+    en italique au lieu d'être en rouge. C'est moins agressif,
+    de toutes façons.
+
+
+  bugs corrigés :
+
+  - Défaut d'affichage des colonnes quand on les redimensionne
+
+
+
+* 17/07/2005 : version ß0.22 build 800 [17/07/2005 17:44]
+
+  fonctions ajoutées/améliorées :
+
+  - Il est maintenant possible, pour Lame, de choisir un autre
+    répertoire que celui de l'application.
+    Si, au démarrage de l'application, Lame n'est plus retrouvé,
+    et ne se trouve pas dans le répertoire de l'application, il
+    est proposé de définir son chemin. En parallèle, une option
+    "Chemin d'accès à Lame" a été rajoutée dans l'onglet "Lame"
+    des options avancées.
+
+  - La disponibilité des répertoires de destination en écriture
+    est maintenant vérifiée en amont.
+    Si l'option choisie est "répertoire source", la vérification
+    se fait fichier par fichier. Sinon, on vérifie seulement
+    la disponibilité en écriture du répertoire sélectionné,
+    sachant que cette vérification a déjà été faite lors de
+    la définition du répertoire dans les options avancées.
+    Dans tous les cas, s'affichent en rouge les fichiers qui
+    ne vont pas pouvoir être convertis.
+
+  - LameInfo ne fabrique plus son fichier de capture dans
+    le répertoire de l'application, mais dans le répertoire
+    temporaire courant. C'est plus cohérent, et ainsi l'appli
+    peut se lancer depuis un répertoire non disponible en
+    écriture.
+
+  bugs corrigés :
+
+  - Vérification de validité du répertoire de destination.
+    (Bon, ça marche maintenant, oui ? :( )
+
+
+
+
+* 16/07/2005 : version ß0.21 build 735 [16/07/2005 17:07]
+
+  fonctions ajoutées/améliorées :
+
+  - Quand on cherche à valider le répertoire de destination,
+    dans les options avancées, il est d'abord transformé en
+    chemin complet si ce n'est pas le cas, puis la validité
+    du nom est vérifiée (à contrôler).
+    Si le nom est valide, mais que le répertoire n'existe pas,
+    il est proposé à l'utilisateur de le créer.
+
+  bugs corrigés :
+
+  - Le répertoire de destination des options avancées était
+    vérifié, même quand il n'y avait pas lieu.
+
+  - Pas vraiment un bug, mais une prévention de gros risque,
+    suite aux expériences de gowap, bêta-testeur hors pair.
+    L'utilitaire chargé de lire le numéro de version de Lame
+    (au démarrage), et son aide (à l'ouverture de la boîte
+    de dialogue "Options avancées"), exécutable qui était
+    une ressource compressée dans WinMP3Shrink, est maintenant
+    livré en fichier séparé, appelé "LameInfo.exe", après avoir
+    été entièrement réécrit. Par ailleurs il n'est plus invoqué
+    qu'au démarrage de l'application, et quand on clique sur
+    le bouton "?" de l'onglet "Lame" des options avancées.
+
+  REMARQUES :
+    Le fichier LameInfo.exe n'est pas nécessaire au bon
+    fonctionnement de WinMP3Shrink. Je l'ai même rendu
+    facultatif : s'il est effacé ou renommé, WinMP3Shrink
+    fonctionnera quand même, simplement il n'y aura pas
+    d'affichage du numéro de version de Lame, ni de
+    bouton "?" dans l'onglet "Lame" des options avancées.
+
+
+
+* 15/07/2005 : version ß0.20 build 700 [15/07/2005 21:36]
+
+  fonctions ajoutées/améliorées :
+
+  - GESTION SIMPLE DU MODE ABR : deux boutons radio ont fait
+    leur apparition, permettant de choisir entre les 2 modes:
+    CBR : Constant Bit Rate (le mode habituel)
+    ABR : Average Bit Rate (un mode VBR particulier, dans
+          lequel Lame essaie de réaliser le bitrate moyen
+          transmis en paramètre; à noter qu'il ne tombe
+          jamais juste...).
+
+  - Ajout d'options dans la boîte d'importation de dossier, pour
+    PARCOURIR LES SOUS-RÉPERTOIRES, et choisir les types de
+    fichiers à importer.
+
+  - En complément du parcours des sous-répertoires, le programme
+    peut REPRODUIRE L'ARBORESCENCE dans le répertoire de destination
+    si ce dernier est fixé. Peut bien sûr se désactiver.
+
+  - Ajout de l'option "CONSERVER LA DATE ET L'HEURE DES FICHIERS"
+
+  - Réécriture complète du système de gestion des options, et
+    de leur sauvegarde dans la base de registre. En plus, j'ai
+    changé le nom de la clef BDR où le programme sauvegarde
+    ses paramètres. Le nouveau système est beaucoup plus simple
+    pour moi, mais provoquera une perte de vos paramètres
+    personnalisés d'une version antérieure... Regardez-bien
+    s'il n'y a pas de problème au niveau de la sauvegarde
+    des paramètres personnalisés.
+    Désolé, ce sont les joies du bêta-testing ! ;)
+
+  - En complément de ce qui précède, il y a maintenant une option
+    à cocher, si vous désirez que le programme vous demande le
+    droit de sauvegarder les paramètres, en sortie. Ce qui
+    permet alors d'essayer des paramètres provisoires sans
+    les sauvegarder.
+
+  - La version et la longueur du tag v2 s'affiche.
+
+
+  bugs corrigés :
+
+  - les tags V2.2 n'étaient pas affichés correctement
+
+  - les tags V2.4 risquaient de n'être pas affichés correctement
+
+  - un ralentissement global à l'ajout de fichiers a été corrigé,
+    pour ne pas dire parfois un plantage complet.
+    Il était lié à la lecture de la liste des trames V2, ce qui
+    ne sert strictement à rien pour lire le bitrate.
+    Modifié et corrigé : la lecture de la liste des trames ne se
+    fait plus qu'à l'ouverture du dialogue "Propriétés'.
+
+  - Toujours concernant les tags, une limite arbitraire (5000 octets)
+    a été fixée pour le dumping hexadécimal, sinon le composant
+    "Memo" part en tilt. De toutes façons, pour des trames de cette
+    taille-là (images le plus souvent), le dumping n'a qu'un intérêt
+    tout à fait relatif.
+
+  - Gestion de la variante de Michael Mutschler pour les ID3v1.1
+    (Numéro de piste caché dans la zone commentaires)
+
+  - Je ne sais pas depuis quand, mais les VBR, s'ils étaient bien
+    détectés en interne, n'étaient plus affichés correctement.
+
+
+  REMARQUES :
+   L'affichage des tags V2 mérite quand même d'être testé
+   sur le long terme. Signalez-moi tout problème.
+
+   Si vous le désirez, il y a du ménage à faire,
+   effacer dans la base de registre la clef :
+   "HKEY_CURRENT_USER\Software\CJSoft\mp3Shrink"
+   Ce n'est pas obligatoire, mais elle ne sert plus
+
+   La nouvelle clef est la suivante :
+   "HKEY_CURRENT_USER\Software\CJSoft\WinMP3Shrink"
+
+   "Une bonne ménagère nettoie sa BDR avec Prop'BDR.
+    Prop'BDR, et la BDR n'est plus un enfer !" (tsoiiin)
+
+
+
+* 14/07/2005 : version ß0.19 build 600 [14/07/2005 15:54]
+
+  fonctions ajoutées/améliorées :
+
+  - AFFICHAGE DES TAGS V2 (popup, touche F1 ou double-click)
+  - Amélioration visuelle de la boîte de dialogue des propriétés.
+
+  bugs corrigés :
+
+  - Bug divers, surtout un concernant l'importation de dossier
+
+
+
+* 13/07/2005 : version ß0.18 build 545 [13/07/2005 20:55]
+
+  fonctions ajoutées/améliorées :
+
+  - AFFICHAGE DES TAGS V1 (popup, touche F1 ou double-click)
+  - Vérification de la validité du répertoire de destination.
+  - Le test concernant le bitrate peut être désactivé.
+  - Ajout d'options "pour les experts" dans l'onglet "Lame"
+    des options avancées. Accessoirement, un petit bouton "?"
+    permet de récupérer l'aide de la version de Lame installée,
+    et un autre d'avoir une idée de la ligne de commande.
+    Deux macros permettent de modifier le comportement
+    de WinMP3Shrink. Ce serait sympa de faire connaître
+    vos réglages favoris... ;)
+  - Correction de quelques défauts d'affichage.
+
+
+
+* 12/07/2005 : version ß0.17 build 456 [12/07/2005 16:16]
+
+  fonctions ajoutées/améliorées :
+
+  - Affichage du numéro de version de Lame détectée
+    (n'a l'air de rien, mais ça m'a pris deux jours :( )
+  - Prise en charge du format wav
+  - Prise en charge des formats mp2 (testé), mp1 (non testé)
+  - On peut choisir un répertoire à importer !
+    (vive la paresse ! ;) )
+  - On peut choisir un répertoire de destination, auquel
+    cas le suffixe n'est plus ajouté, sauf pour les
+    fichiers qui seraient déjà dans le répertoire
+    de destination.
+  - Les en-têtes de colonne ne se comportent plus comme
+    des boutons, ce qui pouvait troubler l'utilisateur.
+  - Redimesionnement automatique des colonnes supprimé.
+    On peut dorénavant les redimensionner manuellement.
+  - Grand nettoyage du code source (les développeurs me
+    comprendront ;) )
+
+  REMARQUE :
+    quand on sélectionne un répertoire, soit pour l'importer,
+    soit lors du choix d'un répertoire de destination,
+    le lecteur de disquette va "gratter" quelques instants.
+    Ce comportement, auquel nous ne sommes plus habitués,
+    n'est pas de mon fait, mais de Borland et de son composant
+    TShellTreeView. C'est un problème connu. Je vais essayer
+    de voir ce que je peux faire, mais ça risque d'être long,
+    alors vous me pardonnerez pour le moment...
+
+
+
+* 09/07/2005 : version ß0.16 build 262 [09/07/2005 12:00]
+
+  fonctions ajoutées/améliorées :
+
+  - Le réglage de la qualité se fait dorénavant dans les
+    réglages avancés
+  - L'affichage d'une boîte de dialogue d'alerte, si des
+    mp3 sont réencodés avec un bitrate supérieur, se fait
+    maintenant AVANT l'encodage, ce qui est plus logique.
+  - Modifications esthétiques
+
+  bugs corrigés :
+
+  - Plantage sévère dans Windows 9x : Lame ne rendant pas la
+    main, l'application gelait après le premier encodage.
+
+
+
+* 08/07/2005 : version ß0.15 build 250 [08/07/2005 23:36]
+
+  bugs corrigés :
+
+  - Apparition d'un fichier mystère (mais sans danger :) )
+  - Oubli d'un bouton inutile, sauf pour moi...
+
+
+
+* 08/07/2005 : version ß0.15 build 249 [08/07/2005 23:09]
+
+  fonctions ajoutées/améliorées :
+
+  - Ajout d'une boîte de dialogue permettant le réglage
+    de paramètres approfondis
+  - SAUVEGARDE DES TAGS MP3, si l'utilisateur le désire...
+    (sauvegarde du tag v1 activée par défaut, sauvegarde
+    du tag v2 (ID3) désactivée par défaut).
+  - Ajout d'une option permettant d'afficher plutôt le chemin
+    court dans la liste d'exécution.
+  - Ajout d'une option afin que, si le bitrate ne change pas,
+    les données audio soient copiées, pour éviter toute perte.
+    (activé par défaut)
+  - Affichage d'une boîte de dialogue d'alerte, si des
+    mp3 sont réencodés avec un bitrate supérieur. La boîte
+    apparaît à la fin, et donne la liste des fichiers.
+
+  bugs corrigés :
+
+  - Affichages intempestifs de boîtes de dialogue
+
+
+
+* 07/07/2005 : version ß0.14 build 208 [07/07/2005 20:51]
+
+  fonctions ajoutées/améliorées :
+
+  - suppression de l'étape de décodage (!!!)
+  - réécriture de la routine de détection du bitrate
+    (à priori plus rapide et plus fiable)
+  - touche Suppr activée pour l'effacement dans la liste
+  - petits désagréments cosmétiques
+
+  bugs corrigés :
+
+  - problème d'affichage de la liste avec bcp de fichiers
+
+
+
+* 06/07/2005 : version ß0.13 build 121 [06/07/2005 22:13]
+
+  fonctions ajoutées/améliorées :
+
+  - Enlever des fichiers de la liste :
+    * On peut sélectionner plusieurs fichiers à enlever
+    * Le click sur "enlever..." redonne le focus à la liste
+
+  bugs corrigés :
+
+  - Le STOP ne fonctionnait pas pour plus d'un fichier
+  - Correction d'un bug empêchant la reconnaissance
+    d'un mp3 corrompu dans le cas d'une sélection multiple
+  - Correction d'un bug empêchant la reconnaissance
+    de certains mp3 particuliers récalcitrants (rares)
+  - Affichage du logo corrigé
+
+
+
+* 06/07/2005 : version ß0.12 build 107 [06/07/2005 19:45]
+
+  bugs corrigés :
+
+  - Sous certaines conditions, l'appel à Lame.exe
+    ne s'effectuait pas. Merci à Scaramanga, de
+    Gravure-News, d'avoir attiré mon attention sur
+    ce problème.
+  - Fichier .wav temporaire effacé après usage.
+
+
+
+* 06/07/2005 : version ß0.11 build 100 [06/07/2005 16:42]
+
+  fonctions ajoutées/améliorées :
+
+  - le dernier répertoire utilisé est maintenant mémorisé.
+
+  bugs corrigés :
+
+  - la position de la fenêtre est correctement mémorisée.
+  - résolu problème bête pour les mp3 ayant un tag v2. :(
+  - les mp3 vbr sont dorénavant correctement gérés
+  - vérification disponibilité des fichiers avant traitement
+  - correction de certains affichages
+
+
+
+* 05/07/2005 : version ß0.10 build 38 [05/07/2005 23:54]
+
+  première version publiée
+
+
+
+Programme entièrement réalisé sous Delphi 2005
+
+(c) CapJack 2005
+
+----------------------------------------------------------------------

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GameAnimalChessGreet" width="615" height="305" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="gp_greet" width="615" height="305" anchorOffsetX="0" anchorOffsetY="0" x="0" y="0">
+		<e:Image source="bg_greet_png" y="0" x="0"/>
+		<ns1:AnimationButton xmlns:ns1="*" id="btn_greet1" label="" scaleX="1" scaleY="1" anchorOffsetY="54" anchorOffsetX="138" y="116" x="460" name="2">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+			<e:Image width="100%" height="100%" source="btn_greet_bg_png"/>
+			<e:Image source="greet_2_png" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</ns1:skinName>
+		</ns1:AnimationButton>
+		<ns1:AnimationButton xmlns:ns1="*" id="btn_greet2" label="" scaleX="1" scaleY="1" anchorOffsetY="54" anchorOffsetX="138" y="235" x="155" name="3">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+			<e:Image width="100%" height="100%" source="btn_greet_bg_png"/>
+			<e:Image source="greet_3_png" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</ns1:skinName>
+		</ns1:AnimationButton>
+		<ns1:AnimationButton xmlns:ns1="*" id="btn_greet3" label="" scaleX="1" scaleY="1" anchorOffsetY="54" anchorOffsetX="138" x="460" y="235" name="4">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+			<e:Image width="100%" height="100%" source="btn_greet_bg_png"/>
+			<e:Image source="greet_4_png" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</ns1:skinName>
+		</ns1:AnimationButton>
+		<e:Image id="btn_greet0" source="quickMatchGreetBg1_png" x="17" y="62"/>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ItemExpressTipskin" width="606" height="228" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="gp_2" width="606" height="130" x="0" y="0" visible="false">
+		<e:Button id="btn_1" label="Button" x="97" name="1">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="express_bg_png"/>
+				<e:Image id="img_express" source="express1_1_png" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btn_2" label="Button" x="107" y="7.67" name="2">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="express_bg_png"/>
+				<e:Image id="img_express" source="express1_1_png" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btn_3" label="Button" x="107" name="3">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="express_bg_png"/>
+				<e:Image id="img_express" source="express1_1_png" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btn_4" label="Button" x="117" y="10" name="4">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="express_bg_png"/>
+				<e:Image id="img_express" source="express1_1_png" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btn_5" label="Button" x="117" name="5">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="express_bg_png"/>
+				<e:Image id="img_express" source="express1_1_png" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btn_6" label="Button" x="127" y="10" name="6">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="express_bg_png"/>
+				<e:Image id="img_express" source="express1_1_png" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:layout>
+			<e:TileLayout horizontalAlign="center" verticalAlign="contentJustify" horizontalGap="26" paddingLeft="35" paddingTop="5" verticalGap="8"/>
+		</e:layout>
+	</e:Group>
+	<e:Group id="gp_1" width="606" height="130" x="0" y="0" visible="false">
+		<e:Button id="btn_7" label="Button" x="107" y="10" name="1">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="express_bg2_png"/>
+				<e:Image id="img_express" source="express1_1_png" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btn_8" label="Button" x="107" name="2">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="express_bg2_png"/>
+				<e:Image id="img_express" source="express1_1_png" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btn_9" label="Button" x="117" y="10" name="3">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="express_bg2_png"/>
+				<e:Image id="img_express" source="express1_1_png" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btn_10" label="Button" x="117" name="4">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="express_bg2_png"/>
+				<e:Image id="img_express" source="express1_1_png" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:layout>
+		<e:TileLayout horizontalAlign="center" verticalAlign="contentJustify" horizontalGap="26" paddingLeft="30" paddingTop="5" verticalGap="8"/>
+		</e:layout>
+	</e:Group>
+	<e:Group id="gp_3" width="606" height="216" anchorOffsetY="0" horizontalCenter="0" y="0" visible="false">
+		<e:Button id="btn_11" label="Button" x="57" y="20" name="1" scaleX="1" scaleY="1">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="express_bg3_png_png"/>
+				<e:Image id="img_express" source="express4_1_png" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btn_12" label="Button" x="67" y="13" name="2">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="express_bg3_png_png"/>
+				<e:Image id="img_express" source="express4_1_png" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btn_13" label="Button" x="77" y="40" name="3">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="express_bg3_png_png"/>
+				<e:Image id="img_express" source="express4_1_png" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btn_14" label="Button" x="87" y="50" name="4">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="express_bg3_png_png"/>
+				<e:Image id="img_express" source="express4_1_png" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btn_15" label="Button" x="97" y="60" name="5">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="express_bg3_png_png"/>
+				<e:Image id="img_express" source="express4_1_png" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btn_16" label="Button" x="107" y="70" name="6">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="express_bg3_png_png"/>
+				<e:Image id="img_express" source="express4_1_png" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btn_17" label="Button" x="117" y="80" name="7">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="express_bg3_png_png"/>
+				<e:Image id="img_express" source="express4_1_png" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btn_18" label="Button" x="127" y="90" name="8">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="express_bg3_png_png"/>
+				<e:Image id="img_express" source="express4_1_png" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btn_19" label="Button" x="137" y="100" name="9">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="express_bg3_png_png"/>
+				<e:Image id="img_express" source="express4_1_png" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btn_20" label="Button" x="147" y="110" name="10">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="express_bg3_png_png"/>
+				<e:Image id="img_express" source="express4_1_png" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:layout>
+			<e:TileLayout requestedRowCount="2" requestedColumnCount="5" horizontalAlign="center" verticalAlign="middle" horizontalGap="16" paddingLeft="31" paddingTop="12"/>
+		</e:layout>
+	</e:Group>
+	<e:Group id="gp_4" width="606" height="228" x="0" y="0" visible="false">
+		<e:Button id="btn_21" label="Button" x="147" y="110" name="1" scaleX="1" scaleY="1">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="express_bg4_png_png"/>
+				<e:Image id="img_express" source="express5_1_png" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btn_22" label="Button" x="167" y="130" name="2">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="express_bg4_png_png"/>
+				<e:Image id="img_express" source="express5_1_png" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btn_23" label="Button" x="177" y="140" name="3">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="express_bg4_png_png"/>
+				<e:Image id="img_express" source="express5_1_png" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btn_24" label="Button" x="157" y="120" name="4">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="express_bg4_png_png"/>
+				<e:Image id="img_express" source="express5_1_png" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:layout>
+			<e:TileLayout verticalGap="12" horizontalGap="16" requestedRowCount="2" paddingLeft="31" paddingTop="8"/>
+		</e:layout>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LoadingUISkin_XiaoMi" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect anchorOffsetX="0" anchorOffsetY="0" strokeColor="0x444444" fillColor="0x232323" left="0" top="0" bottom="0" right="0"/>
+	<e:Image id="bg" left="0" right="0" top="0" bottom="0" source=""/>
+	<e:Image id="logo" width="138" height="138" horizontalCenter="0" verticalCenter="-118"/>
+	<e:Label id="loadProgressTxt" text="加载中..." fontFamily="Arial" anchorOffsetX="0" width="405.3" anchorOffsetY="0" height="60.3" size="18" verticalAlign="middle" textAlign="center" verticalCenter="-4" textColor="0xc7b1f9" horizontalCenter="0"/>
+	<e:Group width="300" height="18" horizontalCenter="0" verticalCenter="51">
+		<e:Image id="loadProgressImgBg" scaleX="1" scaleY="1" right="0" left="0" top="0" bottom="0" scale9Grid="6,6,2,2"/>
+		<e:Image id="loadProgressImg" width="300" scaleX="1" scaleY="1" left="0" top="0" bottom="0" scale9Grid="6,6,2,2"/>
+	</e:Group>
+	<e:Image id="LD_Logo" source="" width="208" height="20" bottom="24" horizontalCenter="0"/>
+</e:Skin>

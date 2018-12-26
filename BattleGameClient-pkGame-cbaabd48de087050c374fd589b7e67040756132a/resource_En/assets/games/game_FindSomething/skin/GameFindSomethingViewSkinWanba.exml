@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GameFindSomethingViewSkinWanba" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect left="0" right="0" top="0" bottom="0" fillColor="0x6f4e83" locked="true"/>
+	<e:Group id="gp_bg" width="694.66" height="1136" horizontalCenter="1.5" verticalCenter="0" anchorOffsetX="0">
+		<e:Image source="FindSomethingWhite_jpg" x="8.2" y="228.25" anchorOffsetX="0" width="677.82" anchorOffsetY="0" height="770.36"/>
+		<e:Scroller id="GameScroller" anchorOffsetY="0" anchorOffsetX="0" scrollPolicyH="on" scrollPolicyV="off" bounces="true" left="36" right="41.65999999999997" top="268" bottom="141" x="41" y="238" scaleX="1" scaleY="1">
+			<e:Group id="GameScrollerGroup" anchorOffsetY="0" height="741.82" anchorOffsetX="0" width="619">
+				<e:Image x="0" y="0" width="0" height="0" source=""/>
+				<e:Image x="1980" y="0" width="0" height="0" source=""/>
+			</e:Group>
+		</e:Scroller>
+		<e:Group id="rightCloud" width="399.64" height="757.51" y="243.88" anchorOffsetY="0" anchorOffsetX="0" x="641">
+			<e:Image source="FindSomethingCloud_png" anchorOffsetY="0" height="217.88" width="320" y="119.65" x="246.77"/>
+			<e:Image source="FindSomethingCloud_png" anchorOffsetY="0" height="217.88" width="320" y="303.94" x="230.76"/>
+			<e:Image source="FindSomethingCloud_png" anchorOffsetY="0" height="189.3" width="286.49" y="31.68" x="45.77" rotation="351.28" anchorOffsetX="0"/>
+			<e:Image source="FindSomethingCloud_png" anchorOffsetY="0" height="171.15" width="267.43" y="476.81" x="119.2" anchorOffsetX="0" rotation="4.24"/>
+			<e:Image source="FindSomethingCloud_png" anchorOffsetY="0" height="217.88" width="320" y="195" x="23.43"/>
+			<e:Image source="FindSomethingCloud_png" anchorOffsetY="0" height="217.88" width="320" y="228.59" x="15.67"/>
+		</e:Group>
+		<e:Group id="leftCloud" width="320" height="760.54" y="241.76" anchorOffsetY="0" anchorOffsetX="320" x="-1">
+			<e:Image source="FindSomethingCloud_png" anchorOffsetY="0" height="217.88" width="320" y="9.8" x="-27.5"/>
+			<e:Image source="FindSomethingCloud_png" anchorOffsetY="0" height="217.88" width="320" y="200.36" x="-95.5"/>
+			<e:Image source="FindSomethingCloud_png" anchorOffsetY="0" height="217.88" width="320" y="438.36" x="-7"/>
+		</e:Group>
+		<e:Rect left="-610" right="657.6599999999999" top="238" bottom="60" fillColor="0x6F4E83" anchorOffsetY="0" anchorOffsetX="0"/>
+		<e:Rect fillColor="0x6F4E83" anchorOffsetY="0" x="656.94" y="158" width="595.33" height="838" anchorOffsetX="0"/>
+
+		<e:Image source="FindSomethingMask_png" anchorOffsetY="0" left="-7" right="-4.340000000000032" top="206" bottom="103" touchEnabled="false" y="209" scaleX="1" scaleY="1" anchorOffsetX="0"/>
+		<e:Image source="FindSometingBG_png" top="38" horizontalCenter="0" x="74" y="38" scaleX="1" scaleY="1"/>
+		<e:Group id="SelfAvatarGroup" width="82" height="82" scaleX="1" scaleY="1" anchorOffsetX="41" anchorOffsetY="41" x="142.83" y="84.5">
+			<e:Image width="100%" height="100%" source="barrageAvatarMask_png" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" verticalCenter="0"/>
+		</e:Group>
+		<e:Group id="ComAvatarGroup" width="82" height="82" scaleX="1" scaleY="1" anchorOffsetX="41" anchorOffsetY="41" x="551.99" y="85.5">
+			<e:Image width="100%" height="100%" source="barrageAvatarMask_png" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" verticalCenter="0"/>
+		</e:Group>
+		<e:Label id="SelfName" text="" textAlign="left" scaleX="1" scaleY="1" size="24" height="24" left="226" top="53" verticalAlign="middle"/>
+		<e:Image id="SelfSex" source="img_boy_png" left="202" bottom="1061" x="86" y="164" scaleX="1" scaleY="1"/>
+		<e:Image id="SelfScore1" x="235.98" y="103" scaleX="1" scaleY="1" source="FindSomethingScoreEmpty_png" anchorOffsetX="16.5" anchorOffsetY="13.5"/>
+		<e:Image id="SelfScore2" x="274.98" y="103" scaleX="1" scaleY="1" source="FindSomethingScoreEmpty_png" anchorOffsetX="16.5" anchorOffsetY="13.5"/>
+		<e:Label id="ComName" text="" textAlign="right" scaleX="1" scaleY="1" size="24" height="24" anchorOffsetY="0" anchorOffsetX="-0.8" right="215.65999999999997" top="53" verticalAlign="middle"/>
+		<e:Image id="ComSex" source="img_boy_png" height="24" x="483.02" y="52.5" scaleX="1" scaleY="1"/>
+		<e:Image id="ComScore1" x="431.6" y="103" scaleX="1" scaleY="1" anchorOffsetX="16.5" anchorOffsetY="13.5" source="FindSomethingScoreEmpty1_png"/>
+		<e:Image id="ComScore2" x="471.8" y="103" scaleX="1" scaleY="1" anchorOffsetX="16.5" anchorOffsetY="13.5" source="FindSomethingScoreEmpty1_png"/>
+		<e:Image source="FindSomethingTip_png" top="152" horizontalCenter="0" x="5" y="152" scaleX="1" scaleY="1"/>
+		<e:Image source="FindSomethingTipBlue_png" x="496.32" y="163.5" scaleX="1" scaleY="1"/>
+		<e:Image source="FindSomethingTipRed_png" x="42.32" y="163.5" scaleX="1" scaleY="1"/>
+		<e:Image id="btn_tip" source="FindSometingTip3_png" left="37" bottom="36" x="45" y="911" scaleX="1" scaleY="1"/>
+		<e:Label id="currentTitleView" text="第1局开始" x="214.5" y="163.5" anchorOffsetX="0" width="212" anchorOffsetY="0" height="51" scaleX="1" scaleY="1" verticalAlign="middle" textAlign="center"/>
+		<e:Label id="Time" text="90" x="320" y="56.5" anchorOffsetX="0" width="55" textColor="0x000000" textAlign="center" verticalAlign="middle" anchorOffsetY="0" height="62.99" bold="true"/>
+		<e:Label id="SelfTarget" text="10" x="124.32" y="169" anchorOffsetX="0" width="54" textAlign="center" verticalAlign="middle" anchorOffsetY="0" height="39.33" textColor="0xafafaf"/>
+		<e:Label id="SelfCurrent" text="0" x="57.12" y="169.34" anchorOffsetX="0" width="54" textAlign="center" verticalAlign="middle" anchorOffsetY="0" height="39.33" textColor="0xffffff"/>
+		<e:Label id="ComTarget" text="10" x="581.42" y="169.34" anchorOffsetX="0" width="54" textAlign="center" verticalAlign="middle" anchorOffsetY="0" height="39.33" textColor="0xAFAFAF"/>
+		<e:Label id="ComCurrent" text="0" x="514.22" y="169.68" anchorOffsetX="0" width="54" textAlign="center" verticalAlign="middle" anchorOffsetY="0" height="39.33" textColor="0xFFFFFF"/>
+		<e:Image id="btn_hello" source="MM_greet_png" x="542.17" y="1023"/>
+		<e:Image id="tipTitle" source="FindSomethingTiptip_png" x="206.1" y="1021.66"/>
+	</e:Group>
+	<e:Image id="btn_return" source="goBack_png" x="0.5" y="52.5"/>
+</e:Skin>

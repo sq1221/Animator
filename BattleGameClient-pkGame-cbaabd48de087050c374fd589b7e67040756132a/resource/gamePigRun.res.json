@@ -1,0 +1,260 @@
+{
+	"groups": [
+		{
+			"keys": "PR_blueAngle_png,PR_blueBorder_png,PR_circleBorder_png,PR_finger_png,PR_rainbowBorder_png,PR_rainbowBorder__png,PR_redAngle_png,PR_redBorder_png,PR_smoke_json,PR_smoke_png,PR_stars_json,PR_stars_png,zhu_ske_json,zhu_tex_json,zhu_tex_png,PR_btns_ske_json,PR_btns_tex_json,PR_btns_tex_png,handPoint_png,PR_KO_png,PR_lose_png,PR_round1_png,PR_round2_png,PR_round3_png,PR_win_png,PR_tips_cover_png,PR_OverCharge_jpg,PR_yellowAngle_png,PR_yellowBorder_png,PR_glaryAngle_png,PR_glaryBorder_png,PR_backGround_jpg,pigD_tex_png,pigD_tex_json,pigD_ske_json,PR_redAngle_blin_png,PR_blueAngle_blin_png,boomSmoke_tex_png,boomSmoke_ske_json,boomSmoke_tex_json,circlePlot_png",
+			"name": "game_PigRun"
+		}
+	],
+	"resources": [
+		{
+			"url": "assets/games/game_PigRun/PR_blueAngle.png",
+			"type": "image",
+			"name": "PR_blueAngle_png"
+		},
+		{
+			"url": "assets/games/game_PigRun/PR_blueBorder.png",
+			"type": "image",
+			"name": "PR_blueBorder_png"
+		},
+		{
+			"url": "assets/games/game_PigRun/PR_circleBorder.png",
+			"type": "image",
+			"name": "PR_circleBorder_png"
+		},
+		{
+			"url": "assets/games/game_PigRun/PR_finger.png",
+			"type": "image",
+			"name": "PR_finger_png"
+		},
+		{
+			"url": "assets/games/game_PigRun/PR_rainbowBorder.png",
+			"type": "image",
+			"name": "PR_rainbowBorder_png"
+		},
+		{
+			"url": "assets/games/game_PigRun/PR_rainbowBorder_.png",
+			"type": "image",
+			"name": "PR_rainbowBorder__png"
+		},
+		{
+			"url": "assets/games/game_PigRun/PR_redAngle.png",
+			"type": "image",
+			"name": "PR_redAngle_png"
+		},
+		{
+			"url": "assets/games/game_PigRun/PR_redBorder.png",
+			"type": "image",
+			"name": "PR_redBorder_png"
+		},
+		{
+			"url": "assets/games/game_PigRun/PR_smoke.json",
+			"type": "json",
+			"name": "PR_smoke_json"
+		},
+		{
+			"url": "assets/games/game_PigRun/PR_smoke.png",
+			"type": "image",
+			"name": "PR_smoke_png"
+		},
+		{
+			"url": "assets/games/game_PigRun/PR_stars.json",
+			"type": "json",
+			"name": "PR_stars_json"
+		},
+		{
+			"url": "assets/games/game_PigRun/PR_stars.png",
+			"type": "image",
+			"name": "PR_stars_png"
+		},
+		{
+			"url": "assets/games/game_PigRun/zhu_ske.json",
+			"type": "json",
+			"name": "zhu_ske_json"
+		},
+		{
+			"url": "assets/games/game_PigRun/zhu_tex.json",
+			"type": "json",
+			"name": "zhu_tex_json"
+		},
+		{
+			"url": "assets/games/game_PigRun/zhu_tex.png",
+			"type": "image",
+			"name": "zhu_tex_png"
+		},
+		{
+			"url": "assets/games/game_PigRun/PR_btns_ske.json",
+			"type": "json",
+			"name": "PR_btns_ske_json"
+		},
+		{
+			"url": "assets/games/game_PigRun/PR_btns_tex.json",
+			"type": "json",
+			"name": "PR_btns_tex_json"
+		},
+		{
+			"url": "assets/games/game_PigRun/PR_btns_tex.png",
+			"type": "image",
+			"name": "PR_btns_tex_png"
+		},
+		{
+			"url": "assets/games/game_PigRun/handPoint.png",
+			"type": "image",
+			"name": "handPoint_png"
+		},
+		{
+			"url": "assets/games/game_PigRun/PR_KO.png",
+			"type": "image",
+			"name": "PR_KO_png"
+		},
+		{
+			"url": "assets/games/game_PigRun/PR_lose.png",
+			"type": "image",
+			"name": "PR_lose_png"
+		},
+		{
+			"url": "assets/games/game_PigRun/PR_round1.png",
+			"type": "image",
+			"name": "PR_round1_png"
+		},
+		{
+			"url": "assets/games/game_PigRun/PR_round2.png",
+			"type": "image",
+			"name": "PR_round2_png"
+		},
+		{
+			"url": "assets/games/game_PigRun/PR_roundFinal.png",
+			"type": "image",
+			"name": "PR_round3_png"
+		},
+		{
+			"url": "assets/games/game_PigRun/PR_win.png",
+			"type": "image",
+			"name": "PR_win_png"
+		},
+		{
+			"url": "assets/games/game_PigRun/PR_tips_cover.png",
+			"type": "image",
+			"name": "PR_tips_cover_png"
+		},
+		{
+			"url": "assets/games/game_PigRun/PR_OverCharge.jpg",
+			"type": "image",
+			"name": "PR_OverCharge_jpg"
+		},
+		{
+			"url": "assets/games/game_PigRun/PR_yellowAngle.png",
+			"type": "image",
+			"name": "PR_yellowAngle_png"
+		},
+		{
+			"url": "assets/games/game_PigRun/PR_yellowBorder.png",
+			"type": "image",
+			"name": "PR_yellowBorder_png"
+		},
+		{
+			"url": "assets/games/game_PigRun/PR_glaryAngle.png",
+			"type": "image",
+			"name": "PR_glaryAngle_png"
+		},
+		{
+			"url": "assets/games/game_PigRun/PR_glaryBorder.png",
+			"type": "image",
+			"name": "PR_glaryBorder_png"
+		},
+		{
+			"url": "assets/games/game_PigRun/PR_backGround.jpg",
+			"type": "image",
+			"name": "PR_backGround_jpg"
+		},
+		{
+			"url": "assets/games/game_PigRun/pigD_ske.json",
+			"type": "json",
+			"name": "pigD_ske_json"
+		},
+		{
+			"url": "assets/games/game_PigRun/pigD_tex.json",
+			"type": "json",
+			"name": "pigD_tex_json"
+		},
+		{
+			"url": "assets/games/game_PigRun/pigD_tex.png",
+			"type": "image",
+			"name": "pigD_tex_png"
+		},
+		{
+			"url": "assets/games/game_PigRun/PR_blueAngle_blin.png",
+			"type": "image",
+			"name": "PR_blueAngle_blin_png"
+		},
+		{
+			"url": "assets/games/game_PigRun/PR_redAngle_blin.png",
+			"type": "image",
+			"name": "PR_redAngle_blin_png"
+		},
+		{
+			"url": "assets/games/game_PigRun/boomSmoke_tex.png",
+			"type": "image",
+			"name": "boomSmoke_tex_png"
+		},
+		{
+			"url": "assets/games/game_PigRun/boomSmoke_ske.json",
+			"type": "json",
+			"name": "boomSmoke_ske_json"
+		},
+		{
+			"url": "assets/games/game_PigRun/boomSmoke_tex.json",
+			"type": "json",
+			"name": "boomSmoke_tex_json"
+		},
+		{
+			"url": "assets/games/game_PigRun/explain_game4.png",
+			"type": "image",
+			"name": "explain_game4_png"
+		},
+		{
+			"url": "assets/games/game_PigRun/sound/PR_music_normal.mp3",
+			"type": "sound",
+			"name": "PR_music_normal_mp3"
+		},
+		{
+			"url": "assets/games/game_PigRun/sound/PR_music_round.mp3",
+			"type": "sound",
+			"name": "PR_music_round_mp3"
+		},
+		{
+			"url": "assets/games/game_PigRun/sound/PR_music_running.mp3",
+			"type": "sound",
+			"name": "PR_music_running_mp3"
+		},
+		{
+			"url": "assets/games/game_PigRun/sound/PR_pound.mp3",
+			"type": "sound",
+			"name": "PR_pound_mp3"
+		},
+		{
+			"url": "assets/games/game_PigRun/sound/PR_pressRight.mp3",
+			"type": "sound",
+			"name": "PR_pressRight_mp3"
+		},
+		{
+			"url": "assets/games/game_PigRun/sound/PR_pressWrong.mp3",
+			"type": "sound",
+			"name": "PR_pressWrong_mp3"
+		},
+		{
+			"url": "assets/games/game_PigRun/sound/PR_bePounded.mp3",
+			"type": "sound",
+			"name": "PR_bePounded_mp3"
+		},
+		{
+			"url": "assets/games/game_PigRun/sound/PR_music_ko.mp3",
+			"type": "sound",
+			"name": "PR_music_ko_mp3"
+		},
+		{
+			"url": "assets/games/game_PigRun/circlePlot.png",
+			"type": "image",
+			"name": "circlePlot_png"
+		}
+	]
+}

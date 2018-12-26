@@ -1,0 +1,190 @@
+{
+	"groups": [
+		{
+			"keys": "chessman_2_png,chessman_1_png,img_headFiveBg_png,img_redying_png,chess_row1_png,chess_row2_png,Five_roundChange_png,game_five_di_png,game_five_return_png,img_chessboard5_png,img_fiveRed_png,img_fiveTips_png,img_he1_png,img_he2_png,bg_chessboard_png,btn_fivesum_png,aperture_1_png,aperture_2_png,btn_fiveLose_png,expressdi_five_png,Express_five1_png,Express_five2_png,Express_five3_png,Express_five4_png,Express_five5_png,Express_five6_png,game_five_tipsdi_png,five_no_png,five_notice_png,five_yes_png,FiveinARowMessage_json",
+			"name": "game_FiveinARow"
+		}
+	],
+	"resources": [
+		{
+			"url": "assets/games/game_FiveinARow/chessman_2.png",
+			"type": "image",
+			"name": "chessman_2_png"
+		},
+		{
+			"url": "assets/games/game_FiveinARow/chessman_1.png",
+			"type": "image",
+			"name": "chessman_1_png"
+		},
+		{
+			"url": "assets/games/game_FiveinARow/img_headFiveBg.png",
+			"type": "image",
+			"name": "img_headFiveBg_png"
+		},
+		{
+			"url": "assets/games/game_FiveinARow/img_redying.png",
+			"type": "image",
+			"name": "img_redying_png"
+		},
+		{
+			"url": "assets/games/game_FiveinARow/chess_row1.png",
+			"type": "image",
+			"name": "chess_row1_png"
+		},
+		{
+			"url": "assets/games/game_FiveinARow/chess_row2.png",
+			"type": "image",
+			"name": "chess_row2_png"
+		},
+		{
+			"url": "assets/games/game_FiveinARow/Five_roundChange.png",
+			"type": "image",
+			"name": "Five_roundChange_png"
+		},
+		{
+			"url": "assets/games/game_FiveinARow/game_five_di.png",
+			"type": "image",
+			"name": "game_five_di_png"
+		},
+		{
+			"url": "assets/games/game_FiveinARow/game_five_return.png",
+			"type": "image",
+			"name": "game_five_return_png"
+		},
+		{
+			"url": "assets/games/game_FiveinARow/img_chessboard5.png",
+			"type": "image",
+			"name": "img_chessboard5_png"
+		},
+		{
+			"url": "assets/games/game_FiveinARow/img_fiveRed.png",
+			"type": "image",
+			"name": "img_fiveRed_png"
+		},
+		{
+			"url": "assets/games/game_FiveinARow/img_fiveTips.png",
+			"type": "image",
+			"name": "img_fiveTips_png"
+		},
+		{
+			"url": "assets/games/game_FiveinARow/img_he1.png",
+			"type": "image",
+			"name": "img_he1_png"
+		},
+		{
+			"url": "assets/games/game_FiveinARow/img_he2.png",
+			"type": "image",
+			"name": "img_he2_png"
+		},
+		{
+			"url": "assets/games/game_FiveinARow/bg_chessboard.png",
+			"type": "image",
+			"name": "bg_chessboard_png"
+		},
+		{
+			"url": "assets/games/game_FiveinARow/btn_fivesum.png",
+			"type": "image",
+			"name": "btn_fivesum_png"
+		},
+		{
+			"url": "assets/games/game_FiveinARow/aperture_1.png",
+			"type": "image",
+			"name": "aperture_1_png"
+		},
+		{
+			"url": "assets/games/game_FiveinARow/aperture_2.png",
+			"type": "image",
+			"name": "aperture_2_png"
+		},
+		{
+			"url": "assets/games/game_FiveinARow/btn_fiveLose.png",
+			"type": "image",
+			"name": "btn_fiveLose_png"
+		},
+		{
+			"url": "assets/games/game_FiveinARow/expressdi_five.png",
+			"type": "image",
+			"name": "expressdi_five_png"
+		},
+		{
+			"url": "assets/games/game_FiveinARow/Express_five1.png",
+			"type": "image",
+			"name": "Express_five1_png"
+		},
+		{
+			"url": "assets/games/game_FiveinARow/Express_five2.png",
+			"type": "image",
+			"name": "Express_five2_png"
+		},
+		{
+			"url": "assets/games/game_FiveinARow/Express_five3.png",
+			"type": "image",
+			"name": "Express_five3_png"
+		},
+		{
+			"url": "assets/games/game_FiveinARow/Express_five4.png",
+			"type": "image",
+			"name": "Express_five4_png"
+		},
+		{
+			"url": "assets/games/game_FiveinARow/Express_five5.png",
+			"type": "image",
+			"name": "Express_five5_png"
+		},
+		{
+			"url": "assets/games/game_FiveinARow/Express_five6.png",
+			"type": "image",
+			"name": "Express_five6_png"
+		},
+		{
+			"url": "assets/games/game_FiveinARow/game_five_tipsdi.png",
+			"type": "image",
+			"name": "game_five_tipsdi_png"
+		},
+		{
+			"url": "assets/games/game_FiveinARow/five_no.png",
+			"type": "image",
+			"name": "five_no_png"
+		},
+		{
+			"url": "assets/games/game_FiveinARow/five_notice.png",
+			"type": "image",
+			"name": "five_notice_png"
+		},
+		{
+			"url": "assets/games/game_FiveinARow/five_yes.png",
+			"type": "image",
+			"name": "five_yes_png"
+		},
+		{
+			"url": "assets/games/game_FiveinARow/sound/down_chess.mp3",
+			"type": "sound",
+			"name": "down_chess_mp3"
+		},
+		{
+			"url": "assets/games/game_FiveinARow/sound/five_lose.mp3",
+			"type": "sound",
+			"name": "five_lose_mp3"
+		},
+		{
+			"url": "assets/games/game_FiveinARow/sound/five_win.mp3",
+			"type": "sound",
+			"name": "five_win_mp3"
+		},
+		{
+			"url": "assets/games/game_FiveinARow/sound/time_Fivelast_mp3.mp3",
+			"type": "sound",
+			"name": "time_Fivelast_mp3_mp3"
+		},
+		{
+			"url": "assets/games/game_FiveinARow/sound/bg_fiveMusic.mp3",
+			"type": "sound",
+			"name": "bg_fiveMusic_mp3"
+		},
+		{
+			"url": "assets/games/game_FiveinARow/FiveinARowMessage.json",
+			"type": "json",
+			"name": "FiveinARowMessage_json"
+		}
+	]
+}

@@ -1,0 +1,80 @@
+{
+	"native": {
+		"path_ignore": []
+	},
+	"engineVersion": "5.1.8",
+	"compilerVersion": "5.1.8",
+	"publish": {
+		"web": 0,
+		"native": 1,
+		"path": "bin-release"
+	},
+	"template": {},
+	"eui": {
+		"exmlRoot": [
+			"resource/skins"
+		],
+		"themes": [
+			"resource/default.thm.json"
+		],
+		"exmlPublishPolicy": "content"
+	},
+	"modules": [
+		{
+			"name": "egret"
+		},
+		{
+			"name": "game"
+		},
+		{
+			"name": "res"
+		},
+		{
+			"name": "tween"
+		},
+		{
+			"name": "socket"
+		},
+		{
+			"name": "eui"
+		},
+		{
+			"name": "dragonBones"
+		},
+		{
+			"name": "promise"
+		},
+		{
+			"name": "seedrandom",
+			"path": "librarys/seedrandom"
+		},
+		{
+			"name": "fbinstant",
+			"path": "librarys/fbinstant"
+		},
+		{
+			"name": "ur",
+			"path": "librarys/ur"
+		},
+		{
+			"name": "wanba",
+			"path": "librarys/wanba"
+		},
+		{
+			"name": "core",
+			"path": "core"
+		},
+		{
+			"name": "net",
+			"path": "net"
+		},
+		{
+			"name": "common",
+			"path": "common"
+		},
+		{
+			"name": "egretad",
+			"path": "librarys/egretad"
+		}
+	]
+}

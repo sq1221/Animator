@@ -1,0 +1,306 @@
+{
+    "map":
+    { 
+        
+        "bao1":["bag"],
+        "bao4":["bag"],
+        "bao5":["bag"],
+        "bao6":["bag"],
+        "bao7":["bag"],
+
+        "bb1":["cup"],
+        "bb2":["cup","sweet","fruit"],
+        "bb3":["cup"],
+        "bb4":["cup","kettle"],
+    
+        "jj1":["sharp","tableware","food","weapon"],
+        "jj2":["sharp"],
+        "jj3":["sharp","pen"],
+        "jj4":["sharp","tableware","cooker"],
+
+        "g1":["cooker"],
+        "g2":["cooker","weapon"],
+        "g3":["cooker","kettle"],
+
+        "xingxing1":["star"],
+        "xingxing2":["star"],
+        "xingxing3":["star"],
+
+        "zimu1":["letter","animal"],
+        "zimu2":["letter","animal","smile"],
+        "zimu3":["letter","animal"],
+        "zimu4":["letter","animal"],
+        "zimu5":["letter"],
+        "zimu6":["letter","smile"],
+        "zimu7":["letter","smile"],
+
+        "yanjing1":["glasses"],
+        "yanjing2":["glasses","letter"],
+        "yanjing3":["glasses"],
+        "yanjing7":["glasses"],
+
+        "dongwu1":["animal","glasses"],
+        "dongwu3":["animal"],
+        "dongwu4":["animal","smile"],
+
+       
+        "xiaolian2":["smile"],
+        "xiaolian4":["smile","star"],
+        "xiaolian6":["animal","smile"],
+
+        "yachi2":["smile","tooth"],
+        "yachi3":["tooth"],
+
+        "yijia1":["hanger","clothing"],
+        "yijia2":["hanger"],
+
+        "fushi1":["clothing","hanger"],
+        "fushi2":["clothing","hanger"],
+        "fushi3":["clothing","hanger"],
+        "fushi4":["clothing"],
+        "fushi5":["clothing","shoe","sharp","weapon"],
+        "fushi6":["clothing","shoe"],
+        "fushi7":["clothing","map"],
+        "fushi9":["clothing","map"],
+    
+        "xx1":["clothing","shoe"],
+
+        "guaiwu1":["monster","tooth","smile"],
+        "guaiwu2":["monster","tooth","smile"],
+        "guaiwu3":["monster","smile"],
+        "guaiwu4":["monster","tooth","smile"],
+        "guaiwu5":["monster","glasses"],
+        "guaiwu6":["monster"],
+
+        "jiaotong2":["traffic","cloud"],
+        "jiaotong4":["traffic"],
+        "jiaotong6":["traffic"],
+        "jiaotong7":["traffic"],
+        "jiaotong8":["traffic"],
+        "jiaotong9":["traffic"],
+
+        "yq1":["music"],
+        "yq2":["music"],
+
+        "mm1":["map"],
+        "mm2":["map"],
+
+        "qiu1":["ball"],
+        "qiu2":["ball"],
+        "qiu4":["ball"],
+        "qiu5":["ball"],
+        "qiu6":["ball"],
+
+        "sw1":["food","animal"],
+        "sw2":["food"],
+        "sw4":["food","sweet"],
+        "sw5":["food","sweet"],
+
+        "sg1":["food","fruit","sweet"],
+        "sg2":["food","fruit","sweet"],
+        "sg3":["food","fruit","sweet"],
+        "sg4":["food","fruit","sweet"],
+        "sg5":["food","fruit","sweet"],
+
+        "shuihu1":["kettle"],
+        "shuihu2":["kettle"],
+        "shuihu3":["kettle"],
+        "shuihu4":["kettle"],
+
+        "ww1":["socket"],
+        "ww2":["socket"],
+
+        "wuqi1":["weapon","sharp"],
+        "wuqi2":["weapon","sharp"],
+        "wuqi3":["weapon","sharp"],
+        "wuqi4":["weapon"],
+        "wuqi5":["weapon","sharp"],
+
+        "ez1":["heart"],
+        "yf1":["heart","clothing"],
+
+        "yiliao1":["medical","traffic"],
+        "yiliao2":["medical"],
+        "yiliao3":["medical","sharp"],
+        "yiliao5":["medical","heart"],
+
+        "yushi1":["bathroom"],
+        "yushi2":["bathroom"],
+        "yushi3":["bathroom","shoe"],
+        "yushi4":["bathroom"],
+        "yushi5":["bathroom"],
+        "yushi6":["bathroom"],
+
+        "yun2":["cloud"],
+        "yun4":["cloud"],
+        "yun5":["cloud"],
+        "yun6":["cloud"]
+    },
+    "list": [
+        "bao1",
+        "bao4",
+        "bao5",
+        "bao6",
+        "bao7",
+
+        "bb1",
+        "bb2",
+        "bb3",
+        "bb4",
+
+        "dongwu1",
+        "dongwu3",
+        "dongwu4",
+
+        "ez1",
+
+        "fushi1",
+        "fushi2",
+        "fushi4",
+        "fushi5",
+        "fushi6",
+        "fushi7",
+        "fushi9",
+
+        "g1",
+        "g2",
+        "g3",
+
+        "guaiwu1",
+        "guaiwu2",
+        "guaiwu3",
+        "guaiwu4",
+        "guaiwu5",
+        "guaiwu6",
+
+        "jiaotong2",
+        "jiaotong4",
+        "jiaotong6",
+        "jiaotong7",
+        "jiaotong8",
+        "jiaotong9",
+
+        "jj1",
+        "jj2",
+        "jj3",
+        "jj4",
+        
+        "mm1",
+        "mm2",
+
+        "qiu1",
+        "qiu2",
+        "qiu4",
+        "qiu5",
+        "qiu6",
+
+        "sg1",
+        "sg2",
+        "sg3",
+        "sg4",
+        "sg5",
+
+        "shuihu1",
+        "shuihu2",
+        "shuihu3",
+        "shuihu4",
+
+        "sw1",
+        "sw2",
+        "sw4",
+        "sw5",
+
+        "wuqi1",
+        "wuqi2",
+        "wuqi3",
+        "wuqi4",
+        "wuqi5",
+
+        "ww1",
+        "ww2",
+       
+       "xiaolian2",
+        "xiaolian4",
+        "xiaolian6",
+
+        "xingxing1",
+        "xingxing2",
+        "xingxing3",
+
+        "xx1",
+
+        "yachi2",
+        "yachi3",
+
+        "yanjing1",
+        "yanjing2",
+        "yanjing3",
+        "yanjing7",
+
+        "yf1",
+
+        "yijia1",
+        "yijia2",
+
+        "yiliao1",
+        "yiliao2",
+        "yiliao3",
+        "yiliao5",
+
+        
+        "yq1",
+        "yq2",
+
+        "yun2",
+        "yun4",
+        "yun5",
+        "yun6",
+
+        "yushi1",
+        "yushi2",
+        "yushi3",
+        "yushi4",
+        "yushi5",
+        "yushi6",
+
+        "zimu1",
+        "zimu2",
+        "zimu3",
+        "zimu4",
+        "zimu5",
+        "zimu6",
+        "zimu7"
+    ],
+    "tip":{
+        "bag":"书包",
+        "cloud":"云彩",
+        "bathroom":"浴室用品",
+        "medical":"医疗用品",
+        "heart":"心",
+        "weapon":"武器",
+        "cup":"杯子",
+        "sweet":"甜的",
+        "sharp":"锋利的",
+        "pen":"笔",
+        "tableware":"餐具",
+        "cooker":"厨具",
+        "star":"星星",
+        "letter":"字母",
+        "animal":"动物",
+        "glasses":"眼镜",
+        "smile":"笑脸",
+        "tooth":"牙齿",
+        "hanger":"衣架",
+        "clothing":"服饰",
+        "shoe":"鞋子",
+        "monster":"怪兽",
+        "traffic":"交通",
+        "music":"乐器",
+        "map":"帽子",
+        "ball":"球",
+        "food":"食物",
+        "kettle":"水壶",
+        "fruit":"水果",
+        "socket":"袜子"
+    }
+}

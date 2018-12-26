@@ -1,0 +1,17 @@
+bin-debug/
+bin-release/
+manifest.json
+readme.txt
+publishWx.sh
+.wing/
+.vscode/
+.idea/
+libs/
+readme
+buildAll.sh
+fb.bat
+.DS_Store
+*.un~
+*.html~
+*.bat~
+*.js.map

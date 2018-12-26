@@ -1,0 +1,340 @@
+{
+	"groups": [
+		{
+			"keys": "Gob_Desk_png,Gob_Run_png,Gob_RunL_png,Gob_Showoff_png,Gob_ShowoffL_png,Gob_U_png,Gob_backGround_png,Gob_banner_blue_png,Gob_banner_red_png,Gob_item_book1_png,Gob_item_book2_png,Gob_item_book3_png,Gob_item_book4_png,Gob_item_eraser1_png,Gob_item_eraser2_png,Gob_item_eraser3_png,Gob_item_eraser4_png,Gob_light_png,Gob_line_png,Gob_lose_png,Gob_mask_png,Gob_pk_png,Gob_stop_png,Gob_w8_png,Gob_win_png,bgm_mp3,mutouren_tex_png,Gob_roleBlue_behit_png,Gob_roleBlue_dumbfounded_png,Gob_roleBlue_qwalk0_png,Gob_roleBlue_qwalk1_png,Gob_roleBlue_qwalk2_png,Gob_roleBlue_stand_png,Gob_roleBlue_taunt1_png,Gob_roleBlue_taunt2_png,Gob_roleBlue_walk10_png,Gob_roleBlue_walk11_png,Gob_roleBlue_walk12_png,Gob_roleBlue_walk20_png,Gob_roleBlue_walk21_png,Gob_roleBlue_walk22_png,Gob_roleBlue_win1_png,Gob_roleBlue_win2_png,Gob_roleRed_behit_png,Gob_roleRed_dumbfounded_png,Gob_roleRed_qwalk0_png,Gob_roleRed_qwalk1_png,Gob_roleRed_qwalk2_png,Gob_roleRed_stand_png,Gob_roleRed_taunt1_png,Gob_roleRed_taunt2_png,Gob_roleRed_walk10_png,Gob_roleRed_walk11_png,Gob_roleRed_walk12_png,Gob_roleRed_walk20_png,Gob_roleRed_walk21_png,Gob_roleRed_walk22_png,Gob_roleRed_win1_png,Gob_roleRed_win2_png,GameGoBallisticMainScene_exml,mutouren_ske_json,mutouren_tex_json,Gob_beHit_mp3,Gob_jeer_mp3,Gob_showOff_mp3,Gob_stop_mp3",
+			"name": "game_GoBallistic"
+		}
+	],
+	"resources": [
+		{
+			"url": "assets/games/game_GoBallistic/Gob_Desk.png",
+			"type": "image",
+			"name": "Gob_Desk_png"
+		},
+		{
+			"url": "assets/games/game_GoBallistic/Gob_Run.png",
+			"type": "image",
+			"name": "Gob_Run_png"
+		},
+		{
+			"url": "assets/games/game_GoBallistic/Gob_RunL.png",
+			"type": "image",
+			"name": "Gob_RunL_png"
+		},
+		{
+			"url": "assets/games/game_GoBallistic/Gob_Showoff.png",
+			"type": "image",
+			"name": "Gob_Showoff_png"
+		},
+		{
+			"url": "assets/games/game_GoBallistic/Gob_ShowoffL.png",
+			"type": "image",
+			"name": "Gob_ShowoffL_png"
+		},
+		{
+			"url": "assets/games/game_GoBallistic/Gob_U.png",
+			"type": "image",
+			"name": "Gob_U_png"
+		},
+		{
+			"url": "assets/games/game_GoBallistic/Gob_backGround.png",
+			"type": "image",
+			"name": "Gob_backGround_png"
+		},
+		{
+			"url": "assets/games/game_GoBallistic/Gob_banner_blue.png",
+			"type": "image",
+			"name": "Gob_banner_blue_png"
+		},
+		{
+			"url": "assets/games/game_GoBallistic/Gob_banner_red.png",
+			"type": "image",
+			"name": "Gob_banner_red_png"
+		},
+		{
+			"url": "assets/games/game_GoBallistic/Gob_item_book1.png",
+			"type": "image",
+			"name": "Gob_item_book1_png"
+		},
+		{
+			"url": "assets/games/game_GoBallistic/Gob_item_book2.png",
+			"type": "image",
+			"name": "Gob_item_book2_png"
+		},
+		{
+			"url": "assets/games/game_GoBallistic/Gob_item_book3.png",
+			"type": "image",
+			"name": "Gob_item_book3_png"
+		},
+		{
+			"url": "assets/games/game_GoBallistic/Gob_item_book4.png",
+			"type": "image",
+			"name": "Gob_item_book4_png"
+		},
+		{
+			"url": "assets/games/game_GoBallistic/Gob_item_eraser1.png",
+			"type": "image",
+			"name": "Gob_item_eraser1_png"
+		},
+		{
+			"url": "assets/games/game_GoBallistic/Gob_item_eraser2.png",
+			"type": "image",
+			"name": "Gob_item_eraser2_png"
+		},
+		{
+			"url": "assets/games/game_GoBallistic/Gob_item_eraser3.png",
+			"type": "image",
+			"name": "Gob_item_eraser3_png"
+		},
+		{
+			"url": "assets/games/game_GoBallistic/Gob_item_eraser4.png",
+			"type": "image",
+			"name": "Gob_item_eraser4_png"
+		},
+		{
+			"url": "assets/games/game_GoBallistic/Gob_light.png",
+			"type": "image",
+			"name": "Gob_light_png"
+		},
+		{
+			"url": "assets/games/game_GoBallistic/Gob_line.png",
+			"type": "image",
+			"name": "Gob_line_png"
+		},
+		{
+			"url": "assets/games/game_GoBallistic/Gob_lose.png",
+			"type": "image",
+			"name": "Gob_lose_png"
+		},
+		{
+			"url": "assets/games/game_GoBallistic/Gob_mask.png",
+			"type": "image",
+			"name": "Gob_mask_png"
+		},
+		{
+			"url": "assets/games/game_GoBallistic/Gob_pk.png",
+			"type": "image",
+			"name": "Gob_pk_png"
+		},
+		{
+			"url": "assets/games/game_GoBallistic/Gob_stop.png",
+			"type": "image",
+			"name": "Gob_stop_png"
+		},
+		{
+			"url": "assets/games/game_GoBallistic/Gob_w8.png",
+			"type": "image",
+			"name": "Gob_w8_png"
+		},
+		{
+			"url": "assets/games/game_GoBallistic/Gob_win.png",
+			"type": "image",
+			"name": "Gob_win_png"
+		},
+		{
+			"url": "assets/games/game_GoBallistic/bgm.mp3",
+			"type": "sound",
+			"name": "bgm_mp3"
+		},
+		{
+			"url": "assets/games/game_GoBallistic/DB/mutouren_tex.png",
+			"type": "image",
+			"name": "mutouren_tex_png"
+		},
+		{
+			"url": "assets/games/game_GoBallistic/roleBlue/Gob_roleBlue_behit.png",
+			"type": "image",
+			"name": "Gob_roleBlue_behit_png"
+		},
+		{
+			"url": "assets/games/game_GoBallistic/roleBlue/Gob_roleBlue_dumbfounded.png",
+			"type": "image",
+			"name": "Gob_roleBlue_dumbfounded_png"
+		},
+		{
+			"url": "assets/games/game_GoBallistic/roleBlue/Gob_roleBlue_qwalk0.png",
+			"type": "image",
+			"name": "Gob_roleBlue_qwalk0_png"
+		},
+		{
+			"url": "assets/games/game_GoBallistic/roleBlue/Gob_roleBlue_qwalk1.png",
+			"type": "image",
+			"name": "Gob_roleBlue_qwalk1_png"
+		},
+		{
+			"url": "assets/games/game_GoBallistic/roleBlue/Gob_roleBlue_qwalk2.png",
+			"type": "image",
+			"name": "Gob_roleBlue_qwalk2_png"
+		},
+		{
+			"url": "assets/games/game_GoBallistic/roleBlue/Gob_roleBlue_stand.png",
+			"type": "image",
+			"name": "Gob_roleBlue_stand_png"
+		},
+		{
+			"url": "assets/games/game_GoBallistic/roleBlue/Gob_roleBlue_taunt1.png",
+			"type": "image",
+			"name": "Gob_roleBlue_taunt1_png"
+		},
+		{
+			"url": "assets/games/game_GoBallistic/roleBlue/Gob_roleBlue_taunt2.png",
+			"type": "image",
+			"name": "Gob_roleBlue_taunt2_png"
+		},
+		{
+			"url": "assets/games/game_GoBallistic/roleBlue/Gob_roleBlue_walk10.png",
+			"type": "image",
+			"name": "Gob_roleBlue_walk10_png"
+		},
+		{
+			"url": "assets/games/game_GoBallistic/roleBlue/Gob_roleBlue_walk11.png",
+			"type": "image",
+			"name": "Gob_roleBlue_walk11_png"
+		},
+		{
+			"url": "assets/games/game_GoBallistic/roleBlue/Gob_roleBlue_walk12.png",
+			"type": "image",
+			"name": "Gob_roleBlue_walk12_png"
+		},
+		{
+			"url": "assets/games/game_GoBallistic/roleBlue/Gob_roleBlue_walk20.png",
+			"type": "image",
+			"name": "Gob_roleBlue_walk20_png"
+		},
+		{
+			"url": "assets/games/game_GoBallistic/roleBlue/Gob_roleBlue_walk21.png",
+			"type": "image",
+			"name": "Gob_roleBlue_walk21_png"
+		},
+		{
+			"url": "assets/games/game_GoBallistic/roleBlue/Gob_roleBlue_walk22.png",
+			"type": "image",
+			"name": "Gob_roleBlue_walk22_png"
+		},
+		{
+			"url": "assets/games/game_GoBallistic/roleBlue/Gob_roleBlue_win1.png",
+			"type": "image",
+			"name": "Gob_roleBlue_win1_png"
+		},
+		{
+			"url": "assets/games/game_GoBallistic/roleBlue/Gob_roleBlue_win2.png",
+			"type": "image",
+			"name": "Gob_roleBlue_win2_png"
+		},
+		{
+			"url": "assets/games/game_GoBallistic/roleRed/Gob_roleRed_behit.png",
+			"type": "image",
+			"name": "Gob_roleRed_behit_png"
+		},
+		{
+			"url": "assets/games/game_GoBallistic/roleRed/Gob_roleRed_dumbfounded.png",
+			"type": "image",
+			"name": "Gob_roleRed_dumbfounded_png"
+		},
+		{
+			"url": "assets/games/game_GoBallistic/roleRed/Gob_roleRed_qwalk0.png",
+			"type": "image",
+			"name": "Gob_roleRed_qwalk0_png"
+		},
+		{
+			"url": "assets/games/game_GoBallistic/roleRed/Gob_roleRed_qwalk1.png",
+			"type": "image",
+			"name": "Gob_roleRed_qwalk1_png"
+		},
+		{
+			"url": "assets/games/game_GoBallistic/roleRed/Gob_roleRed_qwalk2.png",
+			"type": "image",
+			"name": "Gob_roleRed_qwalk2_png"
+		},
+		{
+			"url": "assets/games/game_GoBallistic/roleRed/Gob_roleRed_stand.png",
+			"type": "image",
+			"name": "Gob_roleRed_stand_png"
+		},
+		{
+			"url": "assets/games/game_GoBallistic/roleRed/Gob_roleRed_taunt1.png",
+			"type": "image",
+			"name": "Gob_roleRed_taunt1_png"
+		},
+		{
+			"url": "assets/games/game_GoBallistic/roleRed/Gob_roleRed_taunt2.png",
+			"type": "image",
+			"name": "Gob_roleRed_taunt2_png"
+		},
+		{
+			"url": "assets/games/game_GoBallistic/roleRed/Gob_roleRed_walk10.png",
+			"type": "image",
+			"name": "Gob_roleRed_walk10_png"
+		},
+		{
+			"url": "assets/games/game_GoBallistic/roleRed/Gob_roleRed_walk11.png",
+			"type": "image",
+			"name": "Gob_roleRed_walk11_png"
+		},
+		{
+			"url": "assets/games/game_GoBallistic/roleRed/Gob_roleRed_walk12.png",
+			"type": "image",
+			"name": "Gob_roleRed_walk12_png"
+		},
+		{
+			"url": "assets/games/game_GoBallistic/roleRed/Gob_roleRed_walk20.png",
+			"type": "image",
+			"name": "Gob_roleRed_walk20_png"
+		},
+		{
+			"url": "assets/games/game_GoBallistic/roleRed/Gob_roleRed_walk21.png",
+			"type": "image",
+			"name": "Gob_roleRed_walk21_png"
+		},
+		{
+			"url": "assets/games/game_GoBallistic/roleRed/Gob_roleRed_walk22.png",
+			"type": "image",
+			"name": "Gob_roleRed_walk22_png"
+		},
+		{
+			"url": "assets/games/game_GoBallistic/roleRed/Gob_roleRed_win1.png",
+			"type": "image",
+			"name": "Gob_roleRed_win1_png"
+		},
+		{
+			"url": "assets/games/game_GoBallistic/roleRed/Gob_roleRed_win2.png",
+			"type": "image",
+			"name": "Gob_roleRed_win2_png"
+		},
+		{
+			"url": "assets/games/game_GoBallistic/skin/GameGoBallisticMainScene.exml",
+			"type": "bin",
+			"name": "GameGoBallisticMainScene_exml"
+		},
+		{
+			"url": "assets/games/game_GoBallistic/DB/mutouren_ske.json",
+			"type": "json",
+			"name": "mutouren_ske_json"
+		},
+		{
+			"url": "assets/games/game_GoBallistic/DB/mutouren_tex.json",
+			"type": "json",
+			"name": "mutouren_tex_json"
+		},
+		{
+			"url": "assets/games/game_GoBallistic/soundEffect/Gob_beHit.mp3",
+			"type": "sound",
+			"name": "Gob_beHit_mp3"
+		},
+		{
+			"url": "assets/games/game_GoBallistic/soundEffect/Gob_jeer.mp3",
+			"type": "sound",
+			"name": "Gob_jeer_mp3"
+		},
+		{
+			"url": "assets/games/game_GoBallistic/soundEffect/Gob_showOff.mp3",
+			"type": "sound",
+			"name": "Gob_showOff_mp3"
+		},
+		{
+			"url": "assets/games/game_GoBallistic/soundEffect/Gob_stop.mp3",
+			"type": "sound",
+			"name": "Gob_stop_mp3"
+		}
+	]
+}

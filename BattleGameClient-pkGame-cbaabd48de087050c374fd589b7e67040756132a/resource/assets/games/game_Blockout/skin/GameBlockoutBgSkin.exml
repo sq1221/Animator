@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GameBlockoutBgSkin" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image x="0" y="0" source="game_Blockout_di_jpg"/>
+	<e:Group id="gp_game" width="640" height="1136" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0">
+		<e:Image source="img_CenterBlock_png" y="201" horizontalCenter="0" x="14" scaleX="1" scaleY="1"/>
+		<e:Image source="btn_bottomBlock_png" y="909.96" x="14" scaleX="1" scaleY="1"/>
+		<e:Group width="580" height="580" x="30" scaleX="1" scaleY="1" y="300">
+			<e:layout>
+				<e:BasicLayout/>
+			</e:layout>
+			<e:Group id="gp_yuPan" x="2" y="142" scaleX="1" scaleY="1" alpha="0.3" visible="false"/>
+		</e:Group>
+		<e:Group id="gp_addGameRect" width="580" height="580" scaleX="1" scaleY="1" y="300" x="30">
+			<e:layout>
+				<e:BasicLayout/>
+			</e:layout>
+		</e:Group>
+		<e:Group id="gp_addBoomEffect" width="580" height="580" scaleX="1" scaleY="1" y="300" x="30" touchChildren="false" touchEnabled="false">
+			<e:layout>
+			<e:BasicLayout/>
+			</e:layout>
+		</e:Group>
+		<e:Group id="gp_addBoomRect" width="580" height="580" scaleX="1" scaleY="1" y="300" x="30" touchChildren="false" touchEnabled="false">
+			<e:layout>
+			<e:BasicLayout/>
+			</e:layout>
+		</e:Group>
+		<e:Image id="btn_help" source="btn_Blockhelp_png" x="550.87" y="145.48" scaleX="1" scaleY="1"/>
+		<e:Image source="topBlock_middle_png" y="81" x="289"/>
+		<e:Group id="gp_head1" width="253" height="77" x="15" y="61">
+			<e:Image source="topBlock_left_png" x="0" y="0" scaleX="1" scaleY="1"/>
+			<e:Image source="img_block_write_png" width="143" y="40.88" x="73.37"/>
+			<e:Group id="gp_red1" width="130" height="9" y="44.53" anchorOffsetY="0" anchorOffsetX="0" x="78.37">
+				<e:Image id="img_red1" source="img_block_red_png" y="0" scaleX="1" scaleY="1" left="0"/>
+			</e:Group>
+			<e:Group id="playerAvatarGroup1" width="68" height="68" scaleX="1" scaleY="1" anchorOffsetX="34" anchorOffsetY="34" x="39" y="38">
+				<e:Image width="100%" height="100%" source="barrageAvatarMask_png" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" verticalCenter="0"/>
+			</e:Group>
+			<e:Image source="img_blockHeart_png" x="200" y="26"/>
+			<e:Label id="lb_life1" text="3" anchorOffsetX="0" width="41" anchorOffsetY="0" height="34" verticalAlign="middle" textAlign="center" size="23" x="202" y="28"/>
+			<e:Label id="lb_name1" text="" textAlign="left" y="11.999999999999993" scaleX="1" scaleY="1" size="24" height="24" left="84"/>
+		</e:Group>
+		<e:Group id="gp_head2" width="253" height="77" x="372" y="61">
+			<e:Image source="topBlock_left_png" y="0" scaleX="-1" scaleY="1" x="253"/>
+			<e:Image source="img_block_write_png" width="143" x="39" y="41.99999999999999" scaleX="1" scaleY="1"/>
+			<e:Group id="gp_red2" width="130" height="9" y="45.65000000000001" anchorOffsetY="0" x="46" scaleX="1" scaleY="1">
+				<e:Image id="img_red2" source="img_block_red_png" y="0" scaleX="1" scaleY="1" right="0"/>
+			</e:Group>
+			<e:Image source="img_blockHeart_png" x="9" y="26"/>
+			<e:Group id="playerAvatarGroup2" width="68" height="68" scaleX="1" scaleY="1" anchorOffsetX="34" anchorOffsetY="34" x="214" y="38">
+				<e:Image width="100%" height="100%" source="barrageAvatarMask_png" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" verticalCenter="0"/>
+			</e:Group>
+			<e:Label id="lb_name2" text="" textAlign="right" y="11.999999999999993" scaleX="1" scaleY="1" size="24" height="24" right="84"/>
+			<e:Label id="lb_life2" text="3" anchorOffsetX="0" width="41" anchorOffsetY="0" height="34" verticalAlign="middle" textAlign="center" size="23" x="11" y="29.000000000000007" scaleX="1" scaleY="1"/>
+		</e:Group>
+		<e:Group id="gp_moveArr" x="0" y="0" touchEnabled="false" touchChildren="false">
+		</e:Group>
+		<e:Image id="btn_select1" source="btn_blockWrite_png" width="176" height="173" x="30" scaleX="1" scaleY="1" y="930"/>
+		<e:Image id="btn_select2" source="btn_blockWrite_png" width="176" height="173" scaleX="1" scaleY="1" x="232" y="930"/>
+		<e:Image id="btn_select3" source="btn_blockWrite_png" width="176" height="173" scaleX="1" scaleY="1" y="930" x="434"/>
+		<e:Group id="btn_1" width="176" height="176" anchorOffsetX="88" anchorOffsetY="88" touchChildren="false" touchEnabled="false" scaleX="1" scaleY="1" y="1018" x="118">
+			<e:Group id="gp_add1" horizontalCenter="0" verticalCenter="0"/>
+		</e:Group>
+		<e:Group id="btn_2" width="176" height="176" anchorOffsetX="88" anchorOffsetY="88" touchEnabled="false" touchChildren="false" scaleX="1" scaleY="1" y="1018" x="320">
+			<e:Group id="gp_add2" horizontalCenter="0" x="0" scaleX="1" scaleY="1" verticalCenter="0"/>
+		</e:Group>
+		<e:Group id="btn_3" width="176" height="176" anchorOffsetX="88" anchorOffsetY="88" touchChildren="false" touchEnabled="false" scaleX="1" scaleY="1" x="522" y="1018">
+			<e:Group id="gp_add3" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0"/>
+		</e:Group>
+		<e:Label id="lb_reduce2" text="" anchorOffsetX="50" width="100" anchorOffsetY="30" height="60" verticalAlign="middle" bold="true" textAlign="center" size="45" borderColor="0xff0000" stroke="3" strokeColor="0xff0000" y="169" touchEnabled="false" x="501"/>
+		<e:Label id="lb_reduce1" text="" anchorOffsetX="50" width="100" anchorOffsetY="30" height="60" verticalAlign="middle" bold="true" textAlign="center" size="45" borderColor="0xFF0000" stroke="3" strokeColor="0xFF0000" y="169" touchEnabled="false" x="139"/>
+		<e:Image id="img_start1" source="img_start1_png" horizontalCenter="0" verticalCenter="0" touchEnabled="false" visible="false"/>
+		<e:Image id="img_start2" source="img_start2_png" horizontalCenter="0" verticalCenter="0" touchEnabled="false" anchorOffsetX="298" anchorOffsetY="48" scaleX="0" scaleY="0"/>
+		<e:Label id="lb_time" text="20S" x="266" y="219" anchorOffsetX="0" width="113" anchorOffsetY="0" height="34" verticalAlign="middle" textAlign="center" textColor="0x0938b7"/>
+		<e:Rect id="img_time" width="560" height="10" y="270" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" fillColor="0xdce800"/>
+		<e:Rect id="rec_result" left="0" top="0" bottom="0" right="0" alpha="0.5" visible="false"/>
+		<e:Image id="img_result" horizontalCenter="0" verticalCenter="0" scaleX="0" scaleY="0" source=""/>
+	</e:Group>
+	<e:Group id="gp_help" width="640" height="1136" x="0" y="0" visible="false">
+		<e:Rect left="0" top="0" bottom="0" right="0" alpha="0.5"/>
+		<e:Image source="img_Blockouthelp_png" horizontalCenter="0" verticalCenter="0"/>
+	</e:Group>
+</e:Skin>

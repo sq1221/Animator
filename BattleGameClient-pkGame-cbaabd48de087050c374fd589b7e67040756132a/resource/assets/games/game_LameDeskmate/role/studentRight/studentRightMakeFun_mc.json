@@ -1,0 +1,184 @@
+{
+	"res": {
+		"makeFun_1": {
+			"x": 1,
+			"y": 1,
+			"w": 327,
+			"h": 402
+		},
+		"makeFun_9": {
+			"x": 330,
+			"y": 1,
+			"w": 323,
+			"h": 401
+		},
+		"makeFun_3": {
+			"x": 1,
+			"y": 1617,
+			"w": 323,
+			"h": 401
+		},
+		"makeFun_8": {
+			"x": 651,
+			"y": 1615,
+			"w": 325,
+			"h": 398
+		},
+		"makeFun_10": {
+			"x": 330,
+			"y": 807,
+			"w": 322,
+			"h": 402
+		},
+		"makeFun_6": {
+			"x": 978,
+			"y": 1615,
+			"w": 325,
+			"h": 398
+		},
+		"makeFun_7": {
+			"x": 1,
+			"y": 405,
+			"w": 327,
+			"h": 402
+		},
+		"makeFun_13": {
+			"x": 1,
+			"y": 809,
+			"w": 327,
+			"h": 402
+		},
+		"makeFun_2": {
+			"x": 1305,
+			"y": 1615,
+			"w": 325,
+			"h": 398
+		},
+		"makeFun_12": {
+			"x": 1632,
+			"y": 1,
+			"w": 325,
+			"h": 398
+		},
+		"makeFun_5": {
+			"x": 326,
+			"y": 1617,
+			"w": 323,
+			"h": 401
+		},
+		"makeFun_4": {
+			"x": 330,
+			"y": 1211,
+			"w": 322,
+			"h": 402
+		},
+		"makeFun_0": {
+			"x": 1,
+			"y": 1213,
+			"w": 327,
+			"h": 402
+		},
+		"makeFun_11": {
+			"x": 330,
+			"y": 404,
+			"w": 323,
+			"h": 401
+		}
+	},
+	"file": "studentRightMakeFun_tex.png",
+	"mc": {
+		"studentRightMakeFun": {
+			"frames": [{
+				"res": "makeFun_0",
+				"y": -201,
+				"duration": 1,
+				"x": -167
+			},
+			{
+				"res": "makeFun_1",
+				"y": -201,
+				"duration": 1,
+				"x": -167
+			},
+			{
+				"res": "makeFun_2",
+				"y": -197,
+				"duration": 1,
+				"x": -164
+			},
+			{
+				"res": "makeFun_3",
+				"y": -200,
+				"duration": 1,
+				"x": -160
+			},
+			{
+				"res": "makeFun_4",
+				"y": -200,
+				"duration": 1,
+				"x": -156
+			},
+			{
+				"res": "makeFun_5",
+				"y": -200,
+				"duration": 1,
+				"x": -160
+			},
+			{
+				"res": "makeFun_6",
+				"y": -197,
+				"duration": 1,
+				"x": -164
+			},
+			{
+				"res": "makeFun_7",
+				"y": -201,
+				"duration": 1,
+				"x": -167
+			},
+			{
+				"res": "makeFun_8",
+				"y": -197,
+				"duration": 1,
+				"x": -164
+			},
+			{
+				"res": "makeFun_9",
+				"y": -200,
+				"duration": 1,
+				"x": -160
+			},
+			{
+				"res": "makeFun_10",
+				"y": -200,
+				"duration": 1,
+				"x": -156
+			},
+			{
+				"res": "makeFun_11",
+				"y": -200,
+				"duration": 1,
+				"x": -160
+			},
+			{
+				"res": "makeFun_12",
+				"y": -197,
+				"duration": 1,
+				"x": -164
+			},
+			{
+				"res": "makeFun_13",
+				"y": -201,
+				"duration": 1,
+				"x": -167
+			}],
+			"labels": [{
+				"end": 14,
+				"frame": 1,
+				"name": "makeFun"
+			}],
+			"frameRate": 30,
+			"events": []
+		}
+	}
+}

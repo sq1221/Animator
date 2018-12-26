@@ -1,0 +1,169 @@
+{
+    "version": 0.1,
+    "games": [
+        {
+            "gameId": 20,
+            "name": "宿舍风云",
+            "icon": "icon_game20_png",
+            "playerNum": 7654,
+            "res": "game_DormitoryWar",
+            "stateName": "gameDormitoryWar"
+        },
+        {
+            "gameId": 21,
+            "name": "暴走校园",
+            "icon": "icon_state2_png",
+            "playerNum": 7654,
+            "res": "game_GoBallistic",
+            "stateName": "gameGoBallistic"
+        },
+        {
+            "gameId": 19,
+            "name": "互怼校园",
+            "icon": "icon_game19_png",
+            "playerNum": 7654,
+            "res": "game_LameDeskmate",
+            "stateName": "gameLameDeskmate"
+        },
+        {
+            "gameId": 18,
+            "name": "方块消除",
+            "icon": "icon_game12_png",
+            "playerNum": 7654,
+            "res": "game_Blockout",
+            "stateName": "gameBlockOut"
+        },
+        {
+            "gameId": 16,
+            "name": "魔法手势",
+            "icon": "icon_game16_png",
+            "playerNum": 6389,
+            "res": "game_Gesture",
+            "stateName": "gameGesture"
+        },
+        {
+            "gameId": 22,
+            "name": "贪吃的维京人",
+            "icon": "icon_game12_png",
+            "playerNum": 7654,
+            "res": "game_Greedy",
+            "stateName": "gameGreedy"
+        },
+        {
+            "gameId": 17,
+            "name": "翻翻乐",
+            "icon": "icon_game17_png",
+            "playerNum": 7654,
+            "res": "game_TwiceJoy",
+            "stateName": "gameTwiceJoy"
+        },
+        {
+            "gameId": 11,
+            "name": "跳一跳",
+            "icon": "icon_game11_png",
+            "playerNum": 5765,
+            "res": "game_LongJump",
+            "stateName": "gameLongJump"
+        },
+        {
+            "gameId": 15,
+            "name": "找你妹",
+            "icon": "icon_game15_png",
+            "playerNum": 7563,
+            "res": "game_FindSomething",
+            "stateName": "gameFindSomething"
+        },
+        {
+            "gameId": 12,
+            "name": "五子棋",
+            "icon": "icon_game12_png",
+            "playerNum": 7342,
+            "res": "game_FiveinARow",
+            "stateName": "gameFiveinARow"
+        },
+        {
+            "gameId": 3,
+            "name": "炮弹射击",
+            "icon": "icon_game3_png",
+            "playerNum": 6543,
+            "res": "game_Shooting",
+            "stateName": "gameShooting"
+        },
+        {
+            "gameId": 2,
+            "name": "鹿皇争霸",
+            "icon": "icon_game2_png",
+            "playerNum": 6543,
+            "res": "game_Christmas",
+            "stateName": "gameChristmas"
+        },
+        {
+            "gameId": 5,
+            "name": "青蛙过河",
+            "icon": "icon_game5_png",
+            "playerNum": 6543,
+            "res": "game_LeonardFrog",
+            "stateName": "gameLeonardFrog"
+        },
+        {
+            "gameId": 1,
+            "name": "炸弹kingkong",
+            "icon": "icon_game1_png",
+            "playerNum": 7654,
+            "res": "game_Kingkong",
+            "stateName": "gameKingkong"
+        },
+        {
+            "gameId": 4,
+            "name": "小猪快跑",
+            "icon": "icon_game4_png",
+            "playerNum": 6699,
+            "res": "game_PigRun",
+            "stateName": "gamePigRun"
+        },
+        {
+            "gameId": 6,
+            "name": "斗兽棋",
+            "icon": "icon_game6_png",
+            "playerNum": 7654,
+            "res": "game_AnimalChess",
+            "stateName": "gameAnimalChess"
+        },
+        {
+            "gameId": 7,
+            "name": "节奏达人",
+            "icon": "icon_game7_png",
+            "playerNum": 6862,
+            "res": "game_RhythmKing",
+            "stateName": "gameRhythmKing"
+        },
+        {
+            "gameId": 8,
+            "name": "知多星",
+            "icon": "icon_game8_png",
+            "playerNum": 9527,
+            "res": "game_MasterMind",
+            "stateName": "gameMasterMind"
+        },
+        {
+            "gameId": 10,
+            "name": "Bang",
+            "icon": "icon_game10_png",
+            "playerNum": 9527,
+            "res": "game_Bang",
+            "stateName": "gameBang"
+        },
+        {
+            "gameId": -1,
+            "name": "更新中",
+            "icon": "icon_state1_png",
+            "playerNum": -1
+        },
+        {
+            "gameId": -1,
+            "name": "敬请期待",
+            "icon": "icon_state2_png",
+            "playerNum": -1
+        }
+    ]
+}

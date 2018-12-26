@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GameExpressSkin" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="160c4659a42"/>
+	<e:Group id="gp_bg" anchorOffsetY="0" bottom="0" left="0" right="0" top="0">
+		<e:Label id="lb_bg" text="" left="0" right="0" top="0" bottom="0"/>
+		<e:Group id="gp_express" width="640" height="314.85" anchorOffsetX="0" anchorOffsetY="0" x="0" scaleX="1" scaleY="1" bottom="136">
+			<e:Image id="img_bg" bottom="0" source="express_kuang2_png" horizontalCenter="0" width="606"/>
+			<e:Scroller id="Scroller1" anchorOffsetX="0" scrollPolicyV="off" scrollPolicyH="on" anchorOffsetY="0" height="228" width="606" scaleX="1" scaleY="1" bottom="42" horizontalCenter="0">
+				<e:List id="list" width="606" height="228" anchorOffsetY="0" x="0" y="-1.52" anchorOffsetX="0" itemRendererSkinName="ItemExpressTipskin">
+				<e:layout>
+					<e:HorizontalLayout gap="0"/>
+				</e:layout>
+				</e:List>
+			</e:Scroller>
+			<e:Group id="gp_pot" width="118.61" height="18.58" anchorOffsetY="0" anchorOffsetX="0" bottom="8" horizontalCenter="0">
+			<e:Image id="pot_1" source="pot_write_png" x="32" y="15" alpha="1"/>
+			<e:Image id="pot_2" source="pot_write_png" x="42" y="25" alpha="0.4"/>
+			<e:Image id="pot_3" source="pot_write_png" x="52" y="35" alpha="0.4"/>
+			<e:layout>
+				<e:HorizontalLayout gap="16" horizontalAlign="center"/>
+			</e:layout>
+			</e:Group>
+		</e:Group>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+		"noImplicitAny": false,
+		"sourceMap": false,
+		"declaration": true,
+        "outFile": "bin/kingkong.js"
+    },
+    "include": [
+        "src",
+		"../../libs",
+		"../../librarys",
+        "../../core/**/*.d.ts",
+        "../../common/**/*.d.ts"
+    ]
+}

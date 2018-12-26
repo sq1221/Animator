@@ -1,0 +1,135 @@
+declare class FrogCharacter extends egret.DisplayObjectContainer {
+    status: number;
+    currRect: MoveRect;
+    private roleAvatar;
+    id: number;
+    armature: DBArmature;
+    startJumptime: number;
+    validWidth: number;
+    validHeight: number;
+    constructor();
+    init(user: User): void;
+    readonly isEnemy: boolean;
+    dispose(): void;
+}
+declare class FrogEffect extends egret.DisplayObjectContainer {
+    currRect: MoveRect;
+    private roleAvatar;
+    armature: DBArmature;
+    constructor(str: string);
+    private onAddEffect(str);
+    dispose(): void;
+}
+declare class GameLeonardFroG extends State {
+    static MOVE_SPEED: number;
+    static IMPACT_parameter: number;
+    static GAME_WIDTH: number;
+    static GAME_HEIGHT: number;
+    static Rect_ID: number;
+    static Character_ID: number;
+    static MAX_SCORE: number;
+    static Rects: any;
+    private container;
+    private containerTop;
+    private containerPeople;
+    private containerheight;
+    private containerEffect;
+    flower1: DBArmature;
+    flower2: DBArmature;
+    flower3: DBArmature;
+    private containerGame;
+    private bg;
+    private img1;
+    private img_red;
+    private img_blue;
+    private img_diadema;
+    private bg_time;
+    private bitmaptime;
+    private goBack;
+    private btn_jump;
+    private roleAvatar1;
+    private roleAvatar2;
+    private readyIMG;
+    private arrayPlay1;
+    private arrayPlay2;
+    private tmpForg;
+    private numScore1;
+    private numScore2;
+    private time;
+    private tmpPoint;
+    private selfJumpFlag;
+    private enemyJumpFlag;
+    private particleXueHua;
+    private isRuning;
+    constructor();
+    init(): void;
+    pauseCallback: () => void;
+    private roleAvatarPlayEnd(evt);
+    show(): void;
+    private goBackBtnHandler();
+    private onGameEvent(data);
+    private getEnemy(id);
+    private timer();
+    private onGameResult(data);
+    private start();
+    private stop();
+    private enemyAi();
+    private createAiEnemy();
+    private run(advancedTime);
+    private rectangle1;
+    private rectangle2;
+    private checkFlag;
+    private onImpact();
+    private characterMove(advancedTime, isMe);
+    private removeCharacter(character, isFallWater?, particle?);
+    private enemyIntoWater(character);
+    private enemybumpOut(character);
+    private intoWater(character);
+    private onBumpOut(character);
+    private onLand(character, hitRect);
+    private enemyJump();
+    private onJump();
+    private enemyJumpSuccess();
+    private selfJumpSuccess();
+    private onJucde(character);
+    dispose(): void;
+    private armaturePlayEnd(evt);
+    private recoveryCharacter(character);
+    private onAddNewSelf();
+    private onAddNewEnemy(id, initX);
+    private addAllLotusDb();
+    private addAllRainbow();
+    private onParticleEffect(_X, _Y, str);
+}
+declare class GameLeonardFrogMap extends egret.DisplayObjectContainer {
+    tip1: MoveTips;
+    tip2: MoveTips;
+    tip3: MoveTips;
+    tip4: MoveTips;
+    constructor();
+    createSelfTips(): Array<any>;
+    createEnemyTips(tips1Datas: any, tips2Datas: any): void;
+    tick(time: number): void;
+}
+declare class MoveRect extends egret.DisplayObjectContainer {
+    private img1;
+    private tmpPoint;
+    private tmpX;
+    space: number;
+    id: string;
+    flower1: DBArmature;
+    constructor(resId: number, space: number);
+    hitTest(px: number): boolean;
+}
+declare class MoveTips extends egret.DisplayObjectContainer {
+    private num;
+    private rects;
+    private rectsLen;
+    private tmpPoint;
+    private tickNum;
+    constructor(num: number);
+    create(): Array<any>;
+    full(datas: Array<any>): void;
+    tick(time: number): void;
+    hitTest(px: number): MoveRect;
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GameBlockBoomSkin" width="580" height="58" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="effect_delete_png" x="29" y="29" anchorOffsetX="65.5" anchorOffsetY="65.5"/>
+	<e:Image id="img_1" source="game_block1_png" x="29" y="29" anchorOffsetX="29" anchorOffsetY="29"/>
+	<e:Image id="img_2" source="game_block1_png" x="87" y="29" anchorOffsetX="29" anchorOffsetY="29"/>
+	<e:Image id="img_3" source="game_block1_png" x="145" y="29" anchorOffsetX="29" anchorOffsetY="29"/>
+	<e:Image id="img_4" source="game_block1_png" x="203" y="29" anchorOffsetX="29" anchorOffsetY="29"/>
+	<e:Image id="img_5" source="game_block1_png" x="261" y="29" anchorOffsetX="29" anchorOffsetY="29"/>
+	<e:Image id="img_6" source="game_block1_png" x="319" y="29" anchorOffsetX="29" anchorOffsetY="29"/>
+	<e:Image id="img_7" source="game_block1_png" x="377" y="29" anchorOffsetX="29" anchorOffsetY="29"/>
+	<e:Image id="img_8" source="game_block1_png" x="435" y="29" anchorOffsetX="29" anchorOffsetY="29"/>
+	<e:Image id="img_9" source="game_block1_png" x="493" y="29" anchorOffsetX="29" anchorOffsetY="29"/>
+	<e:Image id="img_10" source="game_block1_png" y="29" anchorOffsetX="29" anchorOffsetY="29" x="551"/>
+</e:Skin>

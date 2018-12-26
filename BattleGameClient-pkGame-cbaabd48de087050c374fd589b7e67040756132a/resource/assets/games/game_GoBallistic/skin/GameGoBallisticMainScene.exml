@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GameGoBallisticMainSkin" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="Gob_group_all" width="640" height="1136" top="0" left="0">
+		<e:Image id="Img_backGround" width="640" height="1136" x="0" y="0" source="Gob_backGround_png"/>
+		<e:Image id="Gob_line_png" width="640" height="56" x="0" y="824" scaleX="1" scaleY="1" source="Gob_line_png"/>
+		<e:Group id="Gob_group_roles" width="640" height="1136" left="0" top="0">
+		</e:Group>
+		<e:Group id="Gob_group_flyingItem" width="640" height="1136" top="0" left="0"/>
+		<e:Group id="Gob_group_boss" width="333" height="354" bottom="0" horizontalCenter="0"/>
+		<e:Image id="Img_Desk" width="640" height="199" bottom="-3" horizontalCenter="0" source="Gob_Desk_png"/>
+		<e:Image id="Img_pk" width="94" height="62" horizontalCenter="0" top="44" source="Gob_pk_png"/>
+		<e:Image id="Img_blueBanner" width="185" height="87" left="80" top="29" source="Gob_banner_blue_png"/>
+		<e:Group id="Gob_group_blueHead" width="67" height="67" x="90" y="37"/>
+		<e:Image id="Img_redBanner" width="185" height="87" right="80" source="Gob_banner_red_png" y="29"/>
+		<e:Group id="Gob_group_redHead" width="67" height="67" x="483" y="37"/>
+
+
+		<e:Image id="Img_isYou" width="128" height="175" x="300" y="390" source="Gob_U_png" anchorOffsetX="64"/>
+		<e:Image id="Img_stop" width="194" height="200" horizontalCenter="0" verticalCenter="0" source="Gob_stop_png" visible="false"/>
+
+
+
+		<e:Group width="640" height="1136" x="0" y="0" scaleX="1" scaleY="1">
+			<e:Button id="Gob_btn_run" label="" width="268" height="146" bottom="57" left="185" visible="false">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="Gob_Run_png" source.down="Gob_RunL_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+
+			</e:Button>
+			<e:Button id="Gob_btn_showoff" label="" horizontalCenter="0" bottom="30" visible="false">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="Gob_Showoff_png" source.down="Gob_ShowoffL_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+
+			</e:Button>
+			<e:Label id="Label_blueScore" text="0" x="157" y="45.5" textAlign="center" width="100" height="50" verticalAlign="middle"/>
+			<e:Label id="Label_redScore" text="0" x="383" y="45.5" textAlign="center" width="100" height="50" verticalAlign="middle"/>
+		</e:Group>
+	</e:Group>
+	<e:Image id="Img_blackMask" width="640" height="1136" left="0" top="0" source="Gob_mask_png" alpha="0.5" visible="false"/>
+	<e:Image id="Img_light" width="560" height="560" verticalCenter="0" horizontalCenter="0" source="Gob_light_png" visible="false"/>
+	<e:Image id="Img_result" width="295" height="295" horizontalCenter="0" verticalCenter="0" visible="false"/>
+	<e:Image width="640" height="1136" x="-640" y="0" source="Gob_mask_png"/>
+	<e:Image width="640" height="1136" x="0" y="1136" source="Gob_mask_png"/>
+	<e:Image width="640" height="1136" x="0" y="-1136" source="Gob_mask_png"/>
+	<e:Image width="640" height="1136" x="640" y="0" source="Gob_mask_png"/>
+</e:Skin>

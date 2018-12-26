@@ -1,0 +1,1 @@
+{"res":{"hit_1":{"x":1,"y":1,"w":219,"h":320},"hit_0":{"x":222,"y":1,"w":214,"h":320}},"file":"studentRightHit_tex.png","mc":{"studentRightHit":{"labels":[{"end":2,"frame":1,"name":"hit"}],"frameRate":30,"frames":[{"res":"hit_0","y":-160,"duration":1,"x":-107},{"res":"hit_1","y":-160,"duration":1,"x":-112}],"events":[]}}}

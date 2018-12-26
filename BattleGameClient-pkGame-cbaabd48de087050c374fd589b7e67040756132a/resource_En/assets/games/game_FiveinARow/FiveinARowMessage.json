@@ -1,0 +1,22 @@
+{
+    "ArrMessage": [
+        "Your turn",
+        "Opponent turn",
+        "Draw",
+        "Opponent gave up",
+        "Waiting for confirm",
+        "Your request has  been refused",
+        "Opponent agree your request",
+        "You gave up",
+        "DRAW"
+    ],
+    "euiMessage": {
+        "1001": "DRAW",
+        "1002": "Rival ask for draw, do you agree?",
+        "1003": "Give  up",
+        "1004": "You sure you want to give up?",
+        "1005": "Confirm",
+        "1006": "Cancel",
+        "1007": "agree"
+    }
+}

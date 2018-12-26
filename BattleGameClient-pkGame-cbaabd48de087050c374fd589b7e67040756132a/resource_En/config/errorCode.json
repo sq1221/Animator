@@ -1,0 +1,10 @@
+{
+    "3007": "The room does not exist or has expired...",
+	"4001": "Failure of platform login...",
+    "5001": "The failure of matching...",
+	"6001": "Disconnect the connection with the server!",
+    "6002": "Failure to connect to the server!",
+    "7001": "Fail to load resource.",
+	"8001": "Getting user data...",
+    "8002": "Fail to load user data..."
+}

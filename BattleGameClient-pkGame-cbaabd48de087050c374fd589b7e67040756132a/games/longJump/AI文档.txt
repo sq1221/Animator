@@ -1,0 +1,57 @@
+    随机种子
+    配置
+
+
+    生成台子
+    MaxOffset = 400; random1是上面配置取的随机值，限制在0.5——1之间
+    距离上个的位置  offsetFromLast = random1 * PlatformController.MaxOffset;
+    在random随机一个值，确定台子类型距边界距离，//后面是类型，offsetToEdge是距边界距离
+      private getPlatformType() {
+           // let random = GameLongJumpView.instance.random();
+            let offsetToEdge: number;
+            if (random < 0.7)
+                offsetToEdge = 69;//max_e,max_q,max_r,max_t,max_u,max_w,max_y,
+            else if (random < 0.72)
+                offsetToEdge = 32;//a
+            else if (random < 0.74)
+                offsetToEdge = 44;//h
+            else if (random < 0.76)
+                offsetToEdge = 36;//i
+            else if (random < 0.78)
+                offsetToEdge = 35;//j
+            else if (random < 0.8)
+                offsetToEdge = 35;//m;
+            else if (random < 0.82)
+                offsetToEdge = 65;//o;
+            else if (random < 0.84)
+                offsetToEdge = 59;//q;
+            else if (random < 0.86)
+                offsetToEdge = 50;//t;
+            else if (random < 0.88)
+                offsetToEdge = 67;//g;
+            else if (random < 0.9)
+                offsetToEdge = 37;//z;
+            if (random < 0.92)
+                offsetToEdge = 32;//e;
+            else if (random < 0.94)
+                offsetToEdge = 45;//l;
+            else if (random < 0.96)
+                offsetToEdge = 42;//k;
+            else if (random < 0.98)
+                offsetToEdge = 31;//w;
+            else
+                offsetToEdge = 69;//max_e;
+        }
+
+
+计算power  这个random是math。random算的，userConfig.jumpDis=160    ###发送到客户端强制按这个走
+跳上
+  power = (offset + target.offsetToEdge * random * 0.5) / userConfig.jumpDis;
+跳不上
+    power = (offset + target.offsetToEdge * (random + 1)) / userConfig.jumpDis;
+    power = (offset - target.offsetToEdge * (random + 1)) / userConfig.jumpDis;
+
+计算蓄力时间 userConfig.power=0.4  userConfig.powerAdd=0.2
+let Time = Math.floor((power - userConfig.power) / userConfig.powerAdd) + 1;
+
+计时器time时间后发送跳跃  jump|power

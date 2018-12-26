@@ -1,0 +1,29 @@
+{
+	"skins": {},
+	"autoGenerateExmlsList": true,
+	"exmls": [
+		"resource_En/skins/LoadingUISkin.exml",
+		"resource_En/skins/LoadingUISkin_XiaoMi.exml",
+		"resource_En/skins/gameCenter/GameChangeMatchSkin.exml",
+		"resource_En/skins/gameCenter/GameExplainSkin.exml",
+		"resource_En/skins/gameCenter/GameGiveUp.exml",
+		"resource_En/skins/gameCenter/GamePopSkin.exml",
+		"resource_En/skins/gameCenter/GameQuickMatchSkin.exml",
+		"resource_En/skins/gameCenter/GameResultViewSkin.exml",
+		"resource_En/skins/gameCenter/GameResultXiaoMiViewSkin.exml",
+		"resource_En/skins/gameCenter/GameSureLeaveSkin.exml",
+		"resource_En/assets/games/game_AnimalChess/skin/ButtonQipao.exml",
+		"resource_En/assets/games/game_AnimalChess/skin/GameAnimalChessGreet.exml",
+		"resource_En/assets/games/game_AnimalChess/skin/GameAnimalChessReceiveDrawn.exml",
+		"resource_En/assets/games/game_AnimalChess/skin/GameExpressSkin.exml",
+		"resource_En/assets/games/game_AnimalChess/skin/ItemExpressTip.exml",
+		"resource_En/assets/games/game_Christmas/skin/GameChristmasMainSkin.exml",
+		"resource_En/assets/games/game_FindSomething/skin/GameFindSomethingViewSkin.exml",
+		"resource_En/assets/games/game_FiveinARow/skin/GameFiveExpressSkin.exml",
+		"resource_En/assets/games/game_LameDeskmate/skin/GameLameDeskmateMainSkin.exml",
+		"resource_En/assets/games/game_LeonardFrog/skin/GameLeonardFrog.exml",
+		"resource_En/assets/games/game_TwiceJoy/skin/GameTwiceJoyCardSkin.exml",
+		"resource_En/assets/games/game_TwiceJoy/skin/GameTwiceJoyMainSkin.exml"
+	],
+	"path": "resource_En/default.thm.json"
+}

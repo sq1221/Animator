@@ -1,0 +1,72 @@
+{
+  "base": {
+    "1": {
+      "res": "dbxiaoren00"
+    },
+    "2": {
+      "res": "dbxiaoren01"
+    },
+    "3": {
+      "res": "dbxiaoren02"
+    },
+    "4": {
+      "res": "dbxiaoren03"
+    },
+    "5": {
+      "res": "dbxiaoren04"
+    },
+    "6": {
+      "res": "dbxiaoren05"
+    },
+    "7": {
+      "res": "dbxiaoren07"
+    },
+    "8": {
+      "res": "dbxiaoren08"
+    },
+    "9": {
+      "res": "dbxiaoren09"
+    },
+    "10": {
+      "res": "dbxiaoren10"
+    },
+    "11": {
+      "res": "dbxiaoren11"
+    },
+    "12": {
+      "res": "dbxiaoren12"
+    },
+    "13": {
+      "res": "dbxiaoren13"
+    },
+    "14": {
+      "res": "dbxiaoren14"
+    },
+    "15": {
+      "res": "dbxiaoren15"
+    },
+    "16": {
+      "res": "dbxiaoren16"
+    },
+    "17": {
+      "res": "dbxiaoren17"
+    },
+    "18": {
+      "res": "dbxiaoren18"
+    },
+    "19": {
+      "res": "dbxiaoren19"
+    },
+    "20": {
+      "res": "dbxiaoren20"
+    },
+    "21": {
+      "res": "dbxiaoren21"
+    },
+    "22": {
+      "res": "dbxiaoren22"
+    }
+  },
+  "changeSkin":[1,2,3,4,5,6,7,8,9,10],
+  "constellatory":[11,12,13,14,15,16,17,18,19,20,21,22]
+}

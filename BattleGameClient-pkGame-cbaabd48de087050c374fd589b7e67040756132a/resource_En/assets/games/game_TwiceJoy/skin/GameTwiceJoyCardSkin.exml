@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GameTwiceJoyCardSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="135" height="135">
+	<e:Group id="cardGroup" width="135" height="135" horizontalCenter="0" verticalCenter="0" anchorOffsetX="67.5" anchorOffsetY="67.5">
+		<e:Image id="cardBgImg" source="iconShowImg_png" horizontalCenter="0" verticalCenter="0" x="0" y="0"/>
+		<e:Image id="showCardImg" source="twiceIcon5_png" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image id="hideCardImg" horizontalCenter="0" verticalCenter="0" source="iconHideImg_png"/>
+		<e:Image id="matchSuccessImg" source="iconRight_png" horizontalCenter="0" verticalCenter="0" visible="false"/>
+	</e:Group>
+</e:Skin>

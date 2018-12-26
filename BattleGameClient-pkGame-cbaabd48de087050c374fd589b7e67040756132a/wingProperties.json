@@ -1,0 +1,207 @@
+{
+	"resourcePlugin": {
+		"configs": [
+			{
+				"configPath": "resource/gameKingkong.res.json",
+				"relativePath": "resource/"
+			},
+			{
+				"configPath": "resource/gameChristmas.res.json",
+				"relativePath": "resource/"
+			},
+			{
+				"configPath": "resource/gameLongJump.res.json",
+				"relativePath": "resource/"
+			},
+			{
+				"configPath": "resource/gameLeonardFrog.res.json",
+				"relativePath": "resource/"
+			},
+			{
+				"configPath": "resource/gameAnimalChess.res.json",
+				"relativePath": "resource/"
+			},
+			{
+				"configPath": "resource/gameRhythmKing.res.json",
+				"relativePath": "resource/"
+			},
+			{
+				"configPath": "resource/gameMasterMind.res.json",
+				"relativePath": "resource/"
+			},
+			{
+				"configPath": "resource/barrageSound.res.json",
+				"relativePath": "resource/"
+			},
+			{
+				"configPath": "resource/roleHeads.res.json",
+				"relativePath": "resource/"
+			},
+			{
+				"configPath": "resource/gameFiveinARow.res.json",
+				"relativePath": "resource/"
+			},
+			{
+				"configPath": "resource/gameBang.res.json",
+				"relativePath": "resource/"
+			},
+			{
+				"configPath": "resource/default_xiaomi.res.json",
+				"relativePath": "resource/"
+			},
+			{
+				"configPath": "resource/default_local.res.json",
+				"relativePath": "resource/"
+			},
+			{
+				"configPath": "resource/gameFindSomething.res.json",
+				"relativePath": "resource/"
+			},
+			{
+				"configPath": "resource/gameGesture.res.json",
+				"relativePath": "resource/"
+			},
+			{
+				"configPath": "resource/gameTwiceJoy.res.json",
+				"relativePath": "resource/"
+			},
+			{
+				"configPath": "resource/gameLameDeskmate.res.json",
+				"relativePath": "resource/"
+			},
+			{
+				"configPath": "resource/default_wanba.res.json",
+				"relativePath": "resource/"
+			},
+			{
+				"configPath": "resource/gameDormitoryWar.res.json",
+				"relativePath": "resource/"
+			},
+			{
+				"configPath": "resource/gameGoBallistic.res.json",
+				"relativePath": "resource/"
+			},
+			{
+				"configPath": "resource/gameGreedy.res.json",
+				"relativePath": "resource/"
+			},
+			{
+				"configPath": "resource/default_local.res.json",
+				"relativePath": "resource/"
+			},
+			{
+				"configPath": "resource/default_wanba.res.json",
+				"relativePath": "resource/"
+			},
+			{
+				"configPath": "resource/default_xiaomi.res.json",
+				"relativePath": "resource/"
+			},
+			{
+				"configPath": "resource/gameAnimalChess.res.json",
+				"relativePath": "resource/"
+			},
+			{
+				"configPath": "resource/gameBang.res.json",
+				"relativePath": "resource/"
+			},
+			{
+				"configPath": "resource/gameChristmas.res.json",
+				"relativePath": "resource/"
+			},
+			{
+				"configPath": "resource/gameDormitoryWar.res.json",
+				"relativePath": "resource/"
+			},
+			{
+				"configPath": "resource/gameFindSomething.res.json",
+				"relativePath": "resource/"
+			},
+			{
+				"configPath": "resource/gameFiveinARow.res.json",
+				"relativePath": "resource/"
+			},
+			{
+				"configPath": "resource/gameGesture.res.json",
+				"relativePath": "resource/"
+			},
+			{
+				"configPath": "resource/gameGoBallistic.res.json",
+				"relativePath": "resource/"
+			},
+			{
+				"configPath": "resource/gameGreedy.res.json",
+				"relativePath": "resource/"
+			},
+			{
+				"configPath": "resource/gameKingkong.res.json",
+				"relativePath": "resource/"
+			},
+			{
+				"configPath": "resource/gameLameDeskmate.res.json",
+				"relativePath": "resource/"
+			},
+			{
+				"configPath": "resource/gameLeonardFrog.res.json",
+				"relativePath": "resource/"
+			},
+			{
+				"configPath": "resource/gameLongJump.res.json",
+				"relativePath": "resource/"
+			},
+			{
+				"configPath": "resource/gameMasterMind.res.json",
+				"relativePath": "resource/"
+			},
+			{
+				"configPath": "resource/gamePigRun.res.json",
+				"relativePath": "resource/"
+			},
+			{
+				"configPath": "resource/gameRhythmKing.res.json",
+				"relativePath": "resource/"
+			},
+			{
+				"configPath": "resource/gameShooting.res.json",
+				"relativePath": "resource/"
+			},
+			{
+				"configPath": "resource/gameBlockOut.res.json",
+				"relativePath": "resource/"
+			},
+			{
+				"configPath": "resource/gameTwiceJoy.res.json",
+				"relativePath": "resource/"
+			},
+			{
+				"configPath": "resource/roleHeads.res.json",
+				"relativePath": "resource/"
+			},
+			{
+				"configPath": "resource/gameBlockOut.res.json",
+				"relativePath": "resource/"
+			},
+			{
+				"configPath": "resource/default_liaozhan.res.json",
+				"relativePath": "resource/"
+			},
+			{
+				"configPath": "resource/default_liaozhan.res.json",
+				"relativePath": "resource/"
+			},
+			{
+				"configPath": "resource_En/gameAnimalChess.res.json",
+				"relativePath": "resource/"
+			},
+			{
+				"configPath": "resource_En/default_local.res.json",
+				"relativePath": "resource/"
+			},
+			{
+				"configPath": "resource_En/gameFiveinARow.res.json",
+				"relativePath": "resource/"
+			}
+		]
+	},
+	"theme": "resource/default.thm.json"
+}

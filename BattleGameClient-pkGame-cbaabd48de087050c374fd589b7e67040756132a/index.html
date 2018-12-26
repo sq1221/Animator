@@ -1,0 +1,180 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Mini-PK</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="full-screen" content="true" />
+    <meta name="screen-orientation" content="portrait" />
+    <meta name="x5-fullscreen" content="true" />
+    <meta name="360-fullscreen" content="true" />
+    <style>
+        html,
+        body {
+            -ms-touch-action: none;
+            background: #000000;
+            padding: 0;
+            border: 0;
+            margin: 0;
+            height: 100%;
+        }
+    </style>
+    <script>
+        //临时关闭C++显示列表
+        window.nativeRender = false;
+    </script>
+</head>
+
+<body>
+    <div style="margin: auto;width: 100%;height: 100%;" class="egret-player" data-entry-class="Main" data-orientation="auto" data-scale-mode="fixedWidth" data-frame-rate="30"
+data-content-width="640" data-content-height="1136" data-show-paint-rect="false" data-multi-fingered="2" data-show-fps="false"
+data-show-log="false" data-show-fps-style="x:0,y:0,size:12,textColor:0xffffff,bgAlpha:0.9">
+</div>
+<script>
+
+    // window.onerror = function (errorMessage, scriptURI, lineNumber, columnNumber, errorObj) {
+    //     alert("错误信息：" + errorMessage);
+    //     alert("出错文件：" + scriptURI + " 出错行列号：" + lineNumber + "/" + columnNumber);
+    //     return true
+    // }
+
+    var loadScript = function (list, callback) {
+        var loaded = 0;
+        var loadNext = function () {
+            loadSingleScript(list[loaded], function () {
+                loaded++;
+                if (loaded >= list.length) {
+                    callback();
+                }
+                else {
+                    loadNext();
+                }
+            })
+        };
+        loadNext();
+    };
+
+    var loadSingleScript = function (src, callback) {
+        var s = document.createElement('script');
+        s.async = false;
+        s.src = src;
+        s.addEventListener('load', function () {
+            s.parentNode.removeChild(s);
+            s.removeEventListener('load', arguments.callee, false);
+            callback();
+        }, false);
+        s.addEventListener('error', function () {
+        }, false)
+        document.body.appendChild(s);
+    };
+
+    var getQueryString = function (name) {
+        var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", "i");
+        var r = window.location.search.substr(1).match(reg);
+        if (r != null) return unescape(r[2]);
+        return null;
+    }
+
+    var games = {
+        1: "kingkong",
+        2: "christmas",
+        3: "shooting",
+        4: "pigrun",
+        5: "leonardfrog",
+        6: "animalchess",
+        7: "rhythmking",
+        8: "mastermind",
+        10: "bang",
+        11: "longJump",
+        12: "fiveinarow",
+        15: "findSomething",
+        16: "gesture",
+        17: "twicejoy",
+        18: "blockout",
+        19: "lamedeskmate",
+        20: "dormitorywar",
+        21: "goballistic",
+        22: "greedy"
+    };
+    var gamesStatistics = {
+        1: 500599524,
+        2: 500591749,
+        4: 500591752,
+        6: 500591755,
+        10: 500591758,
+        11: 500591760,
+        12: 500591763,
+        16: 500599526
+    };
+
+    //手动指定游戏
+    if (!getQueryString("egretGid")) {
+        window.location.href = window.location.href + "?egretGid=6";
+    } else {
+        window["egretGid"] = getQueryString("egretGid")
+    }
+
+    var xhr = new XMLHttpRequest();
+    xhr.open('GET', './manifest.json', true);
+    xhr.addEventListener("load", function () {
+        var manifest = JSON.parse(xhr.response);
+        var gameId = getQueryString("egretGid");
+        var gameName = games[gameId];
+        var gameFile = "games/" + gameName + "/bin/" + gameName + ".js";
+        var list = manifest.initial.concat(manifest.game).concat(gameFile);
+        loadScript(list, function () {
+            /**
+             * {
+             * "renderMode":, //Engine rendering mode, "canvas" or "webgl"
+             * "audioType": 0 //Use the audio type, 0: default, 2: web audio, 3: audio
+             * "antialias": //Whether the anti-aliasing is enabled in WebGL mode, true: on, false: off, defaults to false
+             * "calculateCanvasScaleFactor": //a function return canvas scale factor
+             * }
+             **/
+            egret.runEgret({
+                renderMode: "webgl", audioType: 0, calculateCanvasScaleFactor: function (context) {
+                    var backingStore = context.backingStorePixelRatio ||
+                        context.webkitBackingStorePixelRatio ||
+                        context.mozBackingStorePixelRatio ||
+                        context.msBackingStorePixelRatio ||
+                        context.oBackingStorePixelRatio ||
+                        context.backingStorePixelRatio || 1;
+                    return (window.devicePixelRatio || 1) / backingStore;
+                }
+            });
+            var _mtac = { "performanceMonitor": 1, "senseQuery": 1 };
+            (function () {
+                var mta = document.createElement("script");
+                mta.src = "http://pingjs.qq.com/h5/stats.js?v2.0.4";
+                mta.setAttribute("name", "MTAH5");
+                var sid = gamesStatistics[gameId];
+                var cid = sid + 1;
+                mta.setAttribute("sid", sid);
+                mta.setAttribute("cid", cid);
+                var s = document.getElementsByTagName("script")[0];
+                s.parentNode.insertBefore(mta, s);
+            })();
+        });
+        var _mtac = { "performanceMonitor": 1, "senseQuery": 1 };
+        (function () {
+            var mta = document.createElement("script");
+            mta.src = "https://pingjs.qq.com/h5/stats.js?v2.0.4";
+            mta.setAttribute("name", "MTAH5");
+            var sid = gamesStatistics[gameId];
+            var cid = sid + 1;
+            mta.setAttribute("sid", sid);
+            mta.setAttribute("cid", cid);
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(mta, s);
+        })();
+    });
+    xhr.addEventListener("error", function () {
+        alert("点击后回平台");
+    }, false);
+    xhr.send(null);
+</script>
+</body>
+
+</html>

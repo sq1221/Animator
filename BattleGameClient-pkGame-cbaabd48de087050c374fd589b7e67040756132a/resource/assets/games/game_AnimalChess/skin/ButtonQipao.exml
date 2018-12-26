@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ButtonQipao"  xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Button id="btn_qipao2" label="Button" y="0" x="4" visible="false">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+			<e:Image id = "bg" width="100%" height="100%" scaleX="-1" x="273" source="qipao_png"/>
+			<e:Image id = "img" horizontalCenter="0" verticalCenter="5" source="express1_1_png"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="btn_qipao3" label="Button" anchorOffsetX="165" width="165" top="0" right="0" visible="false">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image id="bg" width="100%" height="100%" scaleX="-1" x="173" source="qipao_png"/>
+			<e:Image id="img" horizontalCenter="10" verticalCenter="5" source="express1_1_png"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="btn_qipao" label="Button" y="0" x="10" visible="false">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image id="bg" width="100%" height="100%" source="qipao_png"/>
+			<e:Image id="img" horizontalCenter="0" verticalCenter="5" source="express2_1_png"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Image id="img_1" source="express4_9_png" left="0" top="0" visible="false"/>
+	<e:Image id="img_2" source="express4_9_png" top="0" y="10" right="0" visible="false"/>
+</e:Skin>

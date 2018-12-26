@@ -1,0 +1,14 @@
+{
+	"compilerOptions": {
+		"target": "es5",
+		"noImplicitAny": false,
+		"sourceMap": false,
+		"declaration": true,
+		"outFile": "bin/core.js"
+	},
+	"include": [
+		"src",
+		"../libs",
+		"../librarys"
+	]
+}

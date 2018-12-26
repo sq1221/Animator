@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GameExplainSkin" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect anchorOffsetX="0" anchorOffsetY="0" alpha="0.5" left="0" right="0" top="0" bottom="0"/>
+	<e:Image id="img_game" source="explain_game1_png" horizontalCenter="0" verticalCenter="0" anchorOffsetX="270" anchorOffsetY="433"/>
+</e:Skin>

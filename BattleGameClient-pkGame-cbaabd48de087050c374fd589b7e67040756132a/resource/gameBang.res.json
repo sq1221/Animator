@@ -1,0 +1,370 @@
+{
+	"groups": [
+		{
+			"keys": "BA_5s_png,BA_announcement_png,BA_backGround_jpg,BA_bangTip_jpg,BA_blackMask_png,BA_btnBackGround_png,BA_btnBang_png,BA_btnBangPressed_png,BA_font_fnt,BA_font_png,BA_gameTips_png,BA_groundHole_png,BA_headIcoBorder_png,BA_health_png,BA_healthBoard_png,BA_healthGray_png,BA_L_BANG_png,BA_L_BOOM_png,BA_L_DANG_png,BA_L_DENG_png,BA_L_Role_png,BA_lose_png,BA_N_png,BA_notBeHit_png,BA_otherBeHit_png,BA_otherHappy_png,BA_otherRole_png,BA_otherRoleS_png,BA_otherSmoke_png,BA_otherSweat_png,BA_R_BANG_png,BA_R_BOOM_png,BA_R_DANG_png,BA_R_DENG_png,BA_R_Role_png,BA_ready_png,BA_reloading_png,BA_whiteMask_png,BA_win_png,BA_winLight_png,BA_youRole_png,BA_youRoleS_png,BA_youSmoke_png,BA_youSweat_png,BA_boom_apricot_png,BA_boom_blueberry_png,BA_boom_cherry_png,BA_boom_granada_png,BA_boom_grape_png,BA_boom_mulberry_png,BA_fruit_apricot_png,BA_fruit_blueberry_png,BA_fruit_cherry_png,BA_fruit_granada_png,BA_fruit_grape_png,BA_fruit_mulberry_png,BA_bang_mp3,BA_beHit_mp3,BA_bgm_w8ToShoot_mp3,BA_boom_mp3,BA_dang_mp3,BA_deng_mp3,BA_fruitBreak_mp3,BA_gunEffect_mp3,BA_happyAndHitOther_mp3,BA_happyNoHit_mp3,BA_lose_mp3,BA_noHit_mp3,BA_ready_mp3,BA_reload_mp3,BA_win_mp3,BA_fireLight_png",
+			"name": "game_Bang"
+		}
+	],
+	"resources": [
+		{
+			"url": "assets/games/game_Bang/BA_5s.png",
+			"type": "image",
+			"name": "BA_5s_png"
+		},
+		{
+			"url": "assets/games/game_Bang/BA_L_BANG.png",
+			"type": "image",
+			"name": "BA_L_BANG_png"
+		},
+		{
+			"url": "assets/games/game_Bang/BA_L_BOOM.png",
+			"type": "image",
+			"name": "BA_L_BOOM_png"
+		},
+		{
+			"url": "assets/games/game_Bang/BA_L_DANG.png",
+			"type": "image",
+			"name": "BA_L_DANG_png"
+		},
+		{
+			"url": "assets/games/game_Bang/BA_L_DENG.png",
+			"type": "image",
+			"name": "BA_L_DENG_png"
+		},
+		{
+			"url": "assets/games/game_Bang/BA_L_Role.png",
+			"type": "image",
+			"name": "BA_L_Role_png"
+		},
+		{
+			"url": "assets/games/game_Bang/BA_N.png",
+			"type": "image",
+			"name": "BA_N_png"
+		},
+		{
+			"url": "assets/games/game_Bang/BA_R_BANG.png",
+			"type": "image",
+			"name": "BA_R_BANG_png"
+		},
+		{
+			"url": "assets/games/game_Bang/BA_R_BOOM.png",
+			"type": "image",
+			"name": "BA_R_BOOM_png"
+		},
+		{
+			"url": "assets/games/game_Bang/BA_R_DANG.png",
+			"type": "image",
+			"name": "BA_R_DANG_png"
+		},
+		{
+			"url": "assets/games/game_Bang/BA_R_DENG.png",
+			"type": "image",
+			"name": "BA_R_DENG_png"
+		},
+		{
+			"url": "assets/games/game_Bang/BA_R_Role.png",
+			"type": "image",
+			"name": "BA_R_Role_png"
+		},
+		{
+			"url": "assets/games/game_Bang/BA_announcement.png",
+			"type": "image",
+			"name": "BA_announcement_png"
+		},
+		{
+			"url": "assets/games/game_Bang/BA_backGround.jpg",
+			"type": "image",
+			"name": "BA_backGround_jpg"
+		},
+		{
+			"url": "assets/games/game_Bang/BA_bangTip.jpg",
+			"type": "image",
+			"name": "BA_bangTip_jpg"
+		},
+		{
+			"url": "assets/games/game_Bang/BA_blackMask.png",
+			"type": "image",
+			"name": "BA_blackMask_png"
+		},
+		{
+			"url": "assets/games/game_Bang/BA_btnBackGround.png",
+			"type": "image",
+			"name": "BA_btnBackGround_png"
+		},
+		{
+			"url": "assets/games/game_Bang/BA_btnBang.png",
+			"type": "image",
+			"name": "BA_btnBang_png"
+		},
+		{
+			"url": "assets/games/game_Bang/BA_btnBangPressed.png",
+			"type": "image",
+			"name": "BA_btnBangPressed_png"
+		},
+		{
+			"url": "assets/games/game_Bang/BA_font.fnt",
+			"type": "font",
+			"name": "BA_font_fnt"
+		},
+		{
+			"url": "assets/games/game_Bang/BA_font.png",
+			"type": "image",
+			"name": "BA_font_png"
+		},
+		{
+			"url": "assets/games/game_Bang/BA_gameTips.png",
+			"type": "image",
+			"name": "BA_gameTips_png"
+		},
+		{
+			"url": "assets/games/game_Bang/BA_groundHole.png",
+			"type": "image",
+			"name": "BA_groundHole_png"
+		},
+		{
+			"url": "assets/games/game_Bang/BA_headIcoBorder.png",
+			"type": "image",
+			"name": "BA_headIcoBorder_png"
+		},
+		{
+			"url": "assets/games/game_Bang/BA_health.png",
+			"type": "image",
+			"name": "BA_health_png"
+		},
+		{
+			"url": "assets/games/game_Bang/BA_healthBoard.png",
+			"type": "image",
+			"name": "BA_healthBoard_png"
+		},
+		{
+			"url": "assets/games/game_Bang/BA_healthGray.png",
+			"type": "image",
+			"name": "BA_healthGray_png"
+		},
+		{
+			"url": "assets/games/game_Bang/BA_lose.png",
+			"type": "image",
+			"name": "BA_lose_png"
+		},
+		{
+			"url": "assets/games/game_Bang/BA_notBeHit.png",
+			"type": "image",
+			"name": "BA_notBeHit_png"
+		},
+		{
+			"url": "assets/games/game_Bang/BA_otherBeHit.png",
+			"type": "image",
+			"name": "BA_otherBeHit_png"
+		},
+		{
+			"url": "assets/games/game_Bang/BA_otherHappy.png",
+			"type": "image",
+			"name": "BA_otherHappy_png"
+		},
+		{
+			"url": "assets/games/game_Bang/BA_otherRole.png",
+			"type": "image",
+			"name": "BA_otherRole_png"
+		},
+		{
+			"url": "assets/games/game_Bang/BA_otherRoleS.png",
+			"type": "image",
+			"name": "BA_otherRoleS_png"
+		},
+		{
+			"url": "assets/games/game_Bang/BA_otherSmoke.png",
+			"type": "image",
+			"name": "BA_otherSmoke_png"
+		},
+		{
+			"url": "assets/games/game_Bang/BA_otherSweat.png",
+			"type": "image",
+			"name": "BA_otherSweat_png"
+		},
+		{
+			"url": "assets/games/game_Bang/BA_ready.png",
+			"type": "image",
+			"name": "BA_ready_png"
+		},
+		{
+			"url": "assets/games/game_Bang/BA_reloading.png",
+			"type": "image",
+			"name": "BA_reloading_png"
+		},
+		{
+			"url": "assets/games/game_Bang/BA_whiteMask.png",
+			"type": "image",
+			"name": "BA_whiteMask_png"
+		},
+		{
+			"url": "assets/games/game_Bang/BA_win.png",
+			"type": "image",
+			"name": "BA_win_png"
+		},
+		{
+			"url": "assets/games/game_Bang/BA_winLight.png",
+			"type": "image",
+			"name": "BA_winLight_png"
+		},
+		{
+			"url": "assets/games/game_Bang/BA_youRole.png",
+			"type": "image",
+			"name": "BA_youRole_png"
+		},
+		{
+			"url": "assets/games/game_Bang/BA_youRoleS.png",
+			"type": "image",
+			"name": "BA_youRoleS_png"
+		},
+		{
+			"url": "assets/games/game_Bang/BA_youSmoke.png",
+			"type": "image",
+			"name": "BA_youSmoke_png"
+		},
+		{
+			"url": "assets/games/game_Bang/BA_youSweat.png",
+			"type": "image",
+			"name": "BA_youSweat_png"
+		},
+		{
+			"url": "assets/games/game_Bang/boom/BA_boom_apricot.png",
+			"type": "image",
+			"name": "BA_boom_apricot_png"
+		},
+		{
+			"url": "assets/games/game_Bang/boom/BA_boom_blueberry.png",
+			"type": "image",
+			"name": "BA_boom_blueberry_png"
+		},
+		{
+			"url": "assets/games/game_Bang/boom/BA_boom_cherry.png",
+			"type": "image",
+			"name": "BA_boom_cherry_png"
+		},
+		{
+			"url": "assets/games/game_Bang/boom/BA_boom_granada.png",
+			"type": "image",
+			"name": "BA_boom_granada_png"
+		},
+		{
+			"url": "assets/games/game_Bang/boom/BA_boom_grape.png",
+			"type": "image",
+			"name": "BA_boom_grape_png"
+		},
+		{
+			"url": "assets/games/game_Bang/boom/BA_boom_mulberry.png",
+			"type": "image",
+			"name": "BA_boom_mulberry_png"
+		},
+		{
+			"url": "assets/games/game_Bang/fruit/BA_fruit_apricot.png",
+			"type": "image",
+			"name": "BA_fruit_apricot_png"
+		},
+		{
+			"url": "assets/games/game_Bang/fruit/BA_fruit_blueberry.png",
+			"type": "image",
+			"name": "BA_fruit_blueberry_png"
+		},
+		{
+			"url": "assets/games/game_Bang/fruit/BA_fruit_cherry.png",
+			"type": "image",
+			"name": "BA_fruit_cherry_png"
+		},
+		{
+			"url": "assets/games/game_Bang/fruit/BA_fruit_granada.png",
+			"type": "image",
+			"name": "BA_fruit_granada_png"
+		},
+		{
+			"url": "assets/games/game_Bang/fruit/BA_fruit_grape.png",
+			"type": "image",
+			"name": "BA_fruit_grape_png"
+		},
+		{
+			"url": "assets/games/game_Bang/fruit/BA_fruit_mulberry.png",
+			"type": "image",
+			"name": "BA_fruit_mulberry_png"
+		},
+		{
+			"url": "assets/games/game_Bang/sound/BA_bang.mp3",
+			"type": "sound",
+			"name": "BA_bang_mp3"
+		},
+		{
+			"url": "assets/games/game_Bang/sound/BA_beHit.mp3",
+			"type": "sound",
+			"name": "BA_beHit_mp3"
+		},
+		{
+			"url": "assets/games/game_Bang/sound/BA_bgm_w8ToShoot.mp3",
+			"type": "sound",
+			"name": "BA_bgm_w8ToShoot_mp3"
+		},
+		{
+			"url": "assets/games/game_Bang/sound/BA_boom.mp3",
+			"type": "sound",
+			"name": "BA_boom_mp3"
+		},
+		{
+			"url": "assets/games/game_Bang/sound/BA_dang.mp3",
+			"type": "sound",
+			"name": "BA_dang_mp3"
+		},
+		{
+			"url": "assets/games/game_Bang/sound/BA_deng.mp3",
+			"type": "sound",
+			"name": "BA_deng_mp3"
+		},
+		{
+			"url": "assets/games/game_Bang/sound/BA_fruitBreak.mp3",
+			"type": "sound",
+			"name": "BA_fruitBreak_mp3"
+		},
+		{
+			"url": "assets/games/game_Bang/sound/BA_gunEffect.mp3",
+			"type": "sound",
+			"name": "BA_gunEffect_mp3"
+		},
+		{
+			"url": "assets/games/game_Bang/sound/BA_happyAndHitOther.mp3",
+			"type": "sound",
+			"name": "BA_happyAndHitOther_mp3"
+		},
+		{
+			"url": "assets/games/game_Bang/sound/BA_happyNoHit.mp3",
+			"type": "sound",
+			"name": "BA_happyNoHit_mp3"
+		},
+		{
+			"url": "assets/games/game_Bang/sound/BA_lose.mp3",
+			"type": "sound",
+			"name": "BA_lose_mp3"
+		},
+		{
+			"url": "assets/games/game_Bang/sound/BA_noHit.mp3",
+			"type": "sound",
+			"name": "BA_noHit_mp3"
+		},
+		{
+			"url": "assets/games/game_Bang/sound/BA_ready.mp3",
+			"type": "sound",
+			"name": "BA_ready_mp3"
+		},
+		{
+			"url": "assets/games/game_Bang/sound/BA_reload.mp3",
+			"type": "sound",
+			"name": "BA_reload_mp3"
+		},
+		{
+			"url": "assets/games/game_Bang/sound/BA_win.mp3",
+			"type": "sound",
+			"name": "BA_win_mp3"
+		},
+		{
+			"url": "assets/games/game_Bang/BA_fireLight.png",
+			"type": "image",
+			"name": "BA_fireLight_png"
+		}
+	]
+}

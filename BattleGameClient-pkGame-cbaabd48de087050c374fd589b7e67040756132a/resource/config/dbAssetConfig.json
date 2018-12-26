@@ -1,0 +1,88 @@
+{
+    "db": {
+        "0": [
+            "dbxiaoren00",
+            "MusicZ",
+            "pipei",
+            "winloser",
+            "loading",
+            "winhua",
+            "gold",
+            "Waiting"
+        ],
+        "1": [
+            "dbxiaoren00_game2",
+            "ground",
+            "kingkong",
+            "kingkongItem",
+            "ui",
+            "xingxingbutton"
+        ],
+        "2": [
+            "santa",
+            "zongselu",
+            "ziselu"
+        ],
+        "3": [
+            "pao",
+            "shooting_Button"
+        ],
+        "4": [
+            "zhu",
+            "PR_btns",
+            "pigD",
+            "boomSmoke"
+        ],
+        "5": [
+            "lotus",
+            "dbxiaoren00_game1"
+        ],
+        "6": [
+            "chiji",
+            "shengli",
+            "dbxiaoren00_game6"
+        ],
+        "7": [
+            "dbxiaoren00_game7"
+        ],
+        "8": [
+            "dbxiaoren00_game8",
+            "mastermind_boom"
+        ],
+        "9": [],
+        "10": [],
+        "11": [
+            "wa1",
+            "Fang_1",
+            "floatScore",
+            "bo"
+        ],
+        "12": [],
+        "15": [],
+        "16": [
+            "GT_cheng1",
+            "GT_balloon1",
+            "GT_boom",
+            "GT_blue",
+            "GT_green",
+            "GT_king",
+            "GT_powder",
+            "GT_red",
+            "GT_smoke"
+        ],
+        "17": [],
+        "18": [],
+        "19": [],
+        "20": [
+            "upLeftStudent",
+            "upRightStudent",
+            "suGuan"
+        ],
+        "21": [
+            "mutouren"
+        ],
+        "22": [
+            "vikings"
+        ]
+    }
+}

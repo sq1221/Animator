@@ -1,0 +1,679 @@
+{
+	"groups":[{
+			"keys":"ItemConfig_json,FindSomethingTipRed_png,FindSometingBG_png,FindSometingTip1_png,FindSometingTip2_png,FindSometingTip3_png,FindSomethingMask_png,FindSomethingScore_png,FindSomethingTip_png,FindSomethingTipBlue_png,FindSomethingScoreEmpty_png,FindSometingTip0_png,FindSomethingV_png,FindSomethingCloud_png,FindSomethingWhite_jpg,FindSomething_yq1_png,FindSomething_yq2_png,FindSomething_yun2_png,FindSomething_yun4_png,FindSomething_yun5_png,FindSomething_yun6_png,FindSomething_yushi1_png,FindSomething_yushi2_png,FindSomething_yushi3_png,FindSomething_yushi4_png,FindSomething_yushi5_png,FindSomething_yushi6_png,FindSomething_zimu1_png,FindSomething_zimu2_png,FindSomething_zimu3_png,FindSomething_zimu4_png,FindSomething_zimu5_png,FindSomething_zimu6_png,FindSomething_zimu7_png,FindSomething_bao1_png,FindSomething_bao4_png,FindSomething_bao5_png,FindSomething_bao6_png,FindSomething_bao7_png,FindSomething_bb1_png,FindSomething_bb2_png,FindSomething_bb3_png,FindSomething_bb4_png,FindSomething_dongwu1_png,FindSomething_dongwu3_png,FindSomething_dongwu4_png,FindSomething_ez1_png,FindSomething_fushi1_png,FindSomething_fushi2_png,FindSomething_fushi3_png,FindSomething_fushi4_png,FindSomething_fushi5_png,FindSomething_fushi6_png,FindSomething_fushi7_png,FindSomething_fushi9_png,FindSomething_g1_png,FindSomething_g2_png,FindSomething_g3_png,FindSomething_guaiwu1_png,FindSomething_guaiwu2_png,FindSomething_guaiwu3_png,FindSomething_guaiwu4_png,FindSomething_guaiwu5_png,FindSomething_guaiwu6_png,FindSomething_jiaotong2_png,FindSomething_jiaotong4_png,FindSomething_jiaotong6_png,FindSomething_jiaotong7_png,FindSomething_jiaotong8_png,FindSomething_jiaotong9_png,FindSomething_jj1_png,FindSomething_jj2_png,FindSomething_jj3_png,FindSomething_jj4_png,FindSomething_mm1_png,FindSomething_mm2_png,FindSomething_qiu1_png,FindSomething_qiu2_png,FindSomething_qiu4_png,FindSomething_qiu5_png,FindSomething_qiu6_png,FindSomething_sg1_png,FindSomething_sg2_png,FindSomething_sg3_png,FindSomething_sg4_png,FindSomething_sg5_png,FindSomething_shuihu1_png,FindSomething_shuihu2_png,FindSomething_shuihu3_png,FindSomething_shuihu4_png,FindSomething_sw1_png,FindSomething_sw2_png,FindSomething_sw4_png,FindSomething_sw5_png,FindSomething_wuqi1_png,FindSomething_wuqi2_png,FindSomething_wuqi3_png,FindSomething_wuqi4_png,FindSomething_wuqi5_png,FindSomething_ww1_png,FindSomething_ww2_png,FindSomething_xiaolian2_png,FindSomething_xiaolian4_png,FindSomething_xiaolian6_png,FindSomething_xingxing1_png,FindSomething_xingxing2_png,FindSomething_xingxing3_png,FindSomething_xx1_png,FindSomething_yachi2_png,FindSomething_yachi3_png,FindSomething_yanjing1_png,FindSomething_yanjing2_png,FindSomething_yanjing3_png,FindSomething_yanjing7_png,FindSomething_yf1_png,FindSomething_yijia1_png,FindSomething_yijia2_png,FindSomething_yiliao1_png,FindSomething_yiliao2_png,FindSomething_yiliao3_png,FindSomething_yiliao5_png,FindSomethingX_png,FindSomethingTiptip_png,FindSomethingScoreEmpty1_png,MM_greet_png",
+			"name":"game_FindSomething"
+		}],
+	"resources":[
+		{
+			"keys": "ItemConfig_json,FindSomethingTipRed_png,FindSometingBG_png,FindSometingTip1_png,FindSometingTip2_png,FindSometingTip3_png,FindSomethingMask_png,FindSomethingScore_png,FindSomethingTip_png,FindSomethingTipBlue_png,FindSomethingScoreEmpty_png,FindSometingTip0_png,FindSomethingV_png,FindSomethingCloud_png,FindSomethingWhite_jpg,FindSomething_yq1_png,FindSomething_yq2_png,FindSomething_yun2_png,FindSomething_yun4_png,FindSomething_yun5_png,FindSomething_yun6_png,FindSomething_yushi1_png,FindSomething_yushi2_png,FindSomething_yushi3_png,FindSomething_yushi4_png,FindSomething_yushi5_png,FindSomething_yushi6_png,FindSomething_zimu1_png,FindSomething_zimu2_png,FindSomething_zimu3_png,FindSomething_zimu4_png,FindSomething_zimu5_png,FindSomething_zimu6_png,FindSomething_zimu7_png,FindSomething_bao1_png,FindSomething_bao4_png,FindSomething_bao5_png,FindSomething_bao6_png,FindSomething_bao7_png,FindSomething_bb1_png,FindSomething_bb2_png,FindSomething_bb3_png,FindSomething_bb4_png,FindSomething_dongwu1_png,FindSomething_dongwu3_png,FindSomething_dongwu4_png,FindSomething_ez1_png,FindSomething_fushi1_png,FindSomething_fushi2_png,FindSomething_fushi3_png,FindSomething_fushi4_png,FindSomething_fushi5_png,FindSomething_fushi6_png,FindSomething_fushi7_png,FindSomething_fushi9_png,FindSomething_g1_png,FindSomething_g2_png,FindSomething_g3_png,FindSomething_guaiwu1_png,FindSomething_guaiwu2_png,FindSomething_guaiwu3_png,FindSomething_guaiwu4_png,FindSomething_guaiwu5_png,FindSomething_guaiwu6_png,FindSomething_jiaotong2_png,FindSomething_jiaotong4_png,FindSomething_jiaotong6_png,FindSomething_jiaotong7_png,FindSomething_jiaotong8_png,FindSomething_jiaotong9_png,FindSomething_jj1_png,FindSomething_jj2_png,FindSomething_jj3_png,FindSomething_jj4_png,FindSomething_mm1_png,FindSomething_mm2_png,FindSomething_qiu1_png,FindSomething_qiu2_png,FindSomething_qiu4_png,FindSomething_qiu5_png,FindSomething_qiu6_png,FindSomething_sg1_png,FindSomething_sg2_png,FindSomething_sg3_png,FindSomething_sg4_png,FindSomething_sg5_png,FindSomething_shuihu1_png,FindSomething_shuihu2_png,FindSomething_shuihu3_png,FindSomething_shuihu4_png,FindSomething_sw1_png,FindSomething_sw2_png,FindSomething_sw4_png,FindSomething_sw5_png,FindSomething_wuqi1_png,FindSomething_wuqi2_png,FindSomething_wuqi3_png,FindSomething_wuqi4_png,FindSomething_wuqi5_png,FindSomething_ww1_png,FindSomething_ww2_png,FindSomething_xiaolian2_png,FindSomething_xiaolian4_png,FindSomething_xiaolian6_png,FindSomething_xingxing1_png,FindSomething_xingxing2_png,FindSomething_xingxing3_png,FindSomething_xx1_png,FindSomething_yachi2_png,FindSomething_yachi3_png,FindSomething_yanjing1_png,FindSomething_yanjing2_png,FindSomething_yanjing3_png,FindSomething_yanjing7_png,FindSomething_yf1_png,FindSomething_yijia1_png,FindSomething_yijia2_png,FindSomething_yiliao1_png,FindSomething_yiliao2_png,FindSomething_yiliao3_png,FindSomething_yiliao5_png,FindSomethingX_png,FindSomethingTiptip_png,FindSomethingScoreEmpty1_png,MM_greet_png",
+			"name": "game_FindSomething"
+		}
+	],
+	"resources": [
+		{
+			"url": "assets/games/game_FindSomething/ItemConfig.json",
+			"type": "json",
+			"name": "ItemConfig_json"
+		},
+		{
+			"url": "assets/games/game_FindSomething/FindSomethingTipRed.png",
+			"type": "image",
+			"name": "FindSomethingTipRed_png"
+		},
+		{
+			"url": "assets/games/game_FindSomething/FindSometingBG.png",
+			"type": "image",
+			"name": "FindSometingBG_png"
+		},
+		{
+			"url": "assets/games/game_FindSomething/FindSometingTip1.png",
+			"type": "image",
+			"name": "FindSometingTip1_png"
+		},
+		{
+			"url": "assets/games/game_FindSomething/FindSometingTip2.png",
+			"type": "image",
+			"name": "FindSometingTip2_png"
+		},
+		{
+			"url": "assets/games/game_FindSomething/FindSometingTip3.png",
+			"type": "image",
+			"name": "FindSometingTip3_png"
+		},
+		{
+			"url": "assets/games/game_FindSomething/FindSomethingMask.png",
+			"type": "image",
+			"name": "FindSomethingMask_png"
+		},
+		{
+			"url": "assets/games/game_FindSomething/FindSomethingScore.png",
+			"type": "image",
+			"name": "FindSomethingScore_png"
+		},
+		{
+			"url": "assets/games/game_FindSomething/FindSomethingTip.png",
+			"type": "image",
+			"name": "FindSomethingTip_png"
+		},
+		{
+			"url": "assets/games/game_FindSomething/FindSomethingTipBlue.png",
+			"type": "image",
+			"name": "FindSomethingTipBlue_png"
+		},
+		{
+			"url": "assets/games/game_FindSomething/FindSomethingScoreEmpty.png",
+			"type": "image",
+			"name": "FindSomethingScoreEmpty_png"
+		},
+		{
+			"url": "assets/games/game_FindSomething/FindSometingTip0.png",
+			"type": "image",
+			"name": "FindSometingTip0_png"
+		},
+		{
+			"url": "assets/games/game_FindSomething/FindSomethingV.png",
+			"type": "image",
+			"name": "FindSomethingV_png"
+		},
+		{
+			"url": "assets/games/game_FindSomething/FindSomethingCloud.png",
+			"type": "image",
+			"name": "FindSomethingCloud_png"
+		},
+		{
+			"url": "assets/games/game_FindSomething/FindSomethingWhite.jpg",
+			"type": "image",
+			"name": "FindSomethingWhite_jpg"
+		},
+		{
+			"url": "assets/games/game_FindSomething/FIndSomethingRight.mp3",
+			"type": "sound",
+			"name": "FIndSomethingRight_mp3"
+		},
+		{
+			"url": "assets/games/game_FindSomething/FindSomethingTip.mp3",
+			"type": "sound",
+			"name": "FindSomethingTip_mp3"
+		},
+		{
+			"url": "assets/games/game_FindSomething/FindSomethingBGMusic.mp3",
+			"type": "sound",
+			"name": "FindSomethingBGMusic_mp3"
+		},
+		{
+			"url": "assets/games/game_FindSomething/FindSomething_yq1.png",
+			"type": "image",
+			"name": "FindSomething_yq1_png"
+		},
+		{
+			"url": "assets/games/game_FindSomething/FindSomething_yq2.png",
+			"type": "image",
+			"name": "FindSomething_yq2_png"
+		},
+		{
+			"url": "assets/games/game_FindSomething/FindSomething_yun2.png",
+			"type": "image",
+			"name": "FindSomething_yun2_png"
+		},
+		{
+			"url": "assets/games/game_FindSomething/FindSomething_yun4.png",
+			"type": "image",
+			"name": "FindSomething_yun4_png"
+		},
+		{
+			"url": "assets/games/game_FindSomething/FindSomething_yun5.png",
+			"type": "image",
+			"name": "FindSomething_yun5_png"
+		},
+		{
+			"url": "assets/games/game_FindSomething/FindSomething_yun6.png",
+			"type": "image",
+			"name": "FindSomething_yun6_png"
+		},
+		{
+			"url": "assets/games/game_FindSomething/FindSomething_yushi1.png",
+			"type": "image",
+			"name": "FindSomething_yushi1_png"
+		},
+		{
+			"url": "assets/games/game_FindSomething/FindSomething_yushi2.png",
+			"type": "image",
+			"name": "FindSomething_yushi2_png"
+		},
+		{
+			"url": "assets/games/game_FindSomething/FindSomething_yushi3.png",
+			"type": "image",
+			"name": "FindSomething_yushi3_png"
+		},
+		{
+			"url": "assets/games/game_FindSomething/FindSomething_yushi4.png",
+			"type": "image",
+			"name": "FindSomething_yushi4_png"
+		},
+		{
+			"url": "assets/games/game_FindSomething/FindSomething_yushi5.png",
+			"type": "image",
+			"name": "FindSomething_yushi5_png"
+		},
+		{
+			"url": "assets/games/game_FindSomething/FindSomething_yushi6.png",
+			"type": "image",
+			"name": "FindSomething_yushi6_png"
+		},
+		{
+			"url": "assets/games/game_FindSomething/FindSomething_zimu1.png",
+			"type": "image",
+			"name": "FindSomething_zimu1_png"
+		},
+		{
+			"url": "assets/games/game_FindSomething/FindSomething_zimu2.png",
+			"type": "image",
+			"name": "FindSomething_zimu2_png"
+		},
+		{
+			"url": "assets/games/game_FindSomething/FindSomething_zimu3.png",
+			"type": "image",
+			"name": "FindSomething_zimu3_png"
+		},
+		{
+			"url": "assets/games/game_FindSomething/FindSomething_zimu4.png",
+			"type": "image",
+			"name": "FindSomething_zimu4_png"
+		},
+		{
+			"url": "assets/games/game_FindSomething/FindSomething_zimu5.png",
+			"type": "image",
+			"name": "FindSomething_zimu5_png"
+		},
+		{
+			"url": "assets/games/game_FindSomething/FindSomething_zimu6.png",
+			"type": "image",
+			"name": "FindSomething_zimu6_png"
+		},
+		{
+			"url": "assets/games/game_FindSomething/FindSomething_zimu7.png",
+			"type": "image",
+			"name": "FindSomething_zimu7_png"
+		},
+		{
+			"url": "assets/games/game_FindSomething/FindSomethingRight.mp3",
+			"type": "sound",
+			"name": "FindSomethingRight_mp3"
+		},
+		{
+			"url": "assets/games/game_FindSomething/FingSomethingFalse.mp3",
+			"type": "sound",
+			"name": "FingSomethingFalse_mp3"
+		},
+		{
+			"url": "assets/games/game_FindSomething/skin/GameFindSomethingViewSkin.exml",
+			"type": "bin",
+			"name": "GameFindSomethingViewSkin_exml"
+		},
+		{
+			"url": "assets/games/game_FindSomething/FindSomething_bao1.png",
+			"type": "image",
+			"name": "FindSomething_bao1_png"
+		},
+		{
+			"url": "assets/games/game_FindSomething/FindSomething_bao4.png",
+			"type": "image",
+			"name": "FindSomething_bao4_png"
+		},
+		{
+			"url": "assets/games/game_FindSomething/FindSomething_bao5.png",
+			"type": "image",
+			"name": "FindSomething_bao5_png"
+		},
+		{
+			"url": "assets/games/game_FindSomething/FindSomething_bao6.png",
+			"type": "image",
+			"name": "FindSomething_bao6_png"
+		},
+		{
+			"url": "assets/games/game_FindSomething/FindSomething_bao7.png",
+			"type": "image",
+			"name": "FindSomething_bao7_png"
+		},
+		{
+			"url": "assets/games/game_FindSomething/FindSomething_bb1.png",
+			"type": "image",
+			"name": "FindSomething_bb1_png"
+		},
+		{
+			"url": "assets/games/game_FindSomething/FindSomething_bb2.png",
+			"type": "image",
+			"name": "FindSomething_bb2_png"
+		},
+		{
+			"url": "assets/games/game_FindSomething/FindSomething_bb3.png",
+			"type": "image",
+			"name": "FindSomething_bb3_png"
+		},
+		{
+			"url": "assets/games/game_FindSomething/FindSomething_bb4.png",
+			"type": "image",
+			"name": "FindSomething_bb4_png"
+		},
+		{
+			"url": "assets/games/game_FindSomething/FindSomething_dongwu1.png",
+			"type": "image",
+			"name": "FindSomething_dongwu1_png"
+		},
+		{
+			"url": "assets/games/game_FindSomething/FindSomething_dongwu3.png",
+			"type": "image",
+			"name": "FindSomething_dongwu3_png"
+		},
+		{
+			"url": "assets/games/game_FindSomething/FindSomething_dongwu4.png",
+			"type": "image",
+			"name": "FindSomething_dongwu4_png"
+		},
+		{
+			"url": "assets/games/game_FindSomething/FindSomething_ez1.png",
+			"type": "image",
+			"name": "FindSomething_ez1_png"
+		},
+		{
+			"url": "assets/games/game_FindSomething/FindSomething_fushi1.png",
+			"type": "image",
+			"name": "FindSomething_fushi1_png"
+		},
+		{
+			"url": "assets/games/game_FindSomething/FindSomething_fushi2.png",
+			"type": "image",
+			"name": "FindSomething_fushi2_png"
+		},
+		{
+			"url": "assets/games/game_FindSomething/FindSomething_fushi3.png",
+			"type": "image",
+			"name": "FindSomething_fushi3_png"
+		},
+		{
+			"url": "assets/games/game_FindSomething/FindSomething_fushi4.png",
+			"type": "image",
+			"name": "FindSomething_fushi4_png"
+		},
+		{
+			"url": "assets/games/game_FindSomething/FindSomething_fushi5.png",
+			"type": "image",
+			"name": "FindSomething_fushi5_png"
+		},
+		{
+			"url": "assets/games/game_FindSomething/FindSomething_fushi6.png",
+			"type": "image",
+			"name": "FindSomething_fushi6_png"
+		},
+		{
+			"url": "assets/games/game_FindSomething/FindSomething_fushi7.png",
+			"type": "image",
+			"name": "FindSomething_fushi7_png"
+		},
+		{
+			"url": "assets/games/game_FindSomething/FindSomething_fushi9.png",
+			"type": "image",
+			"name": "FindSomething_fushi9_png"
+		},
+		{
+			"url": "assets/games/game_FindSomething/FindSomething_g1.png",
+			"type": "image",
+			"name": "FindSomething_g1_png"
+		},
+		{
+			"url": "assets/games/game_FindSomething/FindSomething_g2.png",
+			"type": "image",
+			"name": "FindSomething_g2_png"
+		},
+		{
+			"url": "assets/games/game_FindSomething/FindSomething_g3.png",
+			"type": "image",
+			"name": "FindSomething_g3_png"
+		},
+		{
+			"url": "assets/games/game_FindSomething/FindSomething_guaiwu1.png",
+			"type": "image",
+			"name": "FindSomething_guaiwu1_png"
+		},
+		{
+			"url": "assets/games/game_FindSomething/FindSomething_guaiwu2.png",
+			"type": "image",
+			"name": "FindSomething_guaiwu2_png"
+		},
+		{
+			"url": "assets/games/game_FindSomething/FindSomething_guaiwu3.png",
+			"type": "image",
+			"name": "FindSomething_guaiwu3_png"
+		},
+		{
+			"url": "assets/games/game_FindSomething/FindSomething_guaiwu4.png",
+			"type": "image",
+			"name": "FindSomething_guaiwu4_png"
+		},
+		{
+			"url": "assets/games/game_FindSomething/FindSomething_guaiwu5.png",
+			"type": "image",
+			"name": "FindSomething_guaiwu5_png"
+		},
+		{
+			"url": "assets/games/game_FindSomething/FindSomething_guaiwu6.png",
+			"type": "image",
+			"name": "FindSomething_guaiwu6_png"
+		},
+		{
+			"url": "assets/games/game_FindSomething/FindSomething_jiaotong2.png",
+			"type": "image",
+			"name": "FindSomething_jiaotong2_png"
+		},
+		{
+			"url": "assets/games/game_FindSomething/FindSomething_jiaotong4.png",
+			"type": "image",
+			"name": "FindSomething_jiaotong4_png"
+		},
+		{
+			"url": "assets/games/game_FindSomething/FindSomething_jiaotong6.png",
+			"type": "image",
+			"name": "FindSomething_jiaotong6_png"
+		},
+		{
+			"url": "assets/games/game_FindSomething/FindSomething_jiaotong7.png",
+			"type": "image",
+			"name": "FindSomething_jiaotong7_png"
+		},
+		{
+			"url": "assets/games/game_FindSomething/FindSomething_jiaotong8.png",
+			"type": "image",
+			"name": "FindSomething_jiaotong8_png"
+		},
+		{
+			"url": "assets/games/game_FindSomething/FindSomething_jiaotong9.png",
+			"type": "image",
+			"name": "FindSomething_jiaotong9_png"
+		},
+		{
+			"url": "assets/games/game_FindSomething/FindSomething_jj1.png",
+			"type": "image",
+			"name": "FindSomething_jj1_png"
+		},
+		{
+			"url": "assets/games/game_FindSomething/FindSomething_jj2.png",
+			"type": "image",
+			"name": "FindSomething_jj2_png"
+		},
+		{
+			"url": "assets/games/game_FindSomething/FindSomething_jj3.png",
+			"type": "image",
+			"name": "FindSomething_jj3_png"
+		},
+		{
+			"url": "assets/games/game_FindSomething/FindSomething_jj4.png",
+			"type": "image",
+			"name": "FindSomething_jj4_png"
+		},
+		{
+			"url": "assets/games/game_FindSomething/FindSomething_mm1.png",
+			"type": "image",
+			"name": "FindSomething_mm1_png"
+		},
+		{
+			"url": "assets/games/game_FindSomething/FindSomething_mm2.png",
+			"type": "image",
+			"name": "FindSomething_mm2_png"
+		},
+		{
+			"url": "assets/games/game_FindSomething/FindSomething_qiu1.png",
+			"type": "image",
+			"name": "FindSomething_qiu1_png"
+		},
+		{
+			"url": "assets/games/game_FindSomething/FindSomething_qiu2.png",
+			"type": "image",
+			"name": "FindSomething_qiu2_png"
+		},
+		{
+			"url": "assets/games/game_FindSomething/FindSomething_qiu4.png",
+			"type": "image",
+			"name": "FindSomething_qiu4_png"
+		},
+		{
+			"url": "assets/games/game_FindSomething/FindSomething_qiu5.png",
+			"type": "image",
+			"name": "FindSomething_qiu5_png"
+		},
+		{
+			"url": "assets/games/game_FindSomething/FindSomething_qiu6.png",
+			"type": "image",
+			"name": "FindSomething_qiu6_png"
+		},
+		{
+			"url": "assets/games/game_FindSomething/FindSomething_sg1.png",
+			"type": "image",
+			"name": "FindSomething_sg1_png"
+		},
+		{
+			"url": "assets/games/game_FindSomething/FindSomething_sg2.png",
+			"type": "image",
+			"name": "FindSomething_sg2_png"
+		},
+		{
+			"url": "assets/games/game_FindSomething/FindSomething_sg3.png",
+			"type": "image",
+			"name": "FindSomething_sg3_png"
+		},
+		{
+			"url": "assets/games/game_FindSomething/FindSomething_sg4.png",
+			"type": "image",
+			"name": "FindSomething_sg4_png"
+		},
+		{
+			"url": "assets/games/game_FindSomething/FindSomething_sg5.png",
+			"type": "image",
+			"name": "FindSomething_sg5_png"
+		},
+		{
+			"url": "assets/games/game_FindSomething/FindSomething_shuihu1.png",
+			"type": "image",
+			"name": "FindSomething_shuihu1_png"
+		},
+		{
+			"url": "assets/games/game_FindSomething/FindSomething_shuihu2.png",
+			"type": "image",
+			"name": "FindSomething_shuihu2_png"
+		},
+		{
+			"url": "assets/games/game_FindSomething/FindSomething_shuihu3.png",
+			"type": "image",
+			"name": "FindSomething_shuihu3_png"
+		},
+		{
+			"url": "assets/games/game_FindSomething/FindSomething_shuihu4.png",
+			"type": "image",
+			"name": "FindSomething_shuihu4_png"
+		},
+		{
+			"url": "assets/games/game_FindSomething/FindSomething_sw1.png",
+			"type": "image",
+			"name": "FindSomething_sw1_png"
+		},
+		{
+			"url": "assets/games/game_FindSomething/FindSomething_sw2.png",
+			"type": "image",
+			"name": "FindSomething_sw2_png"
+		},
+		{
+			"url": "assets/games/game_FindSomething/FindSomething_sw4.png",
+			"type": "image",
+			"name": "FindSomething_sw4_png"
+		},
+		{
+			"url": "assets/games/game_FindSomething/FindSomething_sw5.png",
+			"type": "image",
+			"name": "FindSomething_sw5_png"
+		},
+		{
+			"url": "assets/games/game_FindSomething/FindSomething_wuqi1.png",
+			"type": "image",
+			"name": "FindSomething_wuqi1_png"
+		},
+		{
+			"url": "assets/games/game_FindSomething/FindSomething_wuqi2.png",
+			"type": "image",
+			"name": "FindSomething_wuqi2_png"
+		},
+		{
+			"url": "assets/games/game_FindSomething/FindSomething_wuqi3.png",
+			"type": "image",
+			"name": "FindSomething_wuqi3_png"
+		},
+		{
+			"url": "assets/games/game_FindSomething/FindSomething_wuqi4.png",
+			"type": "image",
+			"name": "FindSomething_wuqi4_png"
+		},
+		{
+			"url": "assets/games/game_FindSomething/FindSomething_wuqi5.png",
+			"type": "image",
+			"name": "FindSomething_wuqi5_png"
+		},
+		{
+			"url": "assets/games/game_FindSomething/FindSomething_ww1.png",
+			"type": "image",
+			"name": "FindSomething_ww1_png"
+		},
+		{
+			"url": "assets/games/game_FindSomething/FindSomething_ww2.png",
+			"type": "image",
+			"name": "FindSomething_ww2_png"
+		},
+		{
+			"url": "assets/games/game_FindSomething/FindSomething_xiaolian2.png",
+			"type": "image",
+			"name": "FindSomething_xiaolian2_png"
+		},
+		{
+			"url": "assets/games/game_FindSomething/FindSomething_xiaolian4.png",
+			"type": "image",
+			"name": "FindSomething_xiaolian4_png"
+		},
+		{
+			"url": "assets/games/game_FindSomething/FindSomething_xiaolian6.png",
+			"type": "image",
+			"name": "FindSomething_xiaolian6_png"
+		},
+		{
+			"url": "assets/games/game_FindSomething/FindSomething_xingxing1.png",
+			"type": "image",
+			"name": "FindSomething_xingxing1_png"
+		},
+		{
+			"url": "assets/games/game_FindSomething/FindSomething_xingxing2.png",
+			"type": "image",
+			"name": "FindSomething_xingxing2_png"
+		},
+		{
+			"url": "assets/games/game_FindSomething/FindSomething_xingxing3.png",
+			"type": "image",
+			"name": "FindSomething_xingxing3_png"
+		},
+		{
+			"url": "assets/games/game_FindSomething/FindSomething_xx1.png",
+			"type": "image",
+			"name": "FindSomething_xx1_png"
+		},
+		{
+			"url": "assets/games/game_FindSomething/FindSomething_yachi2.png",
+			"type": "image",
+			"name": "FindSomething_yachi2_png"
+		},
+		{
+			"url": "assets/games/game_FindSomething/FindSomething_yachi3.png",
+			"type": "image",
+			"name": "FindSomething_yachi3_png"
+		},
+		{
+			"url": "assets/games/game_FindSomething/FindSomething_yanjing1.png",
+			"type": "image",
+			"name": "FindSomething_yanjing1_png"
+		},
+		{
+			"url": "assets/games/game_FindSomething/FindSomething_yanjing2.png",
+			"type": "image",
+			"name": "FindSomething_yanjing2_png"
+		},
+		{
+			"url": "assets/games/game_FindSomething/FindSomething_yanjing3.png",
+			"type": "image",
+			"name": "FindSomething_yanjing3_png"
+		},
+		{
+			"url": "assets/games/game_FindSomething/FindSomething_yanjing7.png",
+			"type": "image",
+			"name": "FindSomething_yanjing7_png"
+		},
+		{
+			"url": "assets/games/game_FindSomething/FindSomething_yf1.png",
+			"type": "image",
+			"name": "FindSomething_yf1_png"
+		},
+		{
+			"url": "assets/games/game_FindSomething/FindSomething_yijia1.png",
+			"type": "image",
+			"name": "FindSomething_yijia1_png"
+		},
+		{
+			"url": "assets/games/game_FindSomething/FindSomething_yijia2.png",
+			"type": "image",
+			"name": "FindSomething_yijia2_png"
+		},
+		{
+			"url": "assets/games/game_FindSomething/FindSomething_yiliao1.png",
+			"type": "image",
+			"name": "FindSomething_yiliao1_png"
+		},
+		{
+			"url": "assets/games/game_FindSomething/FindSomething_yiliao2.png",
+			"type": "image",
+			"name": "FindSomething_yiliao2_png"
+		},
+		{
+			"url": "assets/games/game_FindSomething/FindSomething_yiliao3.png",
+			"type": "image",
+			"name": "FindSomething_yiliao3_png"
+		},
+		{
+			"url": "assets/games/game_FindSomething/FindSomething_yiliao5.png",
+			"type": "image",
+			"name": "FindSomething_yiliao5_png"
+		},
+		{
+			"url": "assets/games/game_FindSomething/FindSomethingRoundWin.mp3",
+			"type": "sound",
+			"name": "FindSomethingRoundWin_mp3"
+		},
+		{
+			"url": "assets/games/game_FindSomething/FindSomethingX.png",
+			"type": "image",
+			"name": "FindSomethingX_png"
+		},
+		{
+			"url": "assets/games/game_FindSomething/FindSomethingTiptip.png",
+			"type": "image",
+			"name": "FindSomethingTiptip_png"
+		},
+		{
+			"url": "assets/games/game_FindSomething/FindSomethingScoreEmpty1.png",
+			"type": "image",
+			"name": "FindSomethingScoreEmpty1_png"
+		},
+		{
+			"name":"FindSomethingScoreEmpty1_png",
+			"type":"image",
+			"url":"assets/games/game_FindSomething/FindSomethingScoreEmpty1.png"
+		},
+		{
+			"name":"MM_greet_png",
+			"type":"image",
+			"url":"assets/games/game_FindSomething/MM_greet.png"
+		}
+	]
+}

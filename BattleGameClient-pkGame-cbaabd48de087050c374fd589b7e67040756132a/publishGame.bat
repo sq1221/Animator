@@ -1,0 +1,1 @@
+egret publish --version lamedeskmate_v201 && egret publish --version bang_v201  && egret publish --version leonardfrog_v201 && egret publish --version christmas_v201  && egret publish --version fiveinarow_v201  && egret publish --version greedy_v201 && egret publish --version rhythmking_v201 && egret publish --version dormitorywar_v201 && egret publish --version goballistic_v201 

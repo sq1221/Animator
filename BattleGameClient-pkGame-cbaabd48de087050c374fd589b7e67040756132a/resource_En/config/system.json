@@ -1,0 +1,17 @@
+{
+  "initMoney": 500,
+  "matchingBySex_needMoney": 20,
+  "dayMaxMoney": 500,
+  "dayMaxExp": 1000,
+  "winGetMoney": 30,
+  "winGetExp": 50,
+  "loseDeductMoney": 10,
+  "loseGetExp": 50,
+  "shareGetMoney": 100,
+  "dayMaxShareNum": 5,
+  "shareTimeInterval": 60,
+  "flowerMoney": 0.2,
+  "addFriendNeedFlower": 5,
+  "barrageNeedMoney": 100,
+  "dayBarrageFreeNum": 6
+}

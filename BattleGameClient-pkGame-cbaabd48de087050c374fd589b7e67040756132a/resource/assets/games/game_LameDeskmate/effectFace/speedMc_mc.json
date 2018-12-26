@@ -1,0 +1,1 @@
+{"res":{"speed_0":{"x":1,"y":1,"w":640,"h":468},"speed_1":{"x":1,"y":471,"w":640,"h":468}},"file":"speedMc_tex.png","mc":{"speedMc":{"labels":[{"end":2,"frame":1,"name":"speed"}],"frameRate":10,"frames":[{"res":"speed_0","y":-234,"duration":1,"x":-320},{"res":"speed_1","y":-234,"duration":1,"x":-320}],"events":[]}}}

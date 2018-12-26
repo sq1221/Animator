@@ -1,0 +1,529 @@
+{
+	"groups": [
+		{
+			"keys": "btn_cancel1_png,goBack_png,img_boy_png,img_gril_png,tou_png,dbAssetConfig_json,gameConfig_json,levelConfig_json,dbxiaoren00_ske_json,dbxiaoren00_tex_json,dbxiaoren00_tex_png,go_png,ready_png,system_json,pop_bg_png,pop_btn_png,avatar_json,giveUpBG_png,express_kuang1_png,express_kuang2_png,btn_sure_png,LD_icon_png,LD_Logo_png,LD_progress_png,LD_progressBG_png,winhua_ske_json,winhua_tex_json,winhua_tex_png,winloser_ske_json,winloser_tex_json,winloser_tex_png,bg_result_playerLeave_png,bg_result_Other_Giveup_png,bg_result_You_Giveup_png,pot_write_png,barrageAvatarMask_png,pot_zi_png",
+			"name": "preload"
+		},
+		{
+			"keys": "qipao2_png,express_bg_png,express_bg2_png,express1_1_png,express1_2_png,express1_3_png,express1_4_png,express1_5_png,express1_6_png,express2_1_png,express2_2_png,express2_3_png,express2_4_png,express5_2_png,express5_3_png,express5_4_png,express6_1_png,express6_2_png,express6_3_png,express6_4_png,express_bg3_png_png,express_bg4_png_png,express4_1_png,express4_2_png,express4_3_png,express4_4_png,express4_5_png,express4_6_png,express4_7_png,express4_8_png,express4_9_png,express4_10_png,express5_1_png",
+			"name": "gameExpress"
+		}
+	],
+	"resources": [
+		{
+			"url": "assets/common/btn_cancel1.png",
+			"type": "image",
+			"name": "btn_cancel1_png"
+		},
+		{
+			"url": "assets/common/goBack.png",
+			"type": "image",
+			"name": "goBack_png"
+		},
+		{
+			"url": "assets/common/img_boy.png",
+			"type": "image",
+			"name": "img_boy_png"
+		},
+		{
+			"url": "assets/common/img_gril.png",
+			"type": "image",
+			"name": "img_gril_png"
+		},
+		{
+			"url": "assets/common/tou.png",
+			"type": "image",
+			"name": "tou_png"
+		},
+		{
+			"url": "config/levelConfig.json",
+			"type": "json",
+			"name": "levelConfig_json"
+		},
+		{
+			"url": "config/dbAssetConfig.json",
+			"type": "json",
+			"name": "dbAssetConfig_json"
+		},
+		{
+			"url": "config/gameConfig.json",
+			"type": "json",
+			"name": "gameConfig_json"
+		},
+		{
+			"url": "assets/sound/BG.mp3",
+			"type": "sound",
+			"name": "BG_mp3"
+		},
+		{
+			"url": "assets/avatar/dbxiaoren00_ske.json",
+			"type": "json",
+			"name": "dbxiaoren00_ske_json"
+		},
+		{
+			"url": "assets/avatar/dbxiaoren00_tex.json",
+			"type": "json",
+			"name": "dbxiaoren00_tex_json"
+		},
+		{
+			"url": "assets/avatar/dbxiaoren00_tex.png",
+			"type": "image",
+			"name": "dbxiaoren00_tex_png"
+		},
+		{
+			"url": "assets/avatar/dbxiaoren01_ske.json",
+			"type": "json",
+			"name": "dbxiaoren01_ske_json"
+		},
+		{
+			"url": "assets/avatar/dbxiaoren01_tex.json",
+			"type": "json",
+			"name": "dbxiaoren01_tex_json"
+		},
+		{
+			"url": "assets/avatar/dbxiaoren01_tex.png",
+			"type": "image",
+			"name": "dbxiaoren01_tex_png"
+		},
+		{
+			"url": "assets/sound/mouseClickSound.mp3",
+			"type": "sound",
+			"name": "mouseClickSound_mp3"
+		},
+		{
+			"url": "assets/common/go.png",
+			"type": "image",
+			"name": "go_png"
+		},
+		{
+			"url": "assets/common/ready.png",
+			"type": "image",
+			"name": "ready_png"
+		},
+		{
+			"url": "config/system.json",
+			"type": "json",
+			"name": "system_json"
+		},
+		{
+			"url": "assets/sound/readyGo.mp3",
+			"type": "sound",
+			"name": "readyGo_mp3"
+		},
+		{
+			"url": "assets/sound/lose.mp3",
+			"type": "sound",
+			"name": "lose_mp3"
+		},
+		{
+			"url": "assets/sound/win.mp3",
+			"type": "sound",
+			"name": "win_mp3"
+		},
+		{
+			"url": "assets/sound/successSearchSound.mp3",
+			"type": "sound",
+			"name": "successSearchSound_mp3"
+		},
+		{
+			"url": "assets/common/pop_bg.png",
+			"type": "image",
+			"name": "pop_bg_png"
+		},
+		{
+			"url": "assets/common/pop_btn.png",
+			"type": "image",
+			"name": "pop_btn_png"
+		},
+		{
+			"url": "config/avatar.json",
+			"type": "json",
+			"name": "avatar_json"
+		},
+		{
+			"url": "assets/sound/addGoldAudio.mp3",
+			"type": "sound",
+			"name": "addGoldAudio_mp3"
+		},
+		{
+			"url": "assets/common/giveUpBG.png",
+			"type": "image",
+			"name": "giveUpBG_png"
+		},
+		{
+			"url": "assets/common/express_kuang1.png",
+			"type": "image",
+			"name": "express_kuang1_png"
+		},
+		{
+			"url": "assets/common/express_kuang2.png",
+			"type": "image",
+			"name": "express_kuang2_png"
+		},
+		{
+			"url": "assets/sound/congratulateGet.mp3",
+			"type": "sound",
+			"name": "congratulateGet_mp3"
+		},
+		{
+			"url": "assets/common/gameExpress/animalChess/express3_1.png",
+			"type": "image",
+			"name": "express3_1_png"
+		},
+		{
+			"url": "assets/common/gameExpress/animalChess/express3_2.png",
+			"type": "image",
+			"name": "express3_2_png"
+		},
+		{
+			"url": "assets/common/gameExpress/animalChess/express3_3.png",
+			"type": "image",
+			"name": "express3_3_png"
+		},
+		{
+			"url": "assets/common/gameExpress/animalChess/express3_4.png",
+			"type": "image",
+			"name": "express3_4_png"
+		},
+		{
+			"url": "assets/common/gameExpress/animalChess/qipao.png",
+			"type": "image",
+			"name": "qipao_png"
+		},
+		{
+			"url": "assets/common/gameExpress/animalChess/qipao2.png",
+			"type": "image",
+			"name": "qipao2_png"
+		},
+		{
+			"url": "assets/common/gameExpress/animalChess/express_bg.png",
+			"type": "image",
+			"name": "express_bg_png"
+		},
+		{
+			"url": "assets/common/gameExpress/animalChess/express_bg2.png",
+			"type": "image",
+			"name": "express_bg2_png"
+		},
+		{
+			"url": "assets/common/gameExpress/animalChess/express1_1.png",
+			"type": "image",
+			"name": "express1_1_png"
+		},
+		{
+			"url": "assets/common/gameExpress/animalChess/express1_2.png",
+			"type": "image",
+			"name": "express1_2_png"
+		},
+		{
+			"url": "assets/common/gameExpress/animalChess/express1_3.png",
+			"type": "image",
+			"name": "express1_3_png"
+		},
+		{
+			"url": "assets/common/gameExpress/animalChess/express1_4.png",
+			"type": "image",
+			"name": "express1_4_png"
+		},
+		{
+			"url": "assets/common/gameExpress/animalChess/express1_5.png",
+			"type": "image",
+			"name": "express1_5_png"
+		},
+		{
+			"url": "assets/common/gameExpress/animalChess/express1_6.png",
+			"type": "image",
+			"name": "express1_6_png"
+		},
+		{
+			"url": "assets/common/gameExpress/animalChess/express2_1.png",
+			"type": "image",
+			"name": "express2_1_png"
+		},
+		{
+			"url": "assets/common/gameExpress/animalChess/express2_2.png",
+			"type": "image",
+			"name": "express2_2_png"
+		},
+		{
+			"url": "assets/common/gameExpress/animalChess/express2_3.png",
+			"type": "image",
+			"name": "express2_3_png"
+		},
+		{
+			"url": "assets/common/gameExpress/animalChess/express2_4.png",
+			"type": "image",
+			"name": "express2_4_png"
+		},
+		{
+			"url": "assets/common/gameExpress/masterMind/express5_2.png",
+			"type": "image",
+			"name": "express5_2_png"
+		},
+		{
+			"url": "assets/common/gameExpress/masterMind/express5_3.png",
+			"type": "image",
+			"name": "express5_3_png"
+		},
+		{
+			"url": "assets/common/gameExpress/masterMind/express5_4.png",
+			"type": "image",
+			"name": "express5_4_png"
+		},
+		{
+			"url": "assets/common/gameExpress/masterMind/express6_1.png",
+			"type": "image",
+			"name": "express6_1_png"
+		},
+		{
+			"url": "assets/common/gameExpress/masterMind/express6_2.png",
+			"type": "image",
+			"name": "express6_2_png"
+		},
+		{
+			"url": "assets/common/gameExpress/masterMind/express6_3.png",
+			"type": "image",
+			"name": "express6_3_png"
+		},
+		{
+			"url": "assets/common/gameExpress/masterMind/express6_4.png",
+			"type": "image",
+			"name": "express6_4_png"
+		},
+		{
+			"url": "assets/common/gameExpress/masterMind/express_bg3_png.png",
+			"type": "image",
+			"name": "express_bg3_png_png"
+		},
+		{
+			"url": "assets/common/gameExpress/masterMind/express_bg4_png.png",
+			"type": "image",
+			"name": "express_bg4_png_png"
+		},
+		{
+			"url": "assets/common/gameExpress/masterMind/express4_1.png",
+			"type": "image",
+			"name": "express4_1_png"
+		},
+		{
+			"url": "assets/common/gameExpress/masterMind/express4_2.png",
+			"type": "image",
+			"name": "express4_2_png"
+		},
+		{
+			"url": "assets/common/gameExpress/masterMind/express4_3.png",
+			"type": "image",
+			"name": "express4_3_png"
+		},
+		{
+			"url": "assets/common/gameExpress/masterMind/express4_4.png",
+			"type": "image",
+			"name": "express4_4_png"
+		},
+		{
+			"url": "assets/common/gameExpress/masterMind/express4_5.png",
+			"type": "image",
+			"name": "express4_5_png"
+		},
+		{
+			"url": "assets/common/gameExpress/masterMind/express4_6.png",
+			"type": "image",
+			"name": "express4_6_png"
+		},
+		{
+			"url": "assets/common/gameExpress/masterMind/express4_7.png",
+			"type": "image",
+			"name": "express4_7_png"
+		},
+		{
+			"url": "assets/common/gameExpress/masterMind/express4_8.png",
+			"type": "image",
+			"name": "express4_8_png"
+		},
+		{
+			"url": "assets/common/gameExpress/masterMind/express4_9.png",
+			"type": "image",
+			"name": "express4_9_png"
+		},
+		{
+			"url": "assets/common/gameExpress/masterMind/express4_10.png",
+			"type": "image",
+			"name": "express4_10_png"
+		},
+		{
+			"url": "assets/common/gameExpress/masterMind/express5_1.png",
+			"type": "image",
+			"name": "express5_1_png"
+		},
+		{
+			"url": "assets/common/btn_sure.png",
+			"type": "image",
+			"name": "btn_sure_png"
+		},
+		{
+			"url": "assets/loading_wanba/LD_icon.png",
+			"type": "image",
+			"name": "LD_icon_png"
+		},
+		{
+			"url": "assets/loading_wanba/LD_Logo.png",
+			"type": "image",
+			"name": "LD_Logo_png"
+		},
+		{
+			"url": "assets/loading_wanba/LD_progress.png",
+			"type": "image",
+			"name": "LD_progress_png"
+		},
+		{
+			"url": "assets/loading_wanba/LD_progressBG.png",
+			"type": "image",
+			"name": "LD_progressBG_png"
+		},
+		{
+			"url": "assets/icon/1.jpg",
+			"type": "image",
+			"name": "1_jpg"
+		},
+		{
+			"url": "assets/icon/11.jpg",
+			"type": "image",
+			"name": "11_jpg"
+		},
+		{
+			"url": "assets/icon/12.jpg",
+			"type": "image",
+			"name": "12_jpg"
+		},
+		{
+			"url": "assets/icon/15.jpg",
+			"type": "image",
+			"name": "15_jpg"
+		},
+		{
+			"url": "assets/icon/17.jpg",
+			"type": "image",
+			"name": "17_jpg"
+		},
+		{
+			"url": "assets/icon/2.jpg",
+			"type": "image",
+			"name": "2_jpg"
+		},
+		{
+			"url": "assets/icon/3.jpg",
+			"type": "image",
+			"name": "3_jpg"
+		},
+		{
+			"url": "assets/icon/4.jpg",
+			"type": "image",
+			"name": "4_jpg"
+		},
+		{
+			"url": "assets/icon/5.jpg",
+			"type": "image",
+			"name": "5_jpg"
+		},
+		{
+			"url": "assets/icon/6.jpg",
+			"type": "image",
+			"name": "6_jpg"
+		},
+		{
+			"url": "assets/icon/7.jpg",
+			"type": "image",
+			"name": "7_jpg"
+		},
+		{
+			"url": "assets/icon/8.jpg",
+			"type": "image",
+			"name": "8_jpg"
+		},
+		{
+			"url": "assets/avatar/winhua_ske.json",
+			"type": "json",
+			"name": "winhua_ske_json"
+		},
+		{
+			"url": "assets/avatar/winhua_tex.json",
+			"type": "json",
+			"name": "winhua_tex_json"
+		},
+		{
+			"url": "assets/avatar/winhua_tex.png",
+			"type": "image",
+			"name": "winhua_tex_png"
+		},
+		{
+			"url": "assets/avatar/winloser_ske.json",
+			"type": "json",
+			"name": "winloser_ske_json"
+		},
+		{
+			"url": "assets/avatar/winloser_tex.json",
+			"type": "json",
+			"name": "winloser_tex_json"
+		},
+		{
+			"url": "assets/avatar/winloser_tex.png",
+			"type": "image",
+			"name": "winloser_tex_png"
+		},
+		{
+			"url": "assets/icon/19.jpg",
+			"type": "image",
+			"name": "19_jpg"
+		},
+		{
+			"url": "assets/icon/20.jpg",
+			"type": "image",
+			"name": "20_jpg"
+		},
+		{
+			"url": "assets/icon/21.jpg",
+			"type": "image",
+			"name": "21_jpg"
+		},
+		{
+			"url": "assets/icon/22.jpg",
+			"type": "image",
+			"name": "22_jpg"
+		},
+		{
+			"url": "assets/common/bg_exit.png",
+			"type": "image",
+			"name": "bg_exit_png"
+		},
+		{
+			"url": "assets/common/bg_result_playerLeave.png",
+			"type": "image",
+			"name": "bg_result_playerLeave_png"
+		},
+		{
+			"url": "assets/common/bg_result_Other_Giveup.png",
+			"type": "image",
+			"name": "bg_result_Other_Giveup_png"
+		},
+		{
+			"url": "assets/common/bg_result_You_Giveup.png",
+			"type": "image",
+			"name": "bg_result_You_Giveup_png"
+		},
+		{
+			"url": "assets/common/pot_write.png",
+			"type": "image",
+			"name": "pot_write_png"
+		},
+		{
+			"url": "assets/common/barrageAvatarMask.png",
+			"type": "image",
+			"name": "barrageAvatarMask_png"
+		},
+		{
+			"url": "assets/common/pot_zi.png",
+			"type": "image",
+			"name": "pot_zi_png"
+		}
+	]
+}

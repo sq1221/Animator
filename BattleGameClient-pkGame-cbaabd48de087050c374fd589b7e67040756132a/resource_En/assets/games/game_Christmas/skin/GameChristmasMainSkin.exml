@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GameChristmasMainSkin" width="640" height="1136" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Group id="containerGroup" width="640" height="1136" horizontalCenter="0" verticalCenter="0">
+		<e:Image id="bg" source="bgChristmas_jpg" fillMode="clip" scaleX="1" scaleY="1" horizontalCenter="0" top="0"
+		         bottom="0" />
+		<e:Image id="renyingImg" source="renying_png" x="138.55" y="502.76" scaleX="1" scaleY="1" visible="false" />
+		<e:Image id="menkuangImg" source="menkuang_png" x="137" y="452" scaleX="1" scaleY="1" />
+		<e:Group id="yancongDbGroup" left="130" top="354" x="130" y="354" scaleX="1" scaleY="1" />
+		<e:Group id="menkuangDbGroup" left="340" top="650" x="340" y="650" scaleX="1" scaleY="1" />
+		<e:Group id="liwuheDbGroup" top="584" right="118" width="0" x="522" y="584" scaleX="1" scaleY="1" />
+		<e:Group id="ziseluGroup" left="120" verticalCenter="458" scaleX="0.9" scaleY="0.9" x="120" y="1026" />
+		<e:Group id="zongseluGroup" right="120" verticalCenter="458" scaleX="0.9" scaleY="0.9" x="520" y="1026" />
+		<e:Group left="0" right="0" top="0" bottom="0">
+			<e:Rect width="80" scaleX="1" scaleY="1" left="-80" top="0" bottom="0"/>
+			<e:Rect width="80" scaleX="1" scaleY="1" right="-80" top="0" bottom="0"/>
+		</e:Group>
+		<e:Group width="100%" height="100%" x="0" y="0" scaleX="1" scaleY="1">
+			<e:Image source="qianxuejing_png" x="0" y="925" scaleX="1" scaleY="1" />
+			<e:Image id="gantanhaoImg1" source="gantanhao_png" x="207" y="200" scaleX="1" scaleY="1" anchorOffsetX="49.5"
+			         anchorOffsetY="46" visible="false" />
+			<e:Image id="gantanhaoImg2" source="gantanhao_png" x="384" y="437.4" scaleX="1" scaleY="1" anchorOffsetX="49.5"
+			         anchorOffsetY="46" visible="false" />
+			<e:Image id="gantanhaoImg3" source="gantanhao_png" x="577" y="379" scaleX="1" scaleY="1" anchorOffsetX="49.5"
+			         anchorOffsetY="46" visible="false" />
+			<e:Image id="youImg" source="you_png" scaleX="0.8" scaleY="0.8" x="80" y="333"  anchorOffsetX="77" visible="false"/>
+		</e:Group>
+		<e:Group id="snowContainerGroup" anchorOffsetY="0" touchThrough="true" touchChildren="false" touchEnabled="false"
+		         scaleX="1" scaleY="1" maxHeight="1136" maxWidth="640" left="0" right="0" top="0" bottom="0" >
+		</e:Group>
+		<e:Group id="buttonsGroup" bottom="2" scaleX="1" scaleY="1" horizontalCenter="0" x="212" y="961">
+			<e:Button id="daodanBtn" label="" horizontalCenter="0" x="212.00000000000003" scaleX="1" scaleY="1" enabled="true"
+			          verticalCenter="4">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="daodanNormal_png" source.down="daodanDown_png" />
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<ns1:AnimationButton id="chaofengBtn" label="" enabled="true" horizontalCenter="0" verticalCenter="0"
+			                     anchorOffsetX="80" anchorOffsetY="86.5">
+				<ns1:skinName>
+					<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="chaofengNormal_png" />
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+					</e:Skin>
+				</ns1:skinName>
+			</ns1:AnimationButton>
+		</e:Group>
+		<e:Group id="gp_top" horizontalCenter="0" top="29" x="75" y="6" scaleX="1" scaleY="1">
+			<e:Image source="gameNoticeImg_png" scaleX="1" scaleY="1" horizontalCenter="0" top="-24" />
+			<e:Image source="xinxilan_png" horizontalCenter="0" x="75" scaleX="1" scaleY="1" top="0" />
+			<e:Label id="timesLab" text="60" fontFamily="Arial" bold="true" scaleX="1" scaleY="1" horizontalCenter="0" top="36" />
+			<e:Label id="playerScoreLab2" text="0" fontFamily="Arial" bold="true" scaleX="1" scaleY="1" verticalAlign="middle"
+			         textAlign="center" size="32" horizontalCenter="110" verticalCenter="-2" />
+			<e:Label id="playerScoreLab1" text="0" fontFamily="Arial" bold="true" scaleX="1" scaleY="1" verticalAlign="middle"
+			         textAlign="center" size="32" verticalCenter="-2" horizontalCenter="-110" />
+			<e:Group id="playerAvatarGroup1" width="78" height="78" x="4" y="5" />
+			<e:Group id="playerAvatarGroup2" width="78" height="78" x="408" y="5" />
+		</e:Group>
+		<e:Button id="goBackBtn" label="" enabled="true" left="0" top="20" x="0" y="20" scaleX="1" scaleY="1">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="goBack_png" />
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Group id="resultGroup" left="0" right="0" top="0" bottom="0" anchorOffsetX="320" anchorOffsetY="568" x="0" y="0"
+		         scaleX="1" scaleY="1">
+			<e:Rect left="0" top="0" right="0" bottom="0" alpha="0.85" locked="true" />
+			<e:Group height="730" left="40" verticalCenter="80">
+				<e:Image id="resultBuleLuImg" source="blueLuLose_png" scaleX="1" scaleY="1" bottom="0" left="0" width="199" />
+				<e:Image id="blueScoreBg" source="blueBg_png" scaleX="1" scaleY="1" horizontalCenter="0" top="65" />
+				<e:Image id="blueWinFlagImg" source="blueWin_png" scaleX="1" scaleY="1" horizontalCenter="0" top="0" />
+				<e:Label id="blueScoreLab" text="Blue 9" bold="true" size="44" fontFamily="Microsoft YaHei" textColor="0xffffff"
+				         scaleX="1" scaleY="1" horizontalCenter="0.5" top="80" verticalAlign="middle" textAlign="center" />
+			</e:Group>
+			<e:Group height="730" verticalCenter="80" right="40">
+				<e:Image id="resultRedLuImg" source="redLuLose_png" right="0" bottom="0" x="36" y="317" scaleX="1" scaleY="1" />
+				<e:Image id="redScoreBg" source="loseBg_png" scaleX="1" scaleY="1" horizontalCenter="0" top="65" />
+				<e:Image id="redWinFlagImg" source="redWin_png" scaleX="1" scaleY="1" horizontalCenter="0" top="0" />
+				<e:Label id="redScoreLab" text="Red 999" bold="true" size="44" fontFamily="Microsoft YaHei" scaleX="1" scaleY="1"
+				         horizontalCenter="0" top="80" verticalAlign="middle" textAlign="center" textColor="0x6f6f6f" />
+			</e:Group>
+
+
+		</e:Group>
+	</e:Group>
+</e:Skin>

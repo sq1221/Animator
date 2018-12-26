@@ -1,0 +1,1 @@
+{"res":{"beFoundEffect2_1":{"x":1,"y":1,"w":64,"h":56},"beFoundEffect2_0":{"x":1,"y":59,"w":64,"h":56}},"file":"beFoundEffect2_tex.png","mc":{"beFoundEffect2":{"labels":[{"end":2,"frame":1,"name":"beFoundEffect2"}],"frameRate":30,"frames":[{"res":"beFoundEffect2_0","y":-28,"duration":1,"x":-32},{"res":"beFoundEffect2_1","y":-28,"duration":1,"x":-32}],"events":[]}}}

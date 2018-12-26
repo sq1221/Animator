@@ -1,0 +1,16 @@
+/**
+ * Created by yangsong on 16/1/24.
+ */
+class $0 {
+$1
+
+    public encode():egret.ByteArray{
+        var buff = new egret.ByteArray();
+    $2
+        return buff;
+    }
+
+    public decode(buff:egret.ByteArray):void{
+    $3
+    }
+}

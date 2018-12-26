@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GameFiveExpressSkin" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Image source="game_five_di_png" left="0" top="0" bottom="0" right="0"/>
+	<e:Group id="gp_game" width="640" height="1136" horizontalCenter="0" verticalCenter="0" scaleX="1" scaleY="1">
+		<e:Image source="bg_chessboard_png" horizontalCenter="0" bottom="194" x="7" y="198" scaleX="1" scaleY="1"/>
+		<e:Image source="img_chessboard5_png" horizontalCenter="0" bottom="218" x="25" y="328" scaleX="1" scaleY="1"/>
+		<e:Image id="img_Chesstype1" source="img_he1_png" bottom="824" horizontalCenter="-250" x="24" y="216" scaleX="1" scaleY="1"/>
+		<e:Image id="img_Chesstype2" source="img_he2_png" bottom="824" horizontalCenter="250" x="524" y="216" scaleX="1" scaleY="1"/>
+		<e:Image id="bg_wait" source="chess_row1_png" horizontalCenter="-23" bottom="988" x="209" y="86" scaleX="-1" scaleY="1" anchorOffsetX="111" anchorOffsetY="31"/>
+		<e:Image source="img_headFiveBg_png" right="90" bottom="975" x="459" y="66" scaleX="1" scaleY="1"/>
+		<e:Image source="img_headFiveBg_png" left="90" bottom="975" x="90" y="66" scaleX="1" scaleY="1"/>
+		<e:Image id="img_sex1" source="img_boy_png" left="86" bottom="948" x="86" y="164" scaleX="1" scaleY="1"/>
+		<e:Image id="img_sex2" source="img_boy_png" right="86" bottom="948" height="24" x="530" y="164" scaleX="1" scaleY="1"/>
+		<e:Image source="img_fiveTips_png" x="90" y="962" scaleX="1" scaleY="1"/>
+		<e:Label id="lb_untouch" text="" y="971.42" anchorOffsetX="0" width="616.42" anchorOffsetY="0" height="137.58" horizontalCenter="0"/>
+		<ns1:AnimationButton id="btn_express1" label="" anchorOffsetX="38" anchorOffsetY="40" width="77" height="81" y="1060" x="82" name="1">
+			<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="expressdi_five_png" source.down="expressdi_five_png"/>
+				<e:Image source="Express_five1_png" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</ns1:skinName>
+		</ns1:AnimationButton>
+		<ns1:AnimationButton id="btn_express2" label="" anchorOffsetX="38" anchorOffsetY="40" width="77" height="81" y="1060" x="177" name="2">
+			<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="expressdi_five_png" source.down="expressdi_five_png"/>
+				<e:Image source="Express_five2_png" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</ns1:skinName>
+		</ns1:AnimationButton>
+		<ns1:AnimationButton id="btn_express3" label="" anchorOffsetX="38" anchorOffsetY="40" width="77" height="81" x="272" y="1060" name="3">
+			<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="expressdi_five_png" source.down="expressdi_five_png"/>
+				<e:Image source="Express_five3_png" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</ns1:skinName>
+		</ns1:AnimationButton>
+		<ns1:AnimationButton id="btn_express4" label="" anchorOffsetX="38" anchorOffsetY="40" width="77" height="81" x="367" y="1060" name="4">
+			<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="expressdi_five_png" source.down="expressdi_five_png"/>
+				<e:Image source="Express_five4_png" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</ns1:skinName>
+		</ns1:AnimationButton>
+		<ns1:AnimationButton id="btn_express5" label="" anchorOffsetX="38" anchorOffsetY="40" width="77" height="81" x="462" y="1060" name="5">
+			<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="expressdi_five_png" source.down="expressdi_five_png"/>
+				<e:Image source="Express_five5_png" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</ns1:skinName>
+		</ns1:AnimationButton>
+		<ns1:AnimationButton id="btn_express6" label="" anchorOffsetX="38" anchorOffsetY="40" width="77" height="81" y="1060" x="557" name="6">
+			<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="expressdi_five_png" source.down="expressdi_five_png"/>
+				<e:Image source="Express_five6_png" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</ns1:skinName>
+		</ns1:AnimationButton>
+		<e:Label id="lb_name1" text="" left="112" bottom="948" textAlign="left" x="112" y="158" scaleX="1" scaleY="1" size="24" height="24"/>
+		<e:Label id="lb_name2" text="" bottom="948" right="117" textAlign="right" x="449" y="158" scaleX="1" scaleY="1" size="24" height="24"/>
+		<ns1:AnimationButton id="btn_sum" label="" anchorOffsetX="42" anchorOffsetY="28" x="238" y="265">
+			<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="btn_fivesum_png" source.down="btn_fivesum_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</ns1:skinName>
+		</ns1:AnimationButton>
+		<ns1:AnimationButton id="btn_lose" label="" anchorOffsetX="42" anchorOffsetY="28" x="401" y="265">
+			<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="btn_fiveLose_png" source.down="btn_fiveLose_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</ns1:skinName>
+		</ns1:AnimationButton>
+		<e:Image id="img_head_1" width="95" height="95" scaleX="1" scaleY="1" x="90" y="66"/>
+		<e:Image id="img_head_2" width="95" height="95" scaleX="1" scaleY="1" x="455" y="66"/>
+		<e:Group id="playerAvatarGroup1" width="82" height="82" scaleX="1" scaleY="1" anchorOffsetX="41" anchorOffsetY="41" x="138" y="114">
+			<e:Image width="100%" height="100%" source="barrageAvatarMask_png" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" verticalCenter="0"/>
+		</e:Group>
+		<e:Group id="playerAvatarGroup2" width="82" height="82" scaleX="1" scaleY="1" anchorOffsetX="41" anchorOffsetY="41" x="502" y="114">
+			<e:Image width="100%" height="100%" source="barrageAvatarMask_png" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" verticalCenter="0"/>
+		</e:Group>
+		<e:Label id="lb_time" text="对手回合45s" y="87.99" textColor="0x000000" anchorOffsetY="0" height="59.33" anchorOffsetX="0" width="145" verticalAlign="middle" textAlign="center" size="22" horizontalCenter="0"/>
+		<e:Group id="gp_chess" width="640" height="1136" x="0" y="0" touchChildren="false" touchEnabled="false"/>
+		<e:Group id="gp_red" width="640" height="1136" x="0" y="0" touchChildren="false" touchEnabled="false">
+			<e:Image id="img_red" source="img_fiveRed_png" x="78" y="934" anchorOffsetX="5" anchorOffsetY="5" visible="false"/>
+			<e:Image id="img_aperture_2" source="aperture_1_png" x="194" y="498" anchorOffsetX="113" anchorOffsetY="113" rotation="0" visible="false"/>
+			<e:Image id="img_aperture_1" source="aperture_2_png" x="196" y="496" anchorOffsetY="29" anchorOffsetX="112" visible="false"/>
+			<e:Group id="gp_tipMessage" width="384" height="200" anchorOffsetX="0" horizontalCenter="4" verticalCenter="0" touchChildren="false" touchEnabled="false" alpha="0">
+				<e:Image source="Five_roundChange_png" horizontalCenter="0" verticalCenter="0"/>
+				<e:Label id="lb_tip" text="" anchorOffsetX="0" width="196" anchorOffsetY="0" height="76" horizontalCenter="0" verticalCenter="0" verticalAlign="middle" textAlign="center" size="30"/>
+			</e:Group>
+		</e:Group>
+		<e:Group id="gp_sum" left="0" top="0" bottom="0" right="0" touchEnabled="false" touchChildren="true" x="0" y="0" scaleX="1" scaleY="1" visible="false">
+			<e:Image source="game_five_tipsdi_png" scaleX="1" scaleY="1" x="108" y="445"/>
+			<ns1:AnimationButton id="btn_sumNo" label="refuse(5s)"  anchorOffsetX="81" anchorOffsetY="33" width="161" height="67" name="1" scaleX="1" scaleY="1" y="617" x="216">
+				<ns1:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="five_no_png" source.down="five_no_png"/>
+					<e:Label id="labelDisplay"  horizontalCenter="0" verticalCenter="-4"/>
+					</e:Skin>
+				</ns1:skinName>
+			</ns1:AnimationButton>
+			<ns1:AnimationButton id="btn_sumYes" label="agree" anchorOffsetX="81" anchorOffsetY="33" width="161" height="67" name="1" scaleX="1" scaleY="1" enabled="true" x="425" y="617">
+				<ns1:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="five_yes_png" source.down="five_yes_png"/>
+					<e:Label id="labelDisplay" text="同意" horizontalCenter="0" verticalCenter="-4"/>
+					</e:Skin>
+				</ns1:skinName>
+			</ns1:AnimationButton>
+			<e:Label id="lb_sum" text="DRAW" textColor="0x5a5a5a" verticalAlign="middle" textAlign="center" y="483" bold="true" horizontalCenter="0"/>
+			<e:Label id="lb_sumDescribe" text="Rival ask for draw, do you agree?" textColor="0x5A5A5A" verticalAlign="middle" textAlign="center" bold="true" y="530" size="18" horizontalCenter="0"/>
+		</e:Group>
+		<e:Group id="gp_lose" left="0" top="0" bottom="0" right="0" touchEnabled="false" touchChildren="true" x="0" y="0" scaleX="1" scaleY="1" visible="false">
+			<e:Image source="game_five_tipsdi_png" scaleX="1" scaleY="1" horizontalCenter="0" y="447"/>
+			<ns1:AnimationButton id="btn_loseNo" label="Cancel" anchorOffsetX="81" anchorOffsetY="33" width="161" height="67" name="1" scaleX="1" scaleY="1" x="216" enabled="true" bottom="485">
+				<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="five_no_png" source.down="five_no_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="-4"/>
+				</e:Skin>
+				</ns1:skinName>
+			</ns1:AnimationButton>
+			<ns1:AnimationButton id="btn_loseYes" label="Confirm" anchorOffsetX="81" anchorOffsetY="33" width="161" height="67" name="1" scaleX="1" scaleY="1" enabled="true" x="425" bottom="485">
+				<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="five_yes_png" source.down="five_yes_png"/>
+					<e:Label id="labelDisplay" text="同意" horizontalCenter="0" verticalCenter="-4"/>
+				</e:Skin>
+				</ns1:skinName>
+			</ns1:AnimationButton>
+			<e:Label id="lb_lose" text="Give  up" textColor="0x5A5A5A" verticalAlign="middle" textAlign="center" bold="true" y="483" horizontalCenter="0"/>
+			<e:Label id="lb_loseDescribe" text="You sure you want to give up?" textColor="0x5A5A5A" verticalAlign="middle" textAlign="center" bold="true" y="529" size="24" horizontalCenter="0"/>
+		</e:Group>
+	</e:Group>
+	<ns1:AnimationButton id="btn_return" label="" anchorOffsetX="0" anchorOffsetY="34" top="20" left="0">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="game_five_return_png" source.down="game_five_return_png"/>
+			</e:Skin>
+		</ns1:skinName>
+	</ns1:AnimationButton>
+</e:Skin>

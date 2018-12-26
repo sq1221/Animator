@@ -1,0 +1,315 @@
+{
+	"groups": [
+		{
+			"keys": "GT_add1_png,GT_add2_png,GT_backGround_jpg,GT_backGroundLight_png,GT_desk_png,GT_finger_png,GT_foodLeft_png,GT_foodMid_png,GT_foodRight_png,GT_health_png,GT_healthGary_png,GT_lLine_png,GT_mask_png,GT_scoreColumn_png,GT_stars_png,GT_teachDelta_png,GT_teachV_png,GT_balloon1_tex_png,GT_blue_tex_png,GT_boom_tex_png,GT_cheng1_tex_png,GT_green_tex_png,GT_itemA_png,GT_itemDelta_png,GT_itemO_png,GT_itemP_png,GT_itemStar_png,GT_itemV_png,GT_king_tex_png,GT_powder_tex_png,GT_red_tex_png,GT_balloon1_ske_json,GT_stars_json,GT_blue_ske_json,GT_balloon1_tex_json,GT_blue_tex_json,GT_boom_ske_json,GT_boom_tex_json,GT_cheng1_ske_json,GT_cheng1_tex_json,GT_green_ske_json,GT_green_tex_json,GT_king_tex_json,GT_king_ske_json,GT_powder_ske_json,GT_powder_tex_json,GT_red_ske_json,GT_red_tex_json,AlbumArtSmall_jpg,Folder_jpg,GT_bgm_mp3,GT_boom1_mp3,GT_boom2_mp3,GT_boom3_mp3,GT_lost_mp3,GT_smoke_tex_png,GT_smoke_tex_json,GT_smoke_ske_json,GT_lose_png,GT_win_png,GT_dish_png",
+			"name": "game_Gesture"
+		}
+	],
+	"resources": [
+		{
+			"url": "assets/games/game_Gesture/GT_add1.png",
+			"type": "image",
+			"name": "GT_add1_png"
+		},
+		{
+			"url": "assets/games/game_Gesture/GT_add2.png",
+			"type": "image",
+			"name": "GT_add2_png"
+		},
+		{
+			"url": "assets/games/game_Gesture/GT_backGround.jpg",
+			"type": "image",
+			"name": "GT_backGround_jpg"
+		},
+		{
+			"url": "assets/games/game_Gesture/GT_backGroundLight.png",
+			"type": "image",
+			"name": "GT_backGroundLight_png"
+		},
+		{
+			"url": "assets/games/game_Gesture/GT_desk.png",
+			"type": "image",
+			"name": "GT_desk_png"
+		},
+		{
+			"url": "assets/games/game_Gesture/GT_finger.png",
+			"type": "image",
+			"name": "GT_finger_png"
+		},
+		{
+			"url": "assets/games/game_Gesture/GT_foodLeft.png",
+			"type": "image",
+			"name": "GT_foodLeft_png"
+		},
+		{
+			"url": "assets/games/game_Gesture/GT_foodMid.png",
+			"type": "image",
+			"name": "GT_foodMid_png"
+		},
+		{
+			"url": "assets/games/game_Gesture/GT_foodRight.png",
+			"type": "image",
+			"name": "GT_foodRight_png"
+		},
+		{
+			"url": "assets/games/game_Gesture/GT_health.png",
+			"type": "image",
+			"name": "GT_health_png"
+		},
+		{
+			"url": "assets/games/game_Gesture/GT_healthGary.png",
+			"type": "image",
+			"name": "GT_healthGary_png"
+		},
+		{
+			"url": "assets/games/game_Gesture/GT_lLine.png",
+			"type": "image",
+			"name": "GT_lLine_png"
+		},
+		{
+			"url": "assets/games/game_Gesture/GT_mask.png",
+			"type": "image",
+			"name": "GT_mask_png"
+		},
+		{
+			"url": "assets/games/game_Gesture/GT_scoreColumn.png",
+			"type": "image",
+			"name": "GT_scoreColumn_png"
+		},
+		{
+			"url": "assets/games/game_Gesture/GT_stars.png",
+			"type": "image",
+			"name": "GT_stars_png"
+		},
+		{
+			"url": "assets/games/game_Gesture/GT_teachDelta.png",
+			"type": "image",
+			"name": "GT_teachDelta_png"
+		},
+		{
+			"url": "assets/games/game_Gesture/GT_teachV.png",
+			"type": "image",
+			"name": "GT_teachV_png"
+		},
+		{
+			"url": "assets/games/game_Gesture/DB/GT_balloon1_tex.png",
+			"type": "image",
+			"name": "GT_balloon1_tex_png"
+		},
+		{
+			"url": "assets/games/game_Gesture/DB/GT_blue_tex.png",
+			"type": "image",
+			"name": "GT_blue_tex_png"
+		},
+		{
+			"url": "assets/games/game_Gesture/DB/GT_boom_tex.png",
+			"type": "image",
+			"name": "GT_boom_tex_png"
+		},
+		{
+			"url": "assets/games/game_Gesture/DB/GT_cheng1_tex.png",
+			"type": "image",
+			"name": "GT_cheng1_tex_png"
+		},
+		{
+			"url": "assets/games/game_Gesture/DB/GT_green_tex.png",
+			"type": "image",
+			"name": "GT_green_tex_png"
+		},
+		{
+			"url": "assets/games/game_Gesture/DB/GT_itemA.png",
+			"type": "image",
+			"name": "GT_itemA_png"
+		},
+		{
+			"url": "assets/games/game_Gesture/DB/GT_itemDelta.png",
+			"type": "image",
+			"name": "GT_itemDelta_png"
+		},
+		{
+			"url": "assets/games/game_Gesture/DB/GT_itemO.png",
+			"type": "image",
+			"name": "GT_itemO_png"
+		},
+		{
+			"url": "assets/games/game_Gesture/DB/GT_itemP.png",
+			"type": "image",
+			"name": "GT_itemP_png"
+		},
+		{
+			"url": "assets/games/game_Gesture/DB/GT_itemStar.png",
+			"type": "image",
+			"name": "GT_itemStar_png"
+		},
+		{
+			"url": "assets/games/game_Gesture/DB/GT_itemV.png",
+			"type": "image",
+			"name": "GT_itemV_png"
+		},
+		{
+			"url": "assets/games/game_Gesture/DB/GT_king_tex.png",
+			"type": "image",
+			"name": "GT_king_tex_png"
+		},
+		{
+			"url": "assets/games/game_Gesture/DB/GT_powder_tex.png",
+			"type": "image",
+			"name": "GT_powder_tex_png"
+		},
+		{
+			"url": "assets/games/game_Gesture/DB/GT_red_tex.png",
+			"type": "image",
+			"name": "GT_red_tex_png"
+		},
+		{
+			"url": "assets/games/game_Gesture/DB/GT_balloon1_ske.json",
+			"type": "json",
+			"name": "GT_balloon1_ske_json"
+		},
+		{
+			"url": "assets/games/game_Gesture/GT_stars.json",
+			"type": "json",
+			"name": "GT_stars_json"
+		},
+		{
+			"url": "assets/games/game_Gesture/DB/GT_blue_ske.json",
+			"type": "json",
+			"name": "GT_blue_ske_json"
+		},
+		{
+			"url": "assets/games/game_Gesture/DB/GT_balloon1_tex.json",
+			"type": "json",
+			"name": "GT_balloon1_tex_json"
+		},
+		{
+			"url": "assets/games/game_Gesture/DB/GT_blue_tex.json",
+			"type": "json",
+			"name": "GT_blue_tex_json"
+		},
+		{
+			"url": "assets/games/game_Gesture/DB/GT_boom_ske.json",
+			"type": "json",
+			"name": "GT_boom_ske_json"
+		},
+		{
+			"url": "assets/games/game_Gesture/DB/GT_boom_tex.json",
+			"type": "json",
+			"name": "GT_boom_tex_json"
+		},
+		{
+			"url": "assets/games/game_Gesture/DB/GT_cheng1_ske.json",
+			"type": "json",
+			"name": "GT_cheng1_ske_json"
+		},
+		{
+			"url": "assets/games/game_Gesture/DB/GT_cheng1_tex.json",
+			"type": "json",
+			"name": "GT_cheng1_tex_json"
+		},
+		{
+			"url": "assets/games/game_Gesture/DB/GT_green_ske.json",
+			"type": "json",
+			"name": "GT_green_ske_json"
+		},
+		{
+			"url": "assets/games/game_Gesture/DB/GT_green_tex.json",
+			"type": "json",
+			"name": "GT_green_tex_json"
+		},
+		{
+			"url": "assets/games/game_Gesture/DB/GT_king_tex.json",
+			"type": "json",
+			"name": "GT_king_tex_json"
+		},
+		{
+			"url": "assets/games/game_Gesture/DB/GT_king_ske.json",
+			"type": "json",
+			"name": "GT_king_ske_json"
+		},
+		{
+			"url": "assets/games/game_Gesture/DB/GT_powder_ske.json",
+			"type": "json",
+			"name": "GT_powder_ske_json"
+		},
+		{
+			"url": "assets/games/game_Gesture/DB/GT_powder_tex.json",
+			"type": "json",
+			"name": "GT_powder_tex_json"
+		},
+		{
+			"url": "assets/games/game_Gesture/DB/GT_red_ske.json",
+			"type": "json",
+			"name": "GT_red_ske_json"
+		},
+		{
+			"url": "assets/games/game_Gesture/DB/GT_red_tex.json",
+			"type": "json",
+			"name": "GT_red_tex_json"
+		},
+		{
+			"url": "assets/games/game_Gesture/Sound/AlbumArtSmall.jpg",
+			"type": "image",
+			"name": "AlbumArtSmall_jpg"
+		},
+		{
+			"url": "assets/games/game_Gesture/Sound/Folder.jpg",
+			"type": "image",
+			"name": "Folder_jpg"
+		},
+		{
+			"url": "assets/games/game_Gesture/Sound/GT_bgm.mp3",
+			"type": "sound",
+			"name": "GT_bgm_mp3"
+		},
+		{
+			"url": "assets/games/game_Gesture/Sound/GT_boom1.mp3",
+			"type": "sound",
+			"name": "GT_boom1_mp3"
+		},
+		{
+			"url": "assets/games/game_Gesture/Sound/GT_boom2.mp3",
+			"type": "sound",
+			"name": "GT_boom2_mp3"
+		},
+		{
+			"url": "assets/games/game_Gesture/Sound/GT_boom3.mp3",
+			"type": "sound",
+			"name": "GT_boom3_mp3"
+		},
+		{
+			"url": "assets/games/game_Gesture/Sound/GT_lost.mp3",
+			"type": "sound",
+			"name": "GT_lost_mp3"
+		},
+		{
+			"url": "assets/games/game_Gesture/DB/GT_smoke_tex.png",
+			"type": "image",
+			"name": "GT_smoke_tex_png"
+		},
+		{
+			"url": "assets/games/game_Gesture/DB/GT_smoke_tex.json",
+			"type": "json",
+			"name": "GT_smoke_tex_json"
+		},
+		{
+			"url": "assets/games/game_Gesture/DB/GT_smoke_ske.json",
+			"type": "json",
+			"name": "GT_smoke_ske_json"
+		},
+		{
+			"url": "assets/games/game_Gesture/GT_lose.png",
+			"type": "image",
+			"name": "GT_lose_png"
+		},
+		{
+			"url": "assets/games/game_Gesture/GT_win.png",
+			"type": "image",
+			"name": "GT_win_png"
+		},
+		{
+			"url": "assets/games/game_Gesture/GT_dish.png",
+			"type": "image",
+			"name": "GT_dish_png"
+		}
+	]
+}

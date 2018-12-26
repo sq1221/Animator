@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LoadingUISkin" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect anchorOffsetX="0" anchorOffsetY="0" strokeColor="0x444444" fillColor="0x232323" left="0" top="0" bottom="0" right="0"/>
+	<e:Group id="gp_loading" width="200" height="200" horizontalCenter="0" verticalCenter="-60"/>
+	<e:Label id="loadProgress" text="加载中..." fontFamily="Arial" anchorOffsetX="0" width="405.3" anchorOffsetY="0" height="60.3" size="30" horizontalCenter="0" verticalAlign="middle" textAlign="center" verticalCenter="100" textColor="0xfcfcfc"/>
+	<e:Label id="loadText" text="" fontFamily="Arial" anchorOffsetX="0" width="405.3" anchorOffsetY="0" height="60.3" size="32" horizontalCenter="0" verticalAlign="middle" textAlign="center" textColor="0x605d5d" bottom="61"/>
+	<e:Image id="egretLogo" bottom="0" horizontalCenter="0" source=""/>
+</e:Skin>
